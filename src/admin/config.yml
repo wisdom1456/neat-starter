@@ -89,4 +89,5 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["Criminal Defense", "Debt Defense", "Real Estate", "Business Litigation", "Bankruptcy"]
+        options: ["Criminal Defense", "Debt Defense", "Real Estate", "Personal Injury", "Business Litigation", "Bankruptcy"]
+
