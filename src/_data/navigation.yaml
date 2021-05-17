@@ -9,6 +9,6 @@ items:
   - text: Locations
     url: "/locations"
   - text: Contact Us
-    url: "contact-us"
+    url: "/contact-us"
   - text: Blog
     url: "/blog"
