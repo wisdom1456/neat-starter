@@ -24,3 +24,5 @@ body pre[class*="language-"] {
 .snap > div {
     scroll-snap-align: center;
 }
+
+[x-cloak] { display: none; }
