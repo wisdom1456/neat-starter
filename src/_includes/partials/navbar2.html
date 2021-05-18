@@ -1,5 +1,5 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div x-data="{isOpen: false}" class="bg-white bg-opacity-70 fixed w-screen z-20">
+<div x-data="{isOpen: false, isOpenA: false, isOpenB: false}" class="bg-white fixed w-screen bg-opacity-70 z-20">
     <div x-show="!isOpen" class="max-w-5xl mx-auto px-4 sm:px-6">
         <div  class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div class="flex justify-start lg:w-0 lg:flex-1">
@@ -23,9 +23,9 @@
                     About Us
                 </a>
 
-                <div x-data="{ isOpenB: false}"  class="relative">
+                <div class="relative">
                     <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-                    <button @click="isOpenB = !isOpenB;" type="button" class="text-gray-500 group  rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
+                    <button @click="isOpenB = !isOpenB, isOpenA = false" @click.away="isOpenB = false"  type="button" class="text-gray-500 group  rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
                         <span>Practice Areas</span>
                         <!--
                         Heroicon name: solid/chevron-down
@@ -47,13 +47,13 @@
                         From: "opacity-100 translate-y-0"
                         To: "opacity-0 translate-y-1"
                     -->
-                    <div x-show="isOpenB" x-transition:enter="transition ease-out duration-100 transform"
-                        x-transition:enter-start="opacity-0 scale-95"
-                        x-transition:enter-end="opacity-100 scale-100"
-                        x-transition:leave="transition ease-in duration-75 transform"
-                        x-transition:leave-start="opacity-100 scale-100"
-                        x-transition:leave-end="opacity-0 scale-95"
-                        class="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
+                    <div x-show="isOpenB" x-transition:enter="transition ease-out duration-200"
+                            x-transition:enter-start="opacity-0 translate-y-1"
+                            x-transition:enter-end="opacity-100 translate-y-0"
+                            x-transition:leave="transition ease-in duration-150"
+                            x-transition:leave-start="opacity-100 translate-y-0"
+                            x-transition:leave-end="opacity-0 translate-y-1"
+                            class="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div class="relative grid gap-6 bg-white bg-opacity-70 px-5 py-6 sm:gap-8 sm:p-8">
                                 <a href="#" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
@@ -150,9 +150,9 @@
                     </div>
                 </div>
 
-                <div x-data="{ isOpenA: false}" class="relative">
+                <div class="relative">
                     <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-                    <button @click="isOpenA = !isOpenA" type="button" class="text-gray-500 group  rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
+                    <button @click="isOpenA = !isOpenA, isOpenB = false" @click.away="isOpenA = false"  type="button" class="text-gray-500 group  rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
                         <span>Locations</span>
                         <!--
                         Heroicon name: solid/chevron-down
@@ -174,13 +174,13 @@
                         From: "opacity-100 translate-y-0"
                         To: "opacity-0 translate-y-1"
                     -->
-                    <div x-show="isOpenA" x-transition:enter="transition ease-out duration-100 transform"
-                    x-transition:enter-start="opacity-0 scale-95"
-                    x-transition:enter-end="opacity-100 scale-100"
-                    x-transition:leave="transition ease-in duration-75 transform"
-                    x-transition:leave-start="opacity-100 scale-100"
-                    x-transition:leave-end="opacity-0 scale-95"
-                    class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
+                    <div x-show="isOpenA" x-transition:enter="transition ease-out duration-200"
+                        x-transition:enter-start="opacity-0 translate-y-1"
+                        x-transition:enter-end="opacity-100 translate-y-0"
+                        x-transition:leave="transition ease-in duration-150"
+                        x-transition:leave-start="opacity-100 translate-y-0"
+                        x-transition:leave-end="opacity-0 translate-y-1"
+                        class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
                         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                             <div class="relative grid gap-6 bg-white bg-opacity-70 px-5 py-6 sm:gap-8 sm:p-8">
                                 <a href="/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
@@ -274,7 +274,14 @@
       From: "opacity-100 scale-100"
       To: "opacity-0 scale-95"
   -->
-    <div x-show="isOpen" class="top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+    <div x-show="isOpen"
+                x-transition:enter="transistion duration-200 ease-out"
+                    x-transition:enter-start="opacity-0 scale-95"
+                    x-transition:enter-end="opacity-100 scale-100"
+                    x-transition:leave="transistion duration-100 ease-in"
+                    x-transition:leave-start="opacity-100 scale-1000"
+                    x-transition:leave-end="opacity-0 scale-95"
+     class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
             <div class="pt-5 pb-6 px-5">
                 <div class="flex items-center justify-between">
@@ -288,21 +295,13 @@
                             class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                             <span class="sr-only">Close menu</span>
                             <!-- Heroicon name: outline/x -->
-                            <svg
-                             class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                             </svg>
                         </button>
                     </div>
                 </div>
-                <div
-                    x-show="isOpen"
-                    x-transition:enter="transition ease-out duration-100 transform"
-                    x-transition:enter-start="opacity-0 scale-95"
-                    x-transition:enter-end="opacity-100 scale-100"
-                    x-transition:leave="transition ease-in duration-75 transform"
-                    x-transition:leave-start="opacity-100 scale-100"
-                    x-transition:leave-end="opacity-0 scale-95" class="mt-6">
+                <div class="mt-6">
                     <nav class="grid gap-y-8">
                         <a href="#" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
                             <!-- Heroicon name: outline/chart-bar -->
@@ -356,14 +355,7 @@
                     </nav>
                 </div>
             </div>
-            <div
-                    x-show="isOpen"
-                    x-transition:enter="transition ease-out duration-100 transform"
-                    x-transition:enter-start="opacity-0 scale-95"
-                    x-transition:enter-end="opacity-100 scale-100"
-                    x-transition:leave="transition ease-in duration-75 transform"
-                    x-transition:leave-start="opacity-100 scale-100"
-                    x-transition:leave-end="opacity-0 scale-95" class="py-6 px-5 space-y-6">
+            <div class="py-6 px-5 space-y-6">
                 <div class="grid grid-cols-2 gap-y-4 gap-x-8">
                     <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">
                         Pricing

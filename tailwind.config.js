@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
     purge: {
         mode: "all",
@@ -7,6 +9,20 @@ module.exports = {
         }
     },
     theme: {
+        animation: {
+            fadeIn: "fadeIn 1s ease-in forwards",
+            slideIn: "slideIn 2s ease-out"
+        },
+        keyframes: {
+            fadeIn: {
+                "0%": { opacity: 0 },
+                "100%": { opacity: 1 }
+            },
+            slideIn: {
+                "0%": { opacity: '0', transform: 'translateY(-30px)'},
+                "100%": { opacity: '1', transform: 'translateY(0)'}
+            }
+        },
         container: {
             center: true
         },
@@ -23,6 +39,9 @@ module.exports = {
                     800: "#003072",
                     900: "#00204C"
                 }
+            },
+            fontFamily: {
+                sans: ["Cabin", ...defaultTheme.fontFamily.sans]
             }
         },
         backgroundImage: (theme) => ({
@@ -31,6 +50,8 @@ module.exports = {
             "footer-texture": "url('/static/img/footer-texture.png')"
         })
     },
-    variants: {},
+    variants: {
+        animation: ["motion-safe"]
+    },
     plugins: [require("@tailwindcss/typography"), require("@tailwindcss/aspect-ratio")]
 };

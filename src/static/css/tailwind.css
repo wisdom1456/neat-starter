@@ -5,16 +5,30 @@
 /*Your Custom CSS Goes here*/
 
 h1 {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+    @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
 }
 
 h3 {
-  @apply text-2xl font-bold mb-3;
+    @apply text-2xl font-bold mb-3;
 }
 
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
-  @apply bg-gray-800;
+    @apply bg-gray-800;
+}
+
+.snap {
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+.snap::-webkit-scrollbar {
+    display: none;
+}
+
+.snap > div {
+    scroll-snap-align: center;
 }
