@@ -24,6 +24,7 @@
     "tailwindcss": "^2.0.2"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
     "autoprefixer": "^10.1.0",
     "postcss": "^8.2.1"
   }
