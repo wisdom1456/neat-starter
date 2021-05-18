@@ -1,4 +1,4 @@
-<div class="bg-white py-16 lg:py-24 js-show-on-scroll max-w-5xl mx-auto px-4 sm:px-6 lg:px-8" x-data="{items: ['foo','bar','baz','buz'], active: 0}">
+<div class="bg-white py-16 lg:py-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8" x-data="{items: ['foo','bar','baz','buz'], active: 0}">
     <div class="snap overflow-auto relative flex-no-wrap flex transition-all" x-ref="slider"
         x-on:scroll.debounce="active = Math.round($event.target.scrollLeft / ($event.target.scrollWidth / items.length))">
         <template x-for="(item,index) in items" :key="index">
