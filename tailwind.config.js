@@ -41,11 +41,11 @@ module.exports = {
                 }
             },
             fontFamily: {
-                sans: ["Cabin", ...defaultTheme.fontFamily.sans]
+                sans: ["Montserrat", ...defaultTheme.fontFamily.sans]
             }
         },
         backgroundImage: (theme) => ({
-            "hero-back": "url('/static/img/bg/columnsback2.jpg')",
+            "hero-back": "linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.4)),url('/static/img/bg/columnsback3.jpg')",
             "marble-back": "url('/static/img/bg/marbleback2.jpg')",
             "destin-back": "linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)),url('/static/img/bg/destin_full2.jpg')",
             "footer-texture": "url('/static/img/footer-texture.jpg')",
