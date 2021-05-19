@@ -2,13 +2,13 @@
 items:
   - text: Home
     url: "/"
-  - text: About Us
-    url: "/about-us"
+  - text: About
+    url: "/about"
   - text: Practice Areas
     url: "/practice-areas"
   - text: Locations
     url: "/locations"
-  - text: Contact Us
-    url: "/contact-us"
+  - text: Contact
+    url: "/contact"
   - text: Blog
     url: "/blog"

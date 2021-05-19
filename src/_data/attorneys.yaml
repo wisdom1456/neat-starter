@@ -1,17 +1,17 @@
 links:
   - name: Stephen Bernhardt
     title: Partner
-    image: "../static/img/team/stephen.jpg"
+    image: "/static/img/team/stephen.jpg"
     url: "/about/stephen-bernhardt"
   - name: Athena Pearl Riley
     title: Partner
-    image: "../static/img/team/apr.jpg"
+    image: "/static/img/team/apr.jpg"
     url: "/about/athena-pearl-riley"
   - name: David Orr
     title: Attorney
-    image: "../static/img/team/david.jpg"
+    image: "/static/img/team/david.jpg"
     url: "/about/david-orr"
   - name: Simona Burshtyn
     title: Attorney
-    image: "../static/img/team/simona.jpg"
+    image: "/static/img/team/simona.jpg"
     url: "/about/simona-burshtyn"
