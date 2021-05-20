@@ -1,11 +1,11 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white py-16 sm:py-24 lg:py-16">
-  <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-    <h2 class="text-base font-semibold tracking-wider text-br-300 uppercase">Get more information on your issues</h2>
-    <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+<div class="relative py-16 bg-white sm:py-24 lg:py-16">
+  <div class="max-w-md px-4 mx-auto text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+    <h2 class="text-base font-semibold tracking-wider uppercase text-br-300">Get more information on your issues</h2>
+    <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
       Practice Areas
     </p>
-    <p class="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+    <p class="mx-auto mt-5 text-xl text-gray-500 max-w-prose">
       We fight to protect your rights in the following areas:
     </p>
     <div class="mt-12">
@@ -14,18 +14,18 @@
         {% if pareas.links %}
 
           {% for item in pareas.links %}
-            <div class="pt-6">
-              <div class="flow-root {{item.image}} bg-cover rounded-lg px-6 pb-8 h-64">
-                <div class="-mt-6">
+            <div class="pt-6 ">
+              <div class="flow-root {{item.image}} bg-cover rounded-lg px-6 pb-8 ">
+                <div class="-mt-6 h-80">
                   <a href="{{item.url}}">
                     <div>
                       <span class="inline-flex items-center justify-center p-3 rounded-md shadow-lg bg-br-300 hover:bg-opacity-20">
                         <!-- Heroicon name: outline/cloud-upload -->
-                        <img src="{{item.svg}}" class="h-12">
+                        <img src="{{item.svg}}" class="h-6">
                       </span>
                     </div>
-                    <h3 class="mt-8 text-2xl font-medium text-black tracking-tight">{{item.title}}</h3>
-                    <p class="mt-5 text-justify text-black text-sm">
+                    <h3 class="mt-8 prose-2xl text-black">{{item.title}}</h3>
+                    <p class="mt-5 prose-sm text-justify text-black">
                       {{item.desc}}
                     </p>
                   </a>
