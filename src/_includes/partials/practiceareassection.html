@@ -14,22 +14,19 @@
         {% if pareas.links %}
 
           {% for item in pareas.links %}
-            <div class="pt-6 ">
-              <div class="flow-root {{item.image}} bg-cover rounded-lg px-6 pb-8 ">
-                <div class="-mt-6 h-80">
-                  <a href="{{item.url}}">
-                    <div>
-                      <span class="inline-flex items-center justify-center p-3 rounded-md shadow-lg bg-br-300 hover:bg-opacity-20">
-                        <!-- Heroicon name: outline/cloud-upload -->
-                        <img src="{{item.svg}}" class="h-6">
-                      </span>
-                    </div>
-                    <h3 class="mt-8 prose-2xl text-black">{{item.title}}</h3>
-                    <p class="mt-5 prose-sm text-justify text-black">
+            <div class="pt-6">
+              <div class="flow-root {{item.image}} bg-cover bg-fixed rounded-lg px-6 pb-8 ">
+                <a href="{{item.url}}">
+                  <div class="h-80 py-12 text-justify">
+
+                    <img src="{{item.svg}}" class="bg-white bg-opacity-50 inline rounded-lg p-2 h-12"/>
+                    <h3 class="px-4 prose-xl inline text-medium text-white">{{item.title}}</h3>
+
+                    <p class="mt-5 prose-sm text-justify text-medium text-white">
                       {{item.desc}}
                     </p>
-                  </a>
-                </div>
+                  </div>
+                </a>
               </div>
             </div>
           {% endfor %}

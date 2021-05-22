@@ -49,12 +49,12 @@ module.exports = {
             "marble-back": "url('/static/img/bg/marbleback2.jpg')",
             "destin-back": "linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)),url('/static/img/bg/destin_full2.jpg')",
             "footer-texture": "url('/static/img/footer-texture.jpg')",
-            "ambulance": "linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)),url('/static/img/pareas/ambulance_c.jpg')",
-            "bank": "linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)),url('/static/img/pareas/bank_c.jpg')",
-            "home": "linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)),url('/static/img/pareas/home_c.jpg')",
-            "debt": "linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)),url('/static/img/pareas/debt_c.jpg')",
-            "police": "linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)),url('/static/img/pareas/police_c.jpg')",
-            "court": "linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.8)),url('/static/img/pareas/court_c.jpg')",
+            "ambulance": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/ambulance_c.jpg')",
+            "bank": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/bank_c.jpg')",
+            "home": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/home_c.jpg')",
+            "debt": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/debt_c.jpg')",
+            "police": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/police_c.jpg')",
+            "court": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/court_c.jpg')",
         })
     },
     variants: {
