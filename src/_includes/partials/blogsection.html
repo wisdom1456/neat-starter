@@ -15,10 +15,9 @@
       </a>
     </div>
     <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-      {% set postslist = collections.post %}
-
-      {% for post in postslist | reverse %}
-        {% if loop.index < 4 %}
+    {% set postslist = collections["Criminal Defense"] %}
+      {% for post in postslist | reverse%}
+      {% if loop.index < 4 %}
           <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
             <div class="flex-shrink-0">
               <img class="h-48 w-full object-cover" src="{{post.data.thumbnail}}" alt="">
@@ -73,7 +72,7 @@
                 </div>
               </div>
             </div>
-          {% endif %}
+            {% endif %}
         {% endfor %}
       </div>
     </div>
