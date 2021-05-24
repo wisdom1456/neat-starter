@@ -5,7 +5,7 @@ description: Resisting an officer – with or without violence – is a common
   investigation.
 author: Bernhardt Riley
 date: 2021-05-22T17:35:25.557Z
-thumbnail: /static/img/fred-moon-ofbf15ps_0k-unsplash.jpg
+thumbnail: /static/img/posts/fred-moon-ofbf15ps_0k-unsplash.jpg
 tags:
   - Criminal Defense
 ---

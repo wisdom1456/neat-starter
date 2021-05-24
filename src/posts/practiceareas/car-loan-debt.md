@@ -4,7 +4,7 @@ description: Auto deficiency lawsuits can be very difficult for the company
   suing you to prove.
 author: Bernhardt Riley
 date: 2021-05-22T17:23:59.694Z
-thumbnail: /static/img/black-sports-car-detail.jpg
+thumbnail: /static/img/posts/black-sports-car-detail.jpg
 tags:
   - Debt Defense
 ---

@@ -4,7 +4,7 @@ description: A DUI conviction in Florida comes with serious penalties compared
   to other states.
 author: Stephen Bernhardt
 date: 2021-05-17T19:43:43.524Z
-thumbnail: /static/img/cop_lights.jpg
+thumbnail: /static/img/posts/cop_lights.jpg
 tags:
   - Criminal Defense
 ---

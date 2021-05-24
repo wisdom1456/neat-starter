@@ -4,7 +4,7 @@ description: Let the real estate attorneys at Bernhardt Law take care of your
   toxic mold issues and water intrusion issues.
 author: Bernhardt Riley
 date: 2021-05-22T17:55:00.847Z
-thumbnail: /static/img/jim-gade-ckjxgyfndqc-unsplash.jpg
+thumbnail: /static/img/posts/jim-gade-ckjxgyfndqc-unsplash.jpg
 tags:
   - Real Estate
 ---

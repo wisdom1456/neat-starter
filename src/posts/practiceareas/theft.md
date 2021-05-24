@@ -4,7 +4,7 @@ description: "There are multiple legal defenses that commonly arise in
   theft-related charges. "
 author: Bernhardt Riley
 date: 2021-05-22T17:30:45.632Z
-thumbnail: /static/img/niu-niu-5hzotv-fslw-unsplash.jpg
+thumbnail: /static/img/posts/niu-niu-5hzotv-fslw-unsplash.jpg
 tags:
   - Criminal Defense
 ---

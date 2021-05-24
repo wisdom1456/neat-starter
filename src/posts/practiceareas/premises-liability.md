@@ -4,7 +4,7 @@ description: Personal Injuries sustained due to the negligence of a business or
   property owner happen to unsuspecting people everyday.
 author: Bernhardt Riley
 date: 2021-05-22T17:43:42.164Z
-thumbnail: /static/img/factory-men-shelves-1797428.jpg
+thumbnail: /static/img/posts/factory-men-shelves-1797428.jpg
 tags:
   - Personal Injury
 ---

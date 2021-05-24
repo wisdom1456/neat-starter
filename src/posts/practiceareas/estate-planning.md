@@ -4,7 +4,7 @@ description: Planning and preparation are important elements of ensuring a
   successful financial future for your family.
 author: Bernhardt Riley
 date: 2021-05-22T18:00:36.478Z
-thumbnail: /static/img/rowan-heuvel-bjej8by1jyq-unsplash.jpg
+thumbnail: /static/img/posts/rowan-heuvel-bjej8by1jyq-unsplash.jpg
 tags:
   - Real Estate
 ---

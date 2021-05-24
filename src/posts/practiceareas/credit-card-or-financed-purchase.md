@@ -3,7 +3,7 @@ title: Credit Card or Financed Purchase
 description: Credit Card or Financed Purchase
 author: Bernhardt Riley
 date: 2021-05-22T17:18:35.106Z
-thumbnail: /static/img/banking-card-credit-card-1332191.jpg
+thumbnail: /static/img/posts/banking-card-credit-card-1332191.jpg
 tags:
   - Debt Defense
 ---

@@ -4,7 +4,7 @@ description: FDUTPA was designed to encompass a broad spectrum of deceptive and
   unfair conduct...
 author: Bernhardt Riley
 date: 2021-05-22T18:01:50.675Z
-thumbnail: /static/img/edward-howell-fzvcbudhdde-unsplash.jpg
+thumbnail: /static/img/posts/edward-howell-fzvcbudhdde-unsplash.jpg
 tags:
   - Business Litigation
 ---

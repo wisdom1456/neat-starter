@@ -3,7 +3,7 @@ title: Debt Collection Harassment
 description: Collection companies are governed by strict rules and regulations.
 author: Bernhardt Riley
 date: 2021-05-22T17:25:11.910Z
-thumbnail: /static/img/debt-harrasement.jpg
+thumbnail: /static/img/posts/debt-harrasement.jpg
 tags:
   - Debt Defense
 ---

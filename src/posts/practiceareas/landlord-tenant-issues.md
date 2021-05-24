@@ -5,7 +5,7 @@ description: Florida law requires very specific timelines and procedures that a
   and in order to avoid a dismissal of their case.
 author: Bernhardt Riley
 date: 2021-05-22T17:49:15.943Z
-thumbnail: /static/img/omar-prestwich-kxyejcysvym-unsplash.jpg
+thumbnail: /static/img/posts/omar-prestwich-kxyejcysvym-unsplash.jpg
 tags:
   - Real Estate
 ---

@@ -3,7 +3,7 @@ title: Drug Possession
 description: Possession charges can be defended in many ways.
 author: Bernhardt Riley
 date: 2021-05-22T17:27:56.332Z
-thumbnail: /static/img/matt-popovich-7mqszse6fau-unsplash.jpg
+thumbnail: /static/img/posts/matt-popovich-7mqszse6fau-unsplash.jpg
 tags:
   - Criminal Defense
 ---

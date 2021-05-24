@@ -5,7 +5,7 @@ description: '"Asset Forfeiture” refers to The Florida Contraband Forfeiture A
   assets...'
 author: Bernhardt Riley
 date: 2021-05-22T18:04:25.479Z
-thumbnail: /static/img/jan-antonin-kolar-5pfthlik7wq-unsplash.jpg
+thumbnail: /static/img/posts/jan-antonin-kolar-5pfthlik7wq-unsplash.jpg
 tags:
   - Criminal Defense
 ---

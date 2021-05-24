@@ -4,7 +4,7 @@ description: Your rights deserve to be protected and your side of the story
   deserves to be heard.
 author: Stephen Bernhardt
 date: 2021-05-17T19:34:37.175Z
-thumbnail: /static/img/activism.jpg
+thumbnail: /static/img/posts/activism.jpg
 tags:
   - Criminal Defense
 ---

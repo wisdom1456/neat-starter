@@ -4,7 +4,7 @@ description: We focus on finding proactive legal solutions that make achieving
   your business goals possible.
 author: Bernhardt Riley
 date: 2021-05-22T17:58:01.052Z
-thumbnail: /static/img/marten-bjork-6dw3xyqvcye-unsplash.jpg
+thumbnail: /static/img/posts/marten-bjork-6dw3xyqvcye-unsplash.jpg
 tags:
   - Business Litigation
 ---

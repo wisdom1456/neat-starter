@@ -5,7 +5,7 @@ description: In addition to Driving While License Suspended or Revoked, there
   area.
 author: Bernhardt Riley
 date: 2021-05-22T17:39:45.208Z
-thumbnail: /static/img/tamara-malaniy-wo1tvu3lq1q-unsplash.jpg
+thumbnail: /static/img/posts/tamara-malaniy-wo1tvu3lq1q-unsplash.jpg
 tags:
   - Criminal Defense
 ---

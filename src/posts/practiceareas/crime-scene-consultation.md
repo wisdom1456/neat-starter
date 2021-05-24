@@ -4,7 +4,7 @@ description: Every case is filled with unique details that cannot always be
   fully explained through office visits or phone calls.
 author: Stephen Bernhardt
 date: 2021-05-17T19:42:05.008Z
-thumbnail: /static/img/crime-scene.jpg
+thumbnail: /static/img/posts/crime-scene.jpg
 tags:
   - Criminal Defense
 ---

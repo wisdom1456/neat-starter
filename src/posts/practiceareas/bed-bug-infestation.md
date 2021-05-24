@@ -3,7 +3,7 @@ title: Bed Bug Infestation
 description: Bed bug attacks have resulted in physical and psychological injuries...
 author: Bernhardt Riley
 date: 2021-05-22T17:56:35.457Z
-thumbnail: /static/img/hiroshi-kimura-pxplexh2m7s-unsplash.jpg
+thumbnail: /static/img/posts/hiroshi-kimura-pxplexh2m7s-unsplash.jpg
 tags:
   - Real Estate
 ---
