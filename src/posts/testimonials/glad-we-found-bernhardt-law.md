@@ -1,6 +1,6 @@
 ---
 title: Glad we found Bernhardt Law
-author: Ian Brown
+author: Ian
 date: 2021-05-22T19:43:53.255Z
 tags:
   - Testimonials

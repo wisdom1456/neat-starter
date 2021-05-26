@@ -26,7 +26,7 @@
               <div class="flex-1">
                 <p class="text-sm font-medium text-indigo-600">
                   <a href="#" class="hover:underline">
-                Article
+                {{post.data.author}}
               </a>
                 </p>
                 <a href="{{ post.url | url }}" class="block mt-2">
@@ -48,7 +48,7 @@
                   <div class="ml-3">
                     <p class="text-sm font-medium text-gray-900">
                       <a href="#" class="hover:underline">
-                        {{ post.data.author}}
+                        {{ post.data.tags[1]}}
                       </a>
                     </p>
                     <div class="flex space-x-1 text-sm text-gray-500">

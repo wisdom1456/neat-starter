@@ -1,6 +1,6 @@
 ---
 title: knowledgeable and professional
-author: Niki Michalakopoulos
+author: Niki
 date: 2021-05-22T19:43:30.420Z
 tags:
   - Testimonials

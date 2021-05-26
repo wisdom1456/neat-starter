@@ -1,6 +1,6 @@
 ---
 title: Law Firm exceeded my expectations
-author: Debbie Thompson
+author: Debbie
 date: 2021-05-22T19:42:33.595Z
 tags:
   - Testimonials

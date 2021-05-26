@@ -17,3 +17,23 @@ Pasco County
           <span class="block xl:inline">{{parea}} in</span>
           <span class="block text-indigo-600 xl:inline">{{title}}</span>
         </h1>
+
+-----
+
+Things to do BR Site:
+Home
+	-CTA overlap on iPhone 12*
+	-Update logo (badges ) white gray badges - later
+	-Our locations background (marble?)
+	-Update Testimonial text
+	
+	
+	
+	-blog "article" needs words
+	-Footer
+	
+About
+	-Simona Picture?
+	-Google Map
+	-Contact Form
+	-Attorney bios

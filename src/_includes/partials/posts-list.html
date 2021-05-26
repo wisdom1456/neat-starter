@@ -13,7 +13,10 @@
                 </div>
                 <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
                     {% for post in postslist | reverse %}
-                        {% if post.data.tags.includes(parea) %}
+                        {% if post
+                            .data
+                            .tags
+                            .includes(parea) %}
                             <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
                                 <div class="flex-shrink-0">
                                     <img class="h-48 w-full object-cover" src="{{post.data.thumbnail}}" alt=""/>
@@ -21,7 +24,9 @@
                                 <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                                     <div class="flex-1">
                                         <p class="text-sm font-medium text-indigo-600">
-                                            <a href="#" class="hover:underline"> Article </a>
+                                            <a href="#" class="hover:underline">
+                                                {{post.data.author}}
+                                            </a>
                                         </p>
                                         <a href="{{ post.url | url }}" class="block mt-2">
                                             <p class="text-xl font-semibold text-gray-900">
@@ -34,6 +39,11 @@
                                         </a>
                                     </div>
                                     <div class="mt-6">
+                                        <p class="text-sm font-medium text-gray-900">
+                                            <a href="#" class="hover:underline">
+                                                {{ post.data.tags[1]}}
+                                            </a>
+                                        </p>
                                         <time class="space-x-1 text-sm flex text-gray-500" datetime="post.date">
                                             {{ post.date | readableDate }}
                                         </time>

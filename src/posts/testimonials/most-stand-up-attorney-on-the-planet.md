@@ -1,6 +1,6 @@
 ---
 title: Most stand-up attorney on the planet
-author: Joelle Marks-Richardson
+author: Joelle
 date: 2021-05-22T19:42:10.465Z
 tags:
   - Testimonials

@@ -1,6 +1,6 @@
 ---
 title: Family firm that cares about you and your results
-author: Michael Koch
+author: Michael
 date: 2021-05-22T19:43:02.225Z
 tags:
   - Testimonials

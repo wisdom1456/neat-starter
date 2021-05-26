@@ -1,28 +1,17 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<div class="bg-white">
-  <div class="py-12 overflow-hidden">
-    <div class="marquee ">
+<div class="bg-white overflow-hidden">
+  <div class="py-24 ">
+    <div class="marquee">
       <ul class="marquee-content">
-        <li>
-          <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple"></li>
-        <li>
-          <img class="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage"></li>
-        <li>
-          <img class="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit"></li>
-        <li>
-          <img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor"></li>
-        <li>
-          <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation"></li>
-        <li>
-          <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple"></li>
-        <li>
-          <img class="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage"></li>
-        <li>
-          <img class="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit"></li>
-        <li>
-          <img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor"></li>
-        <li>
-          <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation"></li>
+        {% if badges.items %}
+          {% for item in badges.items %}
+            <li class="">
+              <div class="">
+                <img class="h-40" src="{{item.url}}" alt="{{item.name}}"/>
+              </div>
+            </li>
+          {% endfor %}
+        {% endif %}
       </ul>
     </div>
   </div>
