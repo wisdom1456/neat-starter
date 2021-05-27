@@ -1,32 +1,38 @@
 ---
 links:
-  - title: Criminal Defense
-    image: bg-police
-    url: "/practice-areas/criminal-defense"
-    svg: "/static/img/svg/handcuffs.svg"
-    desc: Your rights deserve to be protected and your side of the story deserves to be heard. We go the extra mile to achieve justice for all of our clients.
-  - title: Debt Defense
-    image: bg-debt
-    url: "/practice-areas/debt-defense"
-    svg: "/static/img/svg/debt.svg"
-    desc: As the former lead litigator for a large collection law firm, Stephen Bernhardt knows exactly how to attack a debt collectors case and protect your rights.
-  - title: Personal Injury
-    image: bg-ambulance
-    url: "/practice-areas/personal-injury"
-    svg: "/static/img/svg/ambulance.svg"
-    desc: Contact us to discuss whether you are entitled to compensation for injuries suffered in a car accident or while on the property of a business.
-  - title: Real Estate
-    image: bg-home
-    url: "/practice-areas/real-estate"
-    svg: "/static/img/svg/home.svg"
-    desc: Whether you’re a condominium owner or a Homeowner’s Association our skills and attention to detail are devoted to your contested issues and real estate needs.
-  - title: Business Litigation
-    image: bg-court
-    url: "/practice-areas/business-litigation"
-    svg: "/static/img/svg/hammer.svg"
-    desc: Protecting yourself and your financial assets is an important part of your business, and we are here to help you every step of the way.
-  - title: Bankruptcy
-    image: bg-bank
-    url: "/practice-areas/bankruptcy"
-    svg: "/static/img/svg/bank.svg"
-    desc: Creating an estate plan, drafting a will, and setting up a revocable living trust in advance will ensure that you and your family are prepared to receive the care you deserve.
+    - title: Criminal Defense
+      image: bg-police
+      imageUrl: "/static/img/pareas/police_c.jpg"
+      url: "/practice-areas/criminal-defense"
+      svg: "/static/img/svg/handcuffs.svg"
+      desc: Your rights deserve to be protected and your side of the story deserves to be heard. We go the extra mile to achieve justice for all of our clients.
+    - title: Debt Defense
+      image: bg-debt
+      imageUrl: "/static/img/pareas/debt_c.jpg"
+      url: "/practice-areas/debt-defense"
+      svg: "/static/img/svg/debt.svg"
+      desc: As the former lead litigator for a large collection law firm, Stephen Bernhardt knows exactly how to attack a debt collectors case and protect your rights.
+    - title: Personal Injury
+      image: bg-ambulance
+      imageUrl: "/static/img/pareas/ambulance_c.jpg"
+      url: "/practice-areas/personal-injury"
+      svg: "/static/img/svg/ambulance.svg"
+      desc: Contact us to discuss whether you are entitled to compensation for injuries suffered in a car accident or while on the property of a business.
+    - title: Real Estate
+      image: bg-home
+      imageUrl: "/static/img/pareas/home_c.jpg"
+      url: "/practice-areas/real-estate"
+      svg: "/static/img/svg/home.svg"
+      desc: Whether you’re a condominium owner or a Homeowner’s Association our skills and attention to detail are devoted to your contested issues and real estate needs.
+    - title: Business Litigation
+      image: bg-court
+      imageUrl: "/static/img/pareas/court_c.jpg"
+      url: "/practice-areas/business-litigation"
+      svg: "/static/img/svg/hammer.svg"
+      desc: Protecting yourself and your financial assets is an important part of your business, and we are here to help you every step of the way.
+    - title: Bankruptcy
+      image: bg-bank
+      imageUrl: "/static/img/pareas/bank_c.jpg"
+      url: "/practice-areas/bankruptcy"
+      svg: "/static/img/svg/bank.svg"
+      desc: Creating an estate plan, drafting a will, and setting up a revocable living trust in advance will ensure that you and your family are prepared to receive the care you deserve.

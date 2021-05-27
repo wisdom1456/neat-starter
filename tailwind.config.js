@@ -46,8 +46,8 @@ module.exports = {
         },
         backgroundImage: (theme) => ({
             "hero-back": "linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.4)), url('/static/img/bg/columnsback3.jpg')",
-            "marble-back": "linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.4)), url('/static/img/bg/beach.jpg')",
-            "destin-back": "linear-gradient(rgba(255,255,255, 0.1), rgba(255,255,255, 0.8)),url('/static/img/bg/trees1.jpg')",
+            "beach-back": "linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.4)), url('/static/img/bg/beach.jpg')",
+            "marble-back": "linear-gradient(rgba(255,255,255, 0.1), rgba(255,255,255, 0.8)),url('/static/img/bg/marbleback2.jpg')",
             "footer-texture": "url('/static/img/footer-texture.jpg')",
             "ambulance": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/ambulance_c.jpg')",
             "bank": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/bank_c.jpg')",
