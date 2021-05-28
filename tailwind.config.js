@@ -51,7 +51,7 @@ module.exports = {
             "footer-texture": "url('/static/img/footer-texture.jpg')",
             "ambulance": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/ambulance_c.jpg')",
             "bank": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/bank_c.jpg')",
-            "home": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/home_c.jpg')",
+            "home": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/condo.jpg')",
             "debt": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/debt_c.jpg')",
             "police": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/police_c.jpg')",
             "court": "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/court_c.jpg')",
