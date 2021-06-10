@@ -78,28 +78,16 @@
               Our Attorney's
             </h3>
             <ul class="mt-4 space-y-1 ">
-              <li>
-                <a href="#" class="prose prose-sm text-gray-300 hover:text-white">
-                  Stephen M. Bernhardt
+              {% set postslist = collections["Attorneys"]%}
+              {% if postslist | length %}
+                {% for post in postslist %}
+                  <li>
+                    <a href={{post.url | url}} class="prose prose-sm text-gray-300 hover:text-white">
+                  {{post.data.title}}
                 </a>
-              </li>
-
-              <li>
-                <a href="#" class="prose prose-sm  text-gray-300 hover:text-white">
-                  Athena Pearl Riley
-                </a>
-              </li>
-
-              <li>
-                <a href="#" class="prose prose-sm  text-gray-300 hover:text-white">
-                  David Orr
-                </a>
-              </li>
-              <li>
-                <a href="#" class="prose prose-sm  text-gray-300 hover:text-white">
-                  Simona Burshtyn
-                </a>
-              </li>
+                  </li>
+                {% endfor %}
+              {% endif %}
             </ul>
           </div>
         </div>
@@ -112,38 +100,38 @@
             <div class= "grid md:grid-cols-2">
               <ul class="mt-4 space-y-1">
                 <li>
-                  <a href="#" class="prose prose-sm  text-gray-300 hover:text-white">
+                  <a href="/practice-areas/criminal-defense" class="prose prose-sm  text-gray-300 hover:text-white">
                   Criminal Defense
                 </a>
                 </li>
 
                 <li>
-                  <a href="#" class="prose prose-sm  text-gray-300 hover:text-white">
+                  <a href="/practice-areas/personal-injury" class="prose prose-sm  text-gray-300 hover:text-white">
                   Personal Injury
                 </a>
                 </li>
 
                 <li>
-                  <a href="#" class="prose prose-sm  text-gray-300 hover:text-white">
+                  <a href="/practice-areas/real-estate" class="prose prose-sm  text-gray-300 hover:text-white">
                   Real Estate
                 </a>
                 </li>
               </ul>
               <ul class="mt-4 space-y-1">
                 <li>
-                  <a href="#" class="prose prose-sm  text-gray-300 hover:text-white">
+                  <a href="/practice-areas/debt-defense" class="prose prose-sm  text-gray-300 hover:text-white">
                   Debt Defense
                 </a>
                 </li>
 
                 <li>
-                  <a href="#" class="prose prose-sm  text-gray-300 hover:text-white">
+                  <a href="/practice-areas/bankruptcy" class="prose prose-sm  text-gray-300 hover:text-white">
                   Bankruptcy
                 </a>
                 </li>
 
                 <li>
-                  <a href="#" class="prose prose-sm  text-gray-300 hover:text-white">
+                  <a href="/practice-areas/business-litigation" class="prose prose-sm  text-gray-300 hover:text-white">
                   Business Litigation
                 </a>
                 </li>
@@ -159,31 +147,31 @@
             </h3>
             <ul class="mt-4 space-y-1">
               <li>
-                <a href="#" class="prose prose-sm text-gray-300 hover:text-white">
+                <a href="/" class="prose prose-sm text-gray-300 hover:text-white">
                   Home
                 </a>
               </li>
 
               <li>
-                <a href="#" class="prose prose-sm text-gray-300 hover:text-white">
+                <a href="/about" class="prose prose-sm text-gray-300 hover:text-white">
                   About
                 </a>
               </li>
 
               <li>
-                <a href="#" class="prose prose-sm text-gray-300 hover:text-white">
+                <a href="/practice-areas" class="prose prose-sm text-gray-300 hover:text-white">
                   Practice Areas
                 </a>
               </li>
 
               <li>
-                <a href="#" class="prose prose-sm text-gray-300 hover:text-white">
+                <a href="/locations" class="prose prose-sm text-gray-300 hover:text-white">
                   Locations
                 </a>
               </li>
 
               <li>
-                <a href="#" class="prose prose-sm text-gray-300 hover:text-white">
+                <a href="/contact" class="prose prose-sm text-gray-300 hover:text-white">
                   Contact
                 </a>
               </li>
