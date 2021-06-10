@@ -27,28 +27,27 @@
             </div>
             <ul class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
 
-                {% if staff.links %}
-                    {% for item in staff.links %}
-
+                {% set postslist = collections["Staff"]%}
+                {% if postslist | length %}
+                    {% for post in postslist %}
                         <li>
                             <div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
                                 <div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-                                    <img class="object-cover rounded-lg shadow-lg" src="{{item.image}}" alt="">
+                                    <img class="object-cover rounded-lg shadow-lg" src="{{post.data.thumbnail}}" alt="">
                                 </div>
                                 <div class="sm:col-span-2">
                                     <div class="space-y-4">
                                         <div class="space-y-1 prose">
-                                            <h3 class="prose-lg">{{item.name}}</h3>
-                                            <p class="text-br-300 prose">{{item.title}}</p>
+                                            <h3 class="prose-lg">{{post.data.name}}</h3>
+                                            <p class="text-br-300 prose">{{post.data.title}}</p>
                                         </div>
                                         <div class="prose">
-                                            <p class="text-gray-500 prose-sm text-justify">{{item.bio}}</p>
+                                            <p class="text-gray-500 prose-sm text-justify">{{ post.templateContent | safe }}</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
-
                     {% endfor %}
                 {% endif %}
 
