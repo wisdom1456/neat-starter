@@ -46,6 +46,7 @@ module.exports = {
         },
         backgroundImage: (theme) => ({
             "hero-back": "linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.4)), url('/static/img/bg/columnsback3.jpg')",
+            "plaid-back": "linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url('/static/img/bg/Plaid_1024x768.png')",
             "beach-back": "linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.7)), url('/static/img/bg/beach.jpg')",
             "marble-back": "linear-gradient(rgba(255,255,255, 0.1), rgba(255,255,255, 0.8)),url('/static/img/bg/marbleback2.jpg')",
             "footer-texture": "url('/static/img/footer-texture.jpg')",

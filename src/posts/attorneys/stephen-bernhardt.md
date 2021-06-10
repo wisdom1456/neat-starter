@@ -2,7 +2,7 @@
 title: Stephen Bernhardt
 author: Partner
 date: 2021-05-28T03:32:23.388Z
-thumbnail: /static/img/posts/sb-hd.png
+thumbnail: /static/img/posts/stephen-c.png
 thumbnail2: /static/img/posts/blflorida-scaled.jpg
 tags:
   - Attorneys

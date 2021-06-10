@@ -2,7 +2,7 @@
 title: Athena Pearl Riley
 author: Partner
 date: 2021-05-28T03:35:30.528Z
-thumbnail: /static/img/posts/athena1.jpg
+thumbnail: /static/img/posts/athena-c.png
 thumbnail2: /static/img/posts/athena2.jpg
 tags:
   - Attorneys
