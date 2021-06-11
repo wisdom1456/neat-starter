@@ -1,24 +1,41 @@
 ---
-title: Stephen Bernhardt
-author: Partner
+name: Stephen Bernhardt
+title: Partner
 date: 2021-05-28T03:32:23.388Z
 thumbnail: /static/img/posts/stephen-c.png
 thumbnail2: /static/img/posts/blflorida-scaled.jpg
 tags:
   - Attorneys
 ---
-Stephen Bernhardt has been an attorney since 2010. A decade later, Stephen has accumulated extensive trial experience in both criminal and civil law. He began his legal career as a prosecutor, first handling misdemeanor offenses such as DUI, Battery, Possession of a Controlled Substance, Violation of Injunction and many others. Stephen quickly escalated to a felony division and became senior attorney in his division. As such, Stephen conducted many trials involving high-level crimes. Stephen won multiple jury trials that resulted in prison sentences of more than 25 years, including one life sentence. Stephen also became the State Attorney’s Office’s liaison for the county’s Drug Court Program. In this role, he learned many techniques to help individuals overcome addictions, as well as what differences exist between the many rehabilitation establishments throughout Florida.
-
-After leaving the State Attorney’s Office, Stephen began practicing civil law for one of the largest creditors’ rights firms in the United States. Within months, Stephen became the lead litigator for the firm’s Florida office and handled countless civil hearings and trials. Ultimately, Bernhardt left that firm to start Bernhardt Law, PLLC. Using the knowledge Stephen has gained throughout the last decade, Bernhardt Law maintains a sharp focus and dedication to ensuring each client’s specific situation is handled with the utmost professionalism, attention to detail, and integrity.
-
- 
-
-## **Community Involvement:**
-
-Stephen remains active in the Tampa Bay area and enjoys giving back to the community whenever possible.  While keeping up the activities of his three children, Stephen also participates in various charities, local high school shadowing programs, and supports BIKERSCAP, a non-profit organization that has been building laptops for underprivileged students for many years. Stephen is also a member of the Clearwater Bar Association, St. Petersburg Bar Association, the Hillsborough Bar Association, and the Palm Harbor Chamber of Commerce. 
-
- 
-
-## **Practice Areas:**
-
-Stephen focuses his practice in the areas of Criminal Defense, Debt Defense, and Personal Injury.  Stephen’s Criminal Defense practice includes a wide range of crimes including DUI, Battery, Petit Theft, Grand Theft, Drug Possession, Drug Sales, Burglary, Robbery, and many other charges.  Bernhardt Law will often handle the expungement of a charge after the case is resolved if the client qualifies for expungement.  Stephen’s Debt Defense practice generally includes defense of credit card and auto loan deficiency lawsuits.  Stephen also handles personal injury cases of many types.  See our practice areas page for more details.
+<div class="text-lg max-w-prose mx-auto">
+  <figure>
+    <img class="w-full rounded-lg" src={{thumbnail2}} alt="" width="800" height="600">
+    <figcaption></figcaption>
+  </figure>
+  <h1 class="pt-12">
+    <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">{{title}}</span>
+    <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{name}}</span>
+  </h1>
+  <p class="mt-8 text-xl text-gray-500 leading-8">Stephen Bernhardt has been an attorney since 2010. A decade later, Stephen has accumulated extensive trial experience in both criminal and civil law. He began his legal career as a prosecutor, first handling misdemeanor offenses such as DUI, Battery, Possession of a Controlled Substance, Violation of Injunction and many others. Stephen quickly escalated to a felony division and became senior attorney in his division. As such, Stephen conducted many trials involving high-level crimes. Stephen won multiple jury trials that resulted in prison sentences of more than 25 years, including one life sentence. Stephen also became the State Attorney’s Office’s liaison for the county’s Drug Court Program. In this role, he learned many techniques to help individuals overcome addictions, as well as what differences exist between the many rehabilitation establishments throughout Florida.</p>
+</div>
+<div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+  <p>AAfter leaving the State Attorney’s Office, Stephen began practicing civil law for one of the largest creditors’ rights firms in the United States. Within months, Stephen became the lead litigator for the firm’s Florida office and handled countless civil hearings and trials. Ultimately, Bernhardt left that firm to start Bernhardt Law, PLLC. Using the knowledge Stephen has gained throughout the last decade, Bernhardt Law maintains a sharp focus and dedication to ensuring each client’s specific situation is handled with the utmost professionalism, attention to detail, and integrity.</p>
+  <ul>
+    <li>Quis elit egestas venenatis mattis dignissim.</li>
+    <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
+    <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+  </ul>
+  <p>Quis semper vulputate aliquam venenatis egestas sagittis quisque orci. Donec commodo sit viverra aliquam porttitor ultrices gravida eu. Tincidunt leo, elementum mattis elementum ut nisl, justo, amet, mattis. Nunc purus, diam commodo tincidunt turpis. Amet, duis sed elit interdum dignissim.</p>
+  <h2>Community Involvement:</h2>
+  <p>Stephen remains active in the Tampa Bay area and enjoys giving back to the community whenever possible.  While keeping up the activities of his three children, Stephen also participates in various charities, local high school shadowing programs, and supports BIKERSCAP, a non-profit organization that has been building laptops for underprivileged students for many years. Stephen is also a member of the Clearwater Bar Association, St. Petersburg Bar Association, the Hillsborough Bar Association, and the Palm Harbor Chamber of Commerce. </p>
+  <blockquote>
+    <p>Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
+  </blockquote>
+  <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
+  <figure>
+    <img class="w-full rounded-lg" src={{thumbnail}} alt="" width="1310" height="873">
+    <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
+  </figure>
+  <h2>Practice areas:</h2>
+  <p>Stephen focuses his practice in the areas of Criminal Defense, Debt Defense, and Personal Injury.  Stephen’s Criminal Defense practice includes a wide range of crimes including DUI, Battery, Petit Theft, Grand Theft, Drug Possession, Drug Sales, Burglary, Robbery, and many other charges.  Bernhardt Law will often handle the expungement of a charge after the case is resolved if the client qualifies for expungement.  Stephen’s Debt Defense practice generally includes defense of credit card and auto loan deficiency lawsuits.  Stephen also handles personal injury cases of many types.  See our practice areas page for more details.</p>
+</div>

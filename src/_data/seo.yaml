@@ -1,0 +1,26 @@
+links:
+  - title: Palm Harbor
+    image: "/static/img/locs/palmharbor_c.jpg"
+    url: "/locations/palm-harbor"
+    subtitle: North Pinellas County
+    desc: Your rights deserve to be protected and your side of the story deserves to be heard. We go the extra mile to achieve justice for all of our clients.
+  - title: Clearwater
+    image: "/static/img/locs/clearwater_c.jpg"
+    url: "/locations/clearwater"
+    subtitle: Central Pinellas County
+    desc: Your rights deserve to be protected and your side of the story deserves to be heard. We go the extra mile to achieve justice for all of our clients.
+  - title: Tampa
+    image: "/static/img/locs/tampabay2_c.jpg"
+    url: "/locations/tampa"
+    subtitle: Hillsborough County
+    desc: Your rights deserve to be protected and your side of the story deserves to be heard. We go the extra mile to achieve justice for all of our clients.
+  - title: Northwest Florida
+    image: "/static/img/locs/destin_c.jpg"
+    url: "/locations/northwest-florida"
+    subtitle: Okaloosa County
+    desc: Your rights deserve to be protected and your side of the story deserves to be heard. We go the extra mile to achieve justice for all of our clients.
+  - title: Holiday
+    image: "/static/img/locs/holiday_c.jpg"
+    url: "/locations/holiday"
+    subtitle: Pasco County
+    desc: Your rights deserve to be protected and your side of the story deserves to be heard. We go the extra mile to achieve justice for all of our clients.
