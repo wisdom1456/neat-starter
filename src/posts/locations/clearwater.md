@@ -6,7 +6,7 @@ description: Bernhardt Riley is under the direction of, Stephen Bernhardt, a
   Clearwater.
 author: Bernhardt Riley
 streetAddress1: 13575 58th St N
-streetAddress2: "11"
+streetAddress2: " "
 cityState: Clearwater, FL
 zipCode: "33760"
 date: 2021-06-13T03:02:32.798Z
