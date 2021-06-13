@@ -9,9 +9,9 @@ tags:
 ---
 **Boundary Disputes**
 
-Disagreements over the location of a property line and inaccurate legal descriptions of a purchased property often lead to boundary disputes in Florida. Whether the disputes arise from the sale of a property, a fence that has encroached onto a neighboring property, a tree that has been planted or removed, or a new build that is beyond the property line, a professional should be sought out to analyze whether there is an infringement on you or your neighbor’s property, and a determination should be made of how long that infringement has occurred. Bernhardt Law real estate attorneys are skilled negotiators who can work with you to discover a compromise that can save you both time and money.
+Disagreements over the location of a property line and inaccurate legal descriptions of a purchased property often lead to boundary disputes in Florida. Whether the disputes arise from the sale of a property, a fence that has encroached onto a neighboring property, a tree that has been planted or removed, or a new build that is beyond the property line, a professional should be sought out to analyze whether there is an infringement on you or your neighbor’s property, and a determination should be made of how long that infringement has occurred. Bernhardt Riley real estate attorneys are skilled negotiators who can work with you to discover a compromise that can save you both time and money.
 
-Additional land disputes the attorneys at Bernhardt Law can help you navigate include:
+Additional land disputes the attorneys at Bernhardt Riley can help you navigate include:
 
  
 
@@ -30,13 +30,13 @@ An easement is a legal right given to a person or entity to use property or land
 **Injunctions**
 
 A lawsuit for an injunction may be brought in court should a landowner believe that an easement or right of way is being improperly imposed or misused. An injunction will prevent the improper use of the land, and a breach of contract claim may provide for an award of damages.\
-If you are facing an issue that arises from the ownership of your Florida property, call the experienced attorneys at Bernhardt Law to help you navigate your case.
+If you are facing an issue that arises from the ownership of your Florida property, call the experienced attorneys at Bernhardt Riley to help you navigate your case.
 
  
 
 **Covenants**
 
-A property may be restricted to certain uses, or require specific actions be taken to the property by the property owner and may often be found in subdivisions and neighborhoods. For example, a restrictive covenant may prevent a property owner from turning a desirable piece of land into a subdivision. The Bernhardt Law real estate attorneys can help draft a declaration clearly outlining the rights, responsibilities, and restrictions of all parties involved.
+A property may be restricted to certain uses, or require specific actions be taken to the property by the property owner and may often be found in subdivisions and neighborhoods. For example, a restrictive covenant may prevent a property owner from turning a desirable piece of land into a subdivision. The Bernhardt Riley real estate attorneys can help draft a declaration clearly outlining the rights, responsibilities, and restrictions of all parties involved.
 
  
 

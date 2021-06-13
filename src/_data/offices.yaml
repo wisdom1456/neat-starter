@@ -1,0 +1,31 @@
+---
+links:
+    - title: Palm Harbor
+      streetAddress1: 2706 US-19 ALT N.
+      streetAddress2: Suite 213
+      cityState: Palm Harbor, FL
+      zipCode: 34683
+
+    - title: Clearwater
+      streetAddress1: 13575 58th St N
+      streetAddress2:
+      cityState: Clearwater, FL
+      zipCode: 33760
+
+    - title: Tampa
+      streetAddress1: 1228 E. 7th Ave
+      streetAddress2:
+      cityState: Tampa, FL
+      zipCode: 33605
+
+    - title: Holiday
+      streetAddress1: 4935 Mile Stretch Drive
+      streetAddress2:
+      cityState: Holiday, FL
+      zipCode: 34690
+
+    - title: Northwest FL
+      streetAddress1: 701 E. John Sims Pkwy
+      streetAddress2: Suite 303 #112
+      cityState: Niceville, FL
+      zipCode: 32578

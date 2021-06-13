@@ -34,4 +34,4 @@ FDUTPA was designed to encompass a broad spectrum of deceptive and unfair conduc
 * Price Gouging After a Hurricane, Flood or During a State Of Emergency
 * Salespeople Misrepresenting their Authority to Negotiate Terms or Close a Sale
 
-The statute of limitation for bringing a FDUTPA claim is four (4) years from the date of the event giving rise to the FDUTPA claim.  If you believe that there has been a violation of FDUTPA, contact the trial attorneys at Bernhardt Law to help evaluate your potential claim.
+The statute of limitation for bringing a FDUTPA claim is four (4) years from the date of the event giving rise to the FDUTPA claim.  If you believe that there has been a violation of FDUTPA, contact the trial attorneys at Bernhardt Riley to help evaluate your potential claim.

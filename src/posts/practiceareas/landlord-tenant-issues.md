@@ -11,7 +11,7 @@ tags:
 ---
 
 
-Florida law requires very specific timelines and procedures that a landlord or property manager must comply with in attempting to evict a tenant and in order to avoid a dismissal of their case. Likewise, a tenant must also abide by certain timelines in order to prevent a default and grant of an eviction against them. The eviction attorneys at Bernhardt Law are here to help guide you every step of the way. Additional landlord/tenant issues we handle include the following: 
+Florida law requires very specific timelines and procedures that a landlord or property manager must comply with in attempting to evict a tenant and in order to avoid a dismissal of their case. Likewise, a tenant must also abide by certain timelines in order to prevent a default and grant of an eviction against them. The eviction attorneys at Bernhardt Riley are here to help guide you every step of the way. Additional landlord/tenant issues we handle include the following: 
 
 * Failure to Pay Rent
 * Ejections & Unlawful Detainers

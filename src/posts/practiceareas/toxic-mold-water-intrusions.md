@@ -1,6 +1,6 @@
 ---
 title: Toxic Mold & Water Intrusions
-description: Let the real estate attorneys at Bernhardt Law take care of your
+description: Let the real estate attorneys at Bernhardt Riley take care of your
   toxic mold issues and water intrusion issues.
 author: Bernhardt Riley
 date: 2021-05-22T17:55:00.847Z
@@ -22,4 +22,4 @@ Water intrusions can result in catastrophic damages to your home or business, an
 
 If you are a tenant who has suffered from exposure to toxic mold in a rented condominium, apartment, or house, and if  you have renter’s insurance, the insurance company may be responsible for the cleanup of the water damage, mold, and any damage to the your personal property and furniture, and may also be responsible for damage for personal injuries caused by the toxic mold.
 
-Let the real estate attorneys at Bernhardt Law take care of your toxic mold issues and water intrusion issues
+Let the real estate attorneys at Bernhardt Riley take care of your toxic mold issues and water intrusion issues

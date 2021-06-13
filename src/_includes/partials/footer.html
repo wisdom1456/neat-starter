@@ -19,44 +19,22 @@
   <div class="max-w-5xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
 
     <div class="grid gap-10 mt-10 mb-8 grid-cols-2 lg:grid-cols-5">
-      <div>
-        <h3 class="prose prose-2xl text-white">Clearwater</h3>
-        <p class="mt-2 prose prose text-gray-500">
-          <span class="block">4556 Brendan Ferry</span>
-          <span class="block">Los Angeles, CA 90210</span>
-        </p>
-      </div>
-      <div>
-        <h3 class="prose prose-2xl text-white">Holiday</h3>
-        <p class="mt-2 prose prose text-gray-500">
-          <span class="block">886 Walter Streets</span>
-          <span class="block">New York, NY 12345</span>
-        </p>
-      </div>
-      <div>
-        <h3 class="prose prose-2xl text-white">Palm Harbor</h3>
-        <p class="mt-2 prose prose text-gray-500">
-          <span class="block">7363 Cynthia Pass</span>
-          <span class="block">Toronto, ON N3Y 4H8</span>
-        </p>
-      </div>
-      <div>
-        <h3 class="prose prose-2xl text-white">Tampa</h3>
-        <p class="mt-2 prose prose text-gray-500">
-          <span class="block">114 Cobble Lane</span>
-          <span class="block">London N1 2EF</span>
-        </p>
-      </div>
-      <div>
-        <h3 class="prose prose-2xl text-white">Northwest Florida</h3>
-        <p class="mt-2 prose prose text-gray-500">
-          <span class="block">114 Cobble Lane</span>
-          <span class="block">London N1 2EF</span>
-        </p>
-      </div>
+
+      {% if offices.links %}
+        {% for item in offices.links %}
+          <div>
+            <h3 class="prose prose-xl text-white">{{item.title}}</h3>
+            <p class="mt-2 prose prose-sm text-gray-300">
+              <span class="block">{{item.streetAddress1}}, {{item.streetAddress2}}</span>
+              <span class="block">{{item.cityState}} {{item.zipCode}}</span>
+            </p>
+          </div>
+        {% endfor %}
+      {% endif %}
+
     </div>
 
-    <div class="border-t border-gray-700 flex flex-wrap mx-auto justify-center gap-10 mt-8 pt-8 ">
+    <div class="border-t border-gray-700 flex flex-wrap mx-auto justify-center gap-10 mt-8 pt-8">
 
       <div class="inline-flex rounded-md shadow text-white">
         <a href="tel:{{settings.tampaPhone}}" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-br-300 hover:bg-br-500">
@@ -83,8 +61,8 @@
                 {% for post in postslist %}
                   <li>
                     <a href={{post.url | url}} class="prose prose-sm text-gray-300 hover:text-white">
-                  {{post.data.title}}
-                </a>
+                      {{post.data.title}}
+                    </a>
                   </li>
                 {% endfor %}
               {% endif %}

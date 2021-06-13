@@ -90,6 +90,12 @@ collections:
         media_library:
           config:
             multiple: true
+      - label: "Action Image"
+        name: "thumbnail2"
+        widget: "image"
+        media_library:
+          config:
+            multiple: true
       - widget: select
         label: "tags"
         name: "tags"

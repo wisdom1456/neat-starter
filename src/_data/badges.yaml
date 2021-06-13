@@ -1,5 +1,7 @@
 ---
 items:
+    - text: Blog
+      url: "/static/img/badges/pshop/6.png"
     - text: Home
       url: "/static/img/badges/pshop/1.png"
     - text: About
@@ -11,15 +13,11 @@ items:
     - text: Contact
       url: "/static/img/badges/pshop/5.png"
     - text: Blog
-      url: "/static/img/badges/pshop/6.png"
-    - text: Blog
       url: "/static/img/badges/pshop/7.png"
     - text: Blog
-      url: "/static/img/badges/pshop/8.png"
+      url: "/static/img/badges/pshop/10.png"
     - text: Blog
       url: "/static/img/badges/pshop/9.png"
-    - text: Blog
-      url: "/static/img/badges/pshop/10.png"
     - text: Blog
       url: "/static/img/badges/pshop/11.png"
     - text: Blog

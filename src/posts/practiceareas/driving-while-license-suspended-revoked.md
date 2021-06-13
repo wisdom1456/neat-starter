@@ -11,6 +11,6 @@ tags:
 
 Once your license is suspended, it can be very difficult to resolve. Combine that with the fact that driving is a relative necessity these days, it is no wonder why Driving While License Suspended or Revoked is such a common offense.
 
-Call Bernhardt Law to help end the seemingly endless suspended license cycle and work towards getting your license reinstated.
+Call Bernhardt Riley to help end the seemingly endless suspended license cycle and work towards getting your license reinstated.
 
 <!--EndFragment-->

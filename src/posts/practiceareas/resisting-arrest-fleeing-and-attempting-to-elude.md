@@ -17,8 +17,8 @@ Law Enforcement Officers do have a dangerous job, and they obviously like to kee
 
 With that said, many defenses often exist.
 
-Under most circumstances, if the client wishes, Bernhardt Law will conduct a *free consultation at the scene of the crime*. Not only is this usually a convenient location for the client, but it is especially helpful in a “Resisting” case, because it aids in fully understanding the surroundings for an early start preparing a defense.
+Under most circumstances, if the client wishes, Bernhardt Riley will conduct a *free consultation at the scene of the crime*. Not only is this usually a convenient location for the client, but it is especially helpful in a “Resisting” case, because it aids in fully understanding the surroundings for an early start preparing a defense.
 
 Fleeing and Attempting to Elude a Law Enforcement Officer has several degrees and levels of severity, many of which carry higher punishments than one might expect. This is another example of where Law Enforcement Officers commonly overcharge.
 
-It is important to speak to an experienced attorney about this offense before entering into any plea agreement. Contact Bernhardt Law for a FREE evaluation of your case.
+It is important to speak to an experienced attorney about this offense before entering into any plea agreement. Contact Bernhardt Riley for a FREE evaluation of your case.

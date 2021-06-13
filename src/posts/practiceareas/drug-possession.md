@@ -25,7 +25,7 @@ For a full list of the controlled substances and the sections in which they are 
 
 **Possession of Marijuana – [Florida Statute 893.13(6)(b)](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899/0893/Sections/0893.13.html)**
 
-The legal landscape is constantly shifting in its enforcement of marijuana laws.  If you or a loved one has been arrested for a marijuana-related crime and you want more information, contact Bernhardt Law.
+The legal landscape is constantly shifting in its enforcement of marijuana laws.  If you or a loved one has been arrested for a marijuana-related crime and you want more information, contact Bernhardt Riley.
 
 **Sale of Controlled Substance –** [Florida Statute 893.13(1)(A)](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899/0893/Sections/0893.13.html)
 
@@ -39,9 +39,9 @@ In Florida, you may be charged with Trafficking a Controlled Substance e*ven* i
 
 **HELP TO FIGHT AN ADDICTION**
 
-At times, helping someone with a criminal case is larger than trying to get the State to drop or reduce the charges. At Bernhardt Law, we emphasize helping those who desire to overcome addiction while thoroughly defending their rights.
+At times, helping someone with a criminal case is larger than trying to get the State to drop or reduce the charges. At Bernhardt Riley, we emphasize helping those who desire to overcome addiction while thoroughly defending their rights.
 
-Of course, your case would still be reviewed for any and all potential legal defenses. But in addition to legally defending your case, Bernhardt Law specifically puts an emphasis on helping people fight addiction.
+Of course, your case would still be reviewed for any and all potential legal defenses. But in addition to legally defending your case, Bernhardt Riley specifically puts an emphasis on helping people fight addiction.
 
 Stephen Bernhardt brings extensive experience as a *former State representative of the Drug Court Program*.
 
@@ -51,6 +51,6 @@ This applies to all kinds of cases, not just possession charges.  Far too often
 
 Seemingly arbitrary jail sentences and one-size-fits-all probation sentences can have the effect of making recovery more difficult or set one up to fail.
 
-Whatever your situation, Bernhardt Law works to protect your rights and improve the future of every client.
+Whatever your situation, Bernhardt Riley works to protect your rights and improve the future of every client.
 
-If you would like to discuss how drug/alcohol rehabilitation courses, programs and facilities can positively impact your case, please contact Bernhardt Law now.
+If you would like to discuss how drug/alcohol rehabilitation courses, programs and facilities can positively impact your case, please contact Bernhardt Riley now.

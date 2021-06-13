@@ -12,7 +12,7 @@ A DUI conviction in Florida comes with serious penalties compared to other state
 
 Having prosecuted countless DUIs for the State Attorney’s Office, Stephen Bernhardt has the knowledge and expertise to prepare the best defense for your case.
 
-If you have been arrested for DUI in Pinellas, Hillsborough or Pasco Counties, your best defense is with Bernhardt Law.
+If you have been arrested for DUI in Pinellas, Hillsborough or Pasco Counties, your best defense is with Bernhardt Riley.
 
 **Your Driver License**
 
@@ -20,7 +20,7 @@ You must demand a Formal Administrative Review Hearing within 10 days of your ar
 
 If this is your first DUI arrest, you may be able to immediately apply for a hardship license. 
 
-Bernhardt Law will act quickly to help get your license reinstated.
+Bernhardt Riley will act quickly to help get your license reinstated.
 
 **What State Must Prove**
 
@@ -31,4 +31,4 @@ To prove the crime of Driving Under the Influence \[DUI], the State must prove t
 3. Was under the influence of alcoholic beverages or a chemical/controlled substance to the extent that his/her normal faculties were impaired
 4. Had a blood/breath-alcohol level of .08 or more grams of alcohol per 100 milliliters of blood/210 liters of breath.
 
-Bernhardt Law will meet for a FREE consultation *at the scene of the DUI arrest*,or at one of our convenient locations around Tampa Bay.
+Bernhardt Riley will meet for a FREE consultation *at the scene of the DUI arrest*,or at one of our convenient locations around Tampa Bay.

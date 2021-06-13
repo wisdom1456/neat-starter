@@ -1,41 +1,71 @@
 ---
-layout: blog
+layout: page
+title: Legal Blog
+path: home
+image: '/static/img/locs/location-back.jpg'
+tint: bg-gray-400
 ---
 
-<section class="mt-15">
-    {% set postslist = collections.post %}
+{% if pareas.links %}
+    {% for item in pareas.links %}
 
-    {% for post in postslist | reverse %}
-        <article class="my-8">
-            <h2 class="font-bold text-3xl text-gray-900 mb-2">
-                <a href="{{ post.url | url }}">
-                    {% if post.data.title %}
-                        {{ post.data.title }}
-                    {% else %}
-                        Untitled
-                    {% endif %}
-                </a>
-            </h2>
-            <p class="text-base leading-6 text-gray-500 mb-3">
-                <time>
-                    {{ post.date | readableDate }}
-                    by
-                    <a>{{ post.data.author }}</a>
+        {% set postslist = collections[item.title]%}
+        {% if postslist | length %}
+            <section class="mt-15">
+                <!-- This example requires Tailwind CSS v2.0+ -->
+                <article class="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+                    <div class="absolute inset-0">
+                        <div class="bg-white h-1/3 sm:h-2/3"></div>
+                    </div>
+                    <div class="relative max-w-5xl mx-auto">
+                        <div class="flex flex-wrap mx-auto mb-20">
+                            <div class="p-4 mb-6 lg:w-1/2 lg:mb-0">
+                                <h1 class="mb-2 prose prose-2xl text-br-400 text-2xl font-bold tracking-widest">{{item.title}} Blog</h1>
+                                <div class="w-20 h-1 bg-br-300 rounded"></div>
+                            </div>
+                            <p class="p-4 prose prose-lg text-br-400 lg:w-1/2">{{item.desc}}</p>
+                        </div>
+                        <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+                            {% for post in postslist | reverse %}
+                                <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                                    <div class="flex-shrink-0">
+                                        <img class="h-48 w-full object-cover" src="{{post.data.thumbnail}}" alt=""/>
+                                    </div>
+                                    <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+                                        <div class="flex-1">
+                                            <p class="prose prose-xs text-br-600">
+                                                {{post.data.author}}
+                                            </p>
+                                            <a href="{{ post.url | url }}" class="block">
+                                                <p class="prose prose-xl font-semibold text-gray-900">
+                                                    {% if post.data.title %}
+                                                        {{ post.data.title }}
+                                                    {% else %} Untitled {% endif %}
+                                                </p>
 
-                </time>
-            </p>
-            {% if post.data.description %}
-                <p class="text-lg text-justify text-gray-500 mb-3">
-                    {{ post.data.description }}
-                </p>
-            {% endif %}
+                                                <p class="mt-3 text-justify prose prose text-gray-500">{{ post.data.description }}</p>
+                                            </a>
+                                        </div>
+                                        <div class="mt-6">
+                                            <p class="prose prose-sm text-gray-900">
+                                                <a href="#" class="hover:underline">
+                                                    {{ post.data.tags[1]}}
+                                                </a>
+                                            </p>
+                                            <time class="space-x-1 text-sm flex text-gray-500" datetime="post.date">
+                                                {{ post.date | readableDate }}
+                                            </time>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </article>
+            </section>
+        {% endif %}
 
-            <p>
-                <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
-                    Read more →
-                </a>
-            </p>
-
-        </article>
     {% endfor %}
-</section>
+{% endif %}
+
+{% include './_includes/partials/cta.html' %}

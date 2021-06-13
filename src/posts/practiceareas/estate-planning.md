@@ -23,4 +23,4 @@ Planning and preparation are important elements of ensuring a successful financi
 2. **Designation of Healthcare Surrogate** – Also known as a “Healthcare Power of Attorney”, the purpose of this document is to designate the person(s) who is empowered to enforce the medical wishes as expressed in the living will.
 3. **HIPPA Release –** Since federal law protects the privacy of individuals concerning their medical records, a HIPAA release document is required to release medical records to third parties, including family members. Under Florida law, a HIPAA authorization cannot be effective for more than 24 months, so the HIPPA release will need to be updated at that time.
 
-The estate planning attorneys at Bernhardt Law are here to help protect you, your family and your assets.
+The estate planning attorneys at Bernhardt Riley are here to help protect you, your family and your assets.

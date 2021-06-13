@@ -10,7 +10,7 @@ tags:
 ---
 There are multiple legal defenses that commonly arise in theft-related charges. The State’s theft cases are routinely built around circumstantial evidence only, with no hard evidence. In other instances, evidence was improperly obtained, resulting in its exclusion from court proceedings.
 
-For a free evaluation of your case, contact Bernhardt Law.
+For a free evaluation of your case, contact Bernhardt Riley.
 
 **Florida Statute [812.014](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899/0812/Sections/0812.014.html) – Theft:**
 

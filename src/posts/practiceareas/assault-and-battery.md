@@ -14,7 +14,7 @@ While a prosecutor, Stephen Bernhardt recalls many cases where arrests were made
 
 However, these offenses – especially domestic violence-related charges – are serious and should be treated as such. The State Attorney’s Office certainly takes these cases seriously.
 
-Bernhardt Law will look beyond the police report and assess the entire situation to best defend your case.
+Bernhardt Riley will look beyond the police report and assess the entire situation to best defend your case.
 
 **Applicable Florida Statutes below:**
 
