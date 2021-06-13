@@ -26,6 +26,6 @@ links:
 
     - title: Northwest FL
       streetAddress1: 701 E. John Sims Pkwy
-      streetAddress2: Suite 303 #112
+      streetAddress2: "Suite 303, #112"
       cityState: Niceville, FL
       zipCode: 32578
