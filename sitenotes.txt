@@ -1,3 +1,26 @@
+Add Athena's testimonials
+Wants script on testimonial text
+
+var locations = [
+        [
+          'Tampa', 27.96047, -82.44563, 4
+        ],
+        [
+          'Clearwater', 27.89531, -82.71164, 5
+        ],
+        [
+          'Palm Harbor', 28.09283, -82.77241, 3
+        ],
+        [
+          'Holiday', 28.18833, -82.73232, 2
+        ],
+        [
+          'Northwest Florida', 30.51894, -86.48097, 1
+        ]
+      ];
+
+---
+
 David Orr - Attorney
 Lauren Ashley Maarouf - Florida Registered Paralegal
 Jill Mello - Receptionist
