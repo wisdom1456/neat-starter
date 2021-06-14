@@ -1,5 +1,6 @@
 Add Athena's testimonials
 Wants script on testimonial text
+background on about - set to scroll (was set to fixed)
 
 var locations = [
         [
