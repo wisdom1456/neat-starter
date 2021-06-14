@@ -4,7 +4,7 @@ description: Unfortunately, most of us will be involved in an automobile
   accident during our lives.
 author: Bernhardt Riley
 date: 2021-05-22T17:41:35.305Z
-thumbnail: /static/img/posts/blog-1.jpg
+thumbnail: /static/img/posts/blog-1.webp
 tags:
   - Personal Injury
 ---

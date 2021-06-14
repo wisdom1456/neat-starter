@@ -4,7 +4,7 @@ description: Certificates & Deeds, Tax Deeds as Transfers, The Necessity of a
   Quiet Title Action
 author: Bernhardt Riley
 date: 2021-05-22T17:46:39.166Z
-thumbnail: /static/img/posts/scott-graham-5fnmwej4taa-unsplash.jpg
+thumbnail: /static/img/posts/scott-graham-5fnmwej4taa-unsplash.webp
 tags:
   - Real Estate
 ---

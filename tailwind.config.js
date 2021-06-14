@@ -45,18 +45,18 @@ module.exports = {
             }
         },
         backgroundImage: (theme) => ({
-            "marble-back": "linear-gradient(rgba(255,255,255, .4), rgba(255,255,255, .4)), url('/static/img/bg/orig-marbleback2.jpg')",
-            "tampa-back": "linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)), url('/static/img/locs/tampa-back.jpg')",
-            "hero-back": "linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.4)), url('/static/img/bg/orig-columnsback3.jpg')",
-            "waves-back": "linear-gradient(rgba(255,255,255, .4), rgba(255,255,255, .4)), url('/static/img/bg/orig-beachflow.jpg')",
+            "marble-back": "linear-gradient(rgba(255,255,255, .4), rgba(255,255,255, .4)), url('/static/img/posts/orig-marbleback2.webp')",
+            "tampa-back": "linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)), url('/static/img/posts/orig-tampa1.webp')",
+            "hero-back": "linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.4)), url('/static/img/posts/orig-columnsback3.webp')",
+            "waves-back": "linear-gradient(rgba(255,255,255, .4), rgba(255,255,255, .4)), url('/static/img/posts/orig-beachflow.webp')",
             "gradient-back": "linear-gradient(0.25turn, #17baa3, #070e32, #1715ba)",
 
-            ambulance: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/orig-ambulance.jpg')",
-            bank: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/orig-bank.jpg')",
-            home: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/orig-condo.jpg')",
-            debt: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/orig-debt.jpg')",
-            police: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/orig-police.jpg')",
-            court: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/pareas/orig-court.jpg')"
+            ambulance: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/posts/orig-ambulance.webp')",
+            bank: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/posts/orig-bank.webp')",
+            home: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/posts/orig-condo.webp')",
+            debt: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/posts/orig-debt.webp')",
+            police: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/posts/orig-police.webp')",
+            court: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/posts/orig-court.webp')"
         })
     },
     variants: {

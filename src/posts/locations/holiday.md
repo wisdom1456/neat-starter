@@ -14,8 +14,8 @@ body2:
   Holiday personal injury lawyers at Bernhardt Riley provide expert guidance and legal counsel to help you navigate the challenges that follow a personal Injury accident. A personal injury attorney will help you achieve the best resolution possible, which includes the recovery of compensation you may be entitled. Your debt defense lawyer in Holiday, the legal counsel at Bernhardt Riley, represents clients in various bankruptcy, debt collection, harassment, and foreclosure defenses Holiday, Florida.
 body3:
   At Bernhardt Riley, our debt defense attorneys in Holiday will make sure that you are safe from false allegations and make it an even playing field. With the insight of a former collection agency attorney serving as your debt defense lawyer, you are much more likely to achieve a successful outcome.
-thumbnail: /static/img/posts/orig-holiday.jpg
-thumbnail2: /static/img/posts/orig-stephen-office4.jpg
+thumbnail: /static/img/posts/orig-holiday.webp
+thumbnail2: /static/img/posts/orig-stephen-office4.webp
 tags:
   - Locations
 ---

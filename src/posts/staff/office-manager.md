@@ -2,7 +2,7 @@
 name: Jessica Bernhardt
 title: Office Manager
 date: 2021-05-28T03:54:56.766Z
-thumbnail: /static/img/posts/orig-jess.jpg
+thumbnail: /static/img/posts/orig-jess.webp
 tags:
   - Staff
 ---

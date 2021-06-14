@@ -2,8 +2,8 @@
 name: Simona Burshtyn
 title: Attorney
 date: 2021-05-28T03:48:53.160Z
-thumbnail: /static/img/posts/orig-simona.jpg
-thumbnail2: /static/img/posts/orig-simona.jpg
+thumbnail: /static/img/posts/orig-simona.webp
+thumbnail2: /static/img/posts/orig-simona.webp
 tags:
   - Attorneys
 ---

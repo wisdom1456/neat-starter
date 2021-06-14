@@ -14,8 +14,8 @@ body2:
   Northwest Florida personal injury lawyers at Bernhardt Riley provide expert guidance and legal counsel to help you navigate the challenges that follow a personal Injury accident. A personal injury attorney will help you achieve the best resolution possible, which includes the recovery of compensation you may be entitled. Your debt defense lawyer in Northwest Florida, the legal counsel at Bernhardt Riley, represents clients in various bankruptcy, debt collection, harassment, and foreclosure defenses Northwest Florida, Florida.
 body3:
   At Bernhardt Riley, our debt defense attorneys in Northwest Florida will make sure that you are safe from false allegations and make it an even playing field. With the insight of a former collection agency attorney serving as your debt defense lawyer, you are much more likely to achieve a successful outcome.
-thumbnail: /static/img/posts/orig-destin.jpg
-thumbnail2: /static/img/posts/orig-athena-office.jpg
+thumbnail: /static/img/posts/orig-destin.webp
+thumbnail2: /static/img/posts/orig-athena-office.webp
 tags:
   - Locations
 ---

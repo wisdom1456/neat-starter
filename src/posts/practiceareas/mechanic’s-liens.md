@@ -4,7 +4,7 @@ description: The Florida legislature enacted the Florida Construction Lien Law
   in order to protect the rights of all parties to the construction process...
 author: Bernhardt Riley
 date: 2021-05-22T17:52:49.043Z
-thumbnail: /static/img/posts/theme-photos-klby0nxsey8-unsplash.jpg
+thumbnail: /static/img/posts/theme-photos-klby0nxsey8-unsplash.webp
 tags:
   - Real Estate
 ---
