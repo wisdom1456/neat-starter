@@ -10,7 +10,7 @@ tags:
 ---
 When it comes to an assault or a battery case, there is usually a lot more to the story than what is included in the police report.
 
-While a prosecutor, Stephen Bernhardt recalls many cases where arrests were made, yet afterwards, everyone agreed that the night simply got out of hand and/or that the circumstances were embellished.
+While a prosecutor, Stephen M. Bernhardt recalls many cases where arrests were made, yet afterwards, everyone agreed that the night simply got out of hand and/or that the circumstances were embellished.
 
 However, these offenses – especially domestic violence-related charges – are serious and should be treated as such. The State Attorney’s Office certainly takes these cases seriously.
 

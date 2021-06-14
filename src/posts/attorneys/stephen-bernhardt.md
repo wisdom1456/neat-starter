@@ -1,5 +1,5 @@
 ---
-name: Stephen Bernhardt
+name: Stephen M. Bernhardt
 title: Partner
 date: 2021-05-28T03:32:23.388Z
 thumbnail: /static/img/posts/stephen-c.png
@@ -12,7 +12,7 @@ tags:
     <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">{{title}}</span>
     <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{name}}</span>
   </h1>
-  <p class="mt-8 text-xl text-gray-500 leading-8">Stephen Bernhardt has been an attorney since 2010. A decade later, Stephen has accumulated extensive trial experience in both criminal and civil law. He began his legal career as a prosecutor, first handling misdemeanor offenses such as DUI, Battery, Possession of a Controlled Substance, Violation of Injunction and many others. Stephen quickly escalated to a felony division and became senior attorney in his division. As such, Stephen conducted many trials involving high-level crimes. Stephen won multiple jury trials that resulted in prison sentences of more than 25 years, including one life sentence. Stephen also became the State Attorney’s Office’s liaison for the county’s Drug Court Program. In this role, he learned many techniques to help individuals overcome addictions, as well as what differences exist between the many rehabilitation establishments throughout Florida.</p>
+  <p class="mt-8 text-xl text-gray-500 leading-8">Stephen M. Bernhardt has been an attorney since 2010. A decade later, Stephen has accumulated extensive trial experience in both criminal and civil law. He began his legal career as a prosecutor, first handling misdemeanor offenses such as DUI, Battery, Possession of a Controlled Substance, Violation of Injunction and many others. Stephen quickly escalated to a felony division and became senior attorney in his division. As such, Stephen conducted many trials involving high-level crimes. Stephen won multiple jury trials that resulted in prison sentences of more than 25 years, including one life sentence. Stephen also became the State Attorney’s Office’s liaison for the county’s Drug Court Program. In this role, he learned many techniques to help individuals overcome addictions, as well as what differences exist between the many rehabilitation establishments throughout Florida.</p>
 </div>
 <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
   <p>After leaving the State Attorney’s Office, Stephen began practicing civil law for one of the largest creditors’ rights firms in the United States. Within months, Stephen became the lead litigator for the firm’s Florida office and handled countless civil hearings and trials. Ultimately, Bernhardt left that firm to start Bernhardt Riley, PLLC. Using the knowledge Stephen has gained throughout the last decade, Bernhardt Riley maintains a sharp focus and dedication to ensuring each client’s specific situation is handled with the utmost professionalism, attention to detail, and integrity.</p>

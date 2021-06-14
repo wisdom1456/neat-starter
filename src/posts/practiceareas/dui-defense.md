@@ -2,7 +2,7 @@
 title: DUI Defense
 description: A DUI conviction in Florida comes with serious penalties compared
   to other states.
-author: Stephen Bernhardt
+author: Stephen M. Bernhardt
 date: 2021-05-17T19:43:43.524Z
 thumbnail: /static/img/posts/cop_lights.jpg
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 A DUI conviction in Florida comes with serious penalties compared to other states. However, a DUI is not always an easy offense for the prosecution to prove. In fact, there are many potential defenses inherent in any DUI case.
 
-Having prosecuted countless DUIs for the State Attorney’s Office, Stephen Bernhardt has the knowledge and expertise to prepare the best defense for your case.
+Having prosecuted countless DUIs for the State Attorney’s Office, Stephen M. Bernhardt has the knowledge and expertise to prepare the best defense for your case.
 
 If you have been arrested for DUI in Pinellas, Hillsborough or Pasco Counties, your best defense is with Bernhardt Riley.
 

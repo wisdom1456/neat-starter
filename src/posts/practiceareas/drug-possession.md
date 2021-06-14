@@ -43,7 +43,7 @@ At times, helping someone with a criminal case is larger than trying to get the 
 
 Of course, your case would still be reviewed for any and all potential legal defenses. But in addition to legally defending your case, Bernhardt Riley specifically puts an emphasis on helping people fight addiction.
 
-Stephen Bernhardt brings extensive experience as a *former State representative of the Drug Court Program*.
+Stephen M. Bernhardt brings extensive experience as a *former State representative of the Drug Court Program*.
 
 The State Attorney’s Office lacks the time to make every person an offer that is unique to their individual situation. Thus, many people end up with a sentence that is actually harmful to their recovery attempts.
 
