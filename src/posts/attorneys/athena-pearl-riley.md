@@ -9,10 +9,6 @@ tags:
 ---
 
 <div class="text-lg max-w-prose mx-auto">
-  <figure>
-    <img class="w-full rounded-lg" src={{thumbnail2}} alt="" width="800" height="600">
-    <figcaption></figcaption>
-  </figure>
   <h1 class="pt-12">
     <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">{{title}}</span>
     <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{name}}</span>

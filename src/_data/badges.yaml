@@ -1,26 +1,26 @@
 ---
 items:
-    - text: Blog
+    - name: Blog
       url: "/static/img/badges/pshop/6.png"
-    - text: Home
+    - name: Home
       url: "/static/img/badges/pshop/1.png"
-    - text: About
+    - name: About
       url: "/static/img/badges/pshop/2.png"
-    - text: Practice Areas
+    - name: Practice Areas
       url: "/static/img/badges/pshop/3.png"
-    - text: Locations
+    - name: Locations
       url: "/static/img/badges/pshop/4.png"
-    - text: Contact
+    - name: Contact
       url: "/static/img/badges/pshop/5.png"
-    - text: Blog
+    - name: Blog
       url: "/static/img/badges/pshop/7.png"
-    - text: Blog
+    - name: Blog
       url: "/static/img/badges/pshop/10.png"
-    - text: Blog
+    - name: Blog
       url: "/static/img/badges/pshop/9.png"
-    - text: Blog
+    - name: Blog
       url: "/static/img/badges/pshop/11.png"
-    - text: Blog
+    - name: Blog
       url: "/static/img/badges/pshop/12.png"
-    - text: Blog
+    - name: Blog
       url: "/static/img/badges/pshop/13.png"

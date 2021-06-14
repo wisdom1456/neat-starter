@@ -1,77 +1,57 @@
 {% set postslist = collections["Testimonials"] %}
 
-<div class="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8 bg-white">
-	<div class="my-10 md:my-24">
-
-		<div class="container max-w-6xl">
+<div class="bg-white">
+	<div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+		<div class="space-y-12">
 			<div class="flex flex-wrap mx-auto mb-20">
 				<div class="p-4 mb-6 lg:w-1/2 lg:mb-0">
-					<h1 class="mb-2 prose prose-2xl text-br-400 text-2xl font-bold tracking-widest">Testimonials</h1>
+					<h1 class="mb-2 prose prose-2xl text-br-900 text-2xl font-bold tracking-widest uppercase">Testimonials</h1>
 					<div class="w-20 h-1 bg-br-300 rounded"></div>
 				</div>
-				<p class="p-4 prose prose-lg text-justify text-br-400 lg:w-1/2">
-                Having conducted several dozen jury and non-jury trials, Bernhardt Riley has the knowledge and experience to represent your interest!
-            </p>
-			</div>
-		</div>
-
-		<div class=" container mx-auto flex flex-col md:flex-row shadow-sm overflow-hidden" x-data="{ testimonialActive: 2 }" x-cloak>
-
-			<div class="relative w-full py-2 md:py-24 bg-pen-back bg-cover md:w-1/2 flex flex-col item-center justify-center">
-
-				<div class="relative prose prose-2xl text-5xl py-2 px-6 md:py-6 md:px-1 md:w-64 md:mx-auto text-white mb-0 z-20">
-					<span class="md:block">What Our</span>
-					<span class="md-block">Clients</span>
-					<span class="block">Are Saying!</span>
-				</div>
-
-				<div class="absolute right-0 bottom-0 mr-4 mb-4 hidden md:block">
-					<button
-						class="prose prose rounded-l-full border-r bg-gray-100 text-gray-500 focus:outline-none hover:bg-white font-bold w-12 h-10"
-						x-on:click="testimonialActive = testimonialActive === 1 ? 8 : testimonialActive - 1">
-						&#8592;
-					</button>
-					<button
-						class="prose prose rounded-r-full bg-gray-100 text-gray-500 focus:outline-none hover:bg-white font-bold w-12 h-10"
-						x-on:click="testimonialActive = testimonialActive >= 8 ? 1 : testimonialActive + 1">
-						&#8594;
-					  </button>
-				</div>
 			</div>
 
-			<div class="bg-gray-100 md:w-1/2">
-				<div class="flex flex-col h-full relative">
+			<div class=" container mx-auto flex flex-col md:flex-row shadow-sm overflow-hidden border-8 border-br-900" x-data="{ testimonialActive: 2 }" x-cloak>
+				<div class="bg-waves-back bg-cover md:w-1/2">
+					<div class="flex flex-col h-full relative bg-blend-multiply bg-white bg-opacity-50">
 
-					<div class="h-16 flex justify-center px-6 pt-2 pb-6 md:py-6">
-						{% for post in postslist%}
-							<div class="text-center" x-show="testimonialActive == {{loop.index}}">
-								<h2 class="prose prose-2xl text-2xl text-gray-700">
-									<strong>{{post.data.title}}</strong>
-								</h2>
-								<small class="text-gray-500 prose prose-xl text-2xl">{{post.data.author}}</small>
-							</div>
-						{% endfor %}
-					</div>
+						<div class="relative justify-center px-6 pt-2 pb-6 md:py-6">
+							{% for post in postslist%}
+								<div class="text-center" x-show="testimonialActive == {{loop.index}}">
+									<h2 class="prose prose-2xl text-3xl text-br-900 uppercase">
+										<strong>"{{post.data.title}}"</strong>
+									</h2>
+								</div>
+							{% endfor %}
+						</div>
 
-					<div class="md:h-64 h-96 px-12 relative z-10 w-full justify-center items-center text-justify">
-						{% for post in postslist%}
-							<div x-show.immediate="testimonialActive === {{loop.index}}">
-								<p class="text-gray-600 prose prose px-6 py-6 md:px-16 md:py-10 " x-show.transition="testimonialActive == {{loop.index}}">
-									{{ post.templateContent | safe }}
-								</p>
-							</div>
-						{% endfor %}
-					</div>
-
-					<div class="flex flex-wrap mx-auto my-4 justify-center items-center">
-						{% for post in postslist%}
+						<div class="md:h-72 px-12 relative z-10 w-full justify-center items-center text-justify">
+							{% for post in postslist%}
+								<div x-show.immediate="testimonialActive === {{loop.index}}">
+									<article>
+										<p class="text-br-900 prose prose px-6 md:px-16" x-show.transition="testimonialActive == {{loop.index}}">
+											{{ post.templateContent | safe }}
+										</p>
+										<h3 class="py-8 prose prose-2xl text-2xl text-br-900 text-center uppercase">- {{post.data.author}}</h3>
+									</article>
+								</div>
+							{% endfor %}
+						</div>
+						<div class="relative m-4 text-center block">
 							<button
-							@click.prevent="testimonialActive = {{loop.index}}"
-							class="text-center font-bold shadow-xs focus:outline-none focus:shadow-outline rounded-lg mx-2 py-1 m-2"
-							:class="{'px-4 opacity-25 bg-br-300 text-black': testimonialActive != {{loop.index}}, 'px-4 opacity-100 bg-br-500 text-white': testimonialActive == {{loop.index}} }"
-						>{{post.data.author}}</button>
-						{% endfor %}
+								class="prose prose rounded-l-full border-r bg-br-900 text-white focus:outline-none hover:bg-white hover:text-br-900 font-bold w-12 h-10"
+								x-on:click="testimonialActive = testimonialActive === 1 ? 8 : testimonialActive - 1">
+								&#8592;
+							</button>
+							<button
+								class="prose prose rounded-r-full bg-br-900 text-white focus:outline-none hover:bg-white font-bold hover:text-br-900 w-12 h-10"
+								x-on:click="testimonialActive = testimonialActive >= 8 ? 1 : testimonialActive + 1">
+								&#8594;
+							</button>
+						</div>
 					</div>
+				</div>
+				<div class="relative w-full md:w-1/2 flex flex-col item-center">
+					<img class="w-full h-full object-cover" src="/static/img/about/apr-office.jpg" alt="Athena Pearl Riley in the office"/>
 				</div>
 			</div>
 		</div>

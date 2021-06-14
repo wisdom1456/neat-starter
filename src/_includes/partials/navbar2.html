@@ -111,15 +111,18 @@
                         class="absolute z-10 w-screen max-w-md px-2 mt-3 transform -translate-x-1/2 left-1/2 sm:px-0">
                                 <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                     <div class="relative grid gap-6 px-5 py-6 bg-white bg-opacity-90 sm:gap-8 sm:p-8">
-                                        {% if locations.links %}
-                                            {% for item in locations.links %}
-                                                <a href="{{item.url}}" class="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-50">
+
+                                        {% set postslist = collections["Locations"]%}
+                                        {% if postslist | length %}
+                                            {% for post in postslist %}
+
+                                                <a href="{{post.url | url}}" class="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-50">
                                                     <div class="ml-4">
                                                         <p class="text-base font-medium text-gray-900">
-                                                            {{item.title}}
+                                                            {{post.data.title}}
                                                         </p>
                                                         <p class="mt-1 text-sm text-gray-500">
-                                                            {{item.subtitle}}
+                                                            {{post.data.subtitle}}
                                                         </p>
                                                     </div>
                                                 </a>

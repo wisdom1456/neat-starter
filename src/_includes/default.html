@@ -27,7 +27,35 @@
 
     <script src="/static/js/alpine.js"></script>
     <script type="text/javascript" src="/static/js/app.js"></script>
+    <script type="text/javascript">
+      var locations = [
+        [
+          'Tampa', 27.96047, -82.44563, 4
+        ],
+        [
+          'Clearwater', 27.89531, -82.71164, 5
+        ],
+        [
+          'Palm Harbor', 28.09283, -82.77241, 3
+        ],
+        [
+          'Holiday', 28.18833, -82.73232, 2
+        ],
+        [
+          'Northwest', 30.51894, -86.48097, 1
+        ]
+      ];
 
+      map = new google
+        .maps
+        .Map(document.getElementById('map'), {
+          center: {
+            lat: -34.397,
+            lng: 150.644
+          },
+          zoom: 8
+        });
+    </script>
     {% if path == "home" %}
       <!-- Netlify Identity Widget -->
       <!-- Needed only if you are using Netlify Identity feature -->

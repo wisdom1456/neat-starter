@@ -3,19 +3,18 @@
     <div class="space-y-12">
       <div class="flex flex-wrap mx-auto mb-20">
         <div class="p-4 mb-6 lg:w-1/2 lg:mb-0">
-          <h1 class="mb-2 prose prose-2xl text-br-400 text-2xl font-bold tracking-widest">Practice Areas</h1>
+          <h1 class="mb-2 prose prose-2xl text-br-900 text-2xl font-bold tracking-widest uppercase">Practice Areas</h1>
           <div class="w-20 h-1 bg-br-300 rounded"></div>
         </div>
-        <p class="p-4 prose prose-lg text-justify text-br-400 lg:w-1/2">Bernhardt Riley Law Firm is committed to defending your rights in the following areas:</p>
       </div>
-      <ul class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
+      <ul class="justify-center space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
         {% if pareas.links %}
           {% for item in pareas.links %}
             <li>
               <a href="{{item.url}}">
                 <div class="space-y-4 relative">
                   <div class="aspect-w-3 aspect-h-2 card-container absolute">
-                    <img class="object-cover shadow-lg rounded-lg" src="{{item.imageUrl}}" alt=""/>
+                    <img class="object-cover shadow-lg rounded-lg border-8 border-br-900" src="{{item.imageUrl}}" alt=""/>
                     <div class="hoverText ">
                       <div class="prose prose-lg p-6">
                         {{item.desc}}
@@ -23,7 +22,7 @@
                     </div>
                     <div class="top-48 relative">
                       <div class="prose prose-2xl">
-                        <button type="button" class="transition ease-in duration-700 inline-flex items-center px-6 py-3 border border-transparent shadow-sm  text-white bg-gray-600 bg-opacity-80 hover:bg-br-800 hover:scale-125 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        <button type="button" class="transition ease-in duration-700 inline-flex items-center px-6 py-3 border border-br-900 shadow-sm  text-white bg-gray-600 bg-opacity-80 hover:bg-br-800 hover:scale-125 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
 
                           {{item.title}}
                         </button>

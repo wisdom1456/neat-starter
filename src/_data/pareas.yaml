@@ -12,12 +12,6 @@ links:
       url: "/practice-areas/debt-defense"
       svg: "/static/img/svg/debt.svg"
       desc: As the former lead litigator for a large collection law firm, Stephen Bernhardt knows exactly how to attack a debt collectors case and protect your rights.
-    - title: Personal Injury
-      image: bg-ambulance
-      imageUrl: "/static/img/pareas/ambulance_c.jpg"
-      url: "/practice-areas/personal-injury"
-      svg: "/static/img/svg/ambulance.svg"
-      desc: Contact us to discuss whether you are entitled to compensation for injuries suffered in a car accident or while on the property of a business.
     - title: Real Estate
       image: bg-home
       imageUrl: "/static/img/pareas/condo.jpg"
@@ -35,4 +29,10 @@ links:
       imageUrl: "/static/img/pareas/bank_c.jpg"
       url: "/practice-areas/bankruptcy"
       svg: "/static/img/svg/bank.svg"
-      desc: Creating an estate plan, drafting a will, and setting up a revocable living trust in advance will ensure that you and your family are prepared to receive the care you deserve.
+      desc: Our team at Bernhardt Riley can help guide you through this difficult process so that you can get back on track as quickly as possible.
+    - title: Personal Injury
+      image: bg-ambulance
+      imageUrl: "/static/img/pareas/ambulance_c.jpg"
+      url: "/practice-areas/personal-injury"
+      svg: "/static/img/svg/ambulance.svg"
+      desc: Contact us to discuss whether you are entitled to compensation for injuries suffered in a car accident or while on the property of a business.

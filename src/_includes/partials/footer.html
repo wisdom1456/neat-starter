@@ -20,13 +20,15 @@
 
     <div class="grid gap-10 mt-10 mb-8 grid-cols-2 lg:grid-cols-5">
 
-      {% if offices.links %}
-        {% for item in offices.links %}
+      {% set postslist = collections["Locations"]%}
+      {% if postslist | length %}
+        {% for post in postslist %}
           <div>
-            <h3 class="prose prose-xl text-white">{{item.title}}</h3>
+            <h3 class="prose prose-xl text-white">{{post.data.title}}</h3>
             <p class="mt-2 prose prose-sm text-gray-300">
-              <span class="block">{{item.streetAddress1}}, {{item.streetAddress2}}</span>
-              <span class="block">{{item.cityState}} {{item.zipCode}}</span>
+              <span class="block">{{post.data.streetAddress1}}, {{post.data.streetAddress2}}</span>
+              <span class="block">{{post.data.cityState}}
+                {{post.data.zipCode}}</span>
             </p>
           </div>
         {% endfor %}
@@ -61,7 +63,7 @@
                 {% for post in postslist %}
                   <li>
                     <a href={{post.url | url}} class="prose prose-sm text-gray-300 hover:text-white">
-                      {{post.data.title}}
+                      {{post.data.name}}
                     </a>
                   </li>
                 {% endfor %}

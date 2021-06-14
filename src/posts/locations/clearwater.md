@@ -1,9 +1,7 @@
 ---
 title: Clearwater
 subtitle: Central Pinellas County
-description: Bernhardt Riley is under the direction of, Stephen Bernhardt, a
-  well-experienced criminal defense attorney and personal injury attorney
-  Clearwater.
+description: Bernhardt Riley is a criminal defense and personal injury law firm in Clearwater.
 author: Bernhardt Riley
 streetAddress1: 13575 58th St N
 streetAddress2: " "
