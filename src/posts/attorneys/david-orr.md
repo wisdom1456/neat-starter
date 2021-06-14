@@ -2,8 +2,8 @@
 name: David Orr
 title: Attorney
 date: 2021-05-28T03:37:19.170Z
-thumbnail: /static/img/posts/david.jpg
-thumbnail2: /static/img/posts/david.jpg
+thumbnail: /static/img/posts/orig-david.jpg
+thumbnail2: /static/img/posts/orig-david.jpg
 tags:
     - Attorneys
 ---

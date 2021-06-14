@@ -2,8 +2,8 @@
 name: Stephen M. Bernhardt
 title: Partner
 date: 2021-05-28T03:32:23.388Z
-thumbnail: /static/img/posts/stephen-c.png
-thumbnail2: /static/img/posts/blflorida-scaled.jpg
+thumbnail: /static/img/posts/orig-stephen-headshot.jpg
+thumbnail2: /static/img/posts/orig-stephen-standing.jpg
 tags:
   - Attorneys
 ---

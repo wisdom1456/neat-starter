@@ -12,7 +12,7 @@ body1: The experienced criminal defense attorneys at Bernhardt Riley are
 body2: Palm Harbor personal injury lawyers at Bernhardt Riley provide expert guidance and legal counsel to help you navigate the challenges that follow a personal Injury accident. A personal injury attorney will help you achieve the best resolution possible, which includes the recovery of compensation you may be entitled. Your debt defense lawyer in Palm Harbor, the legal counsel at Bernhardt Riley, represents clients in various bankruptcy, debt collection, harassment, and foreclosure defenses Palm Harbor, Florida.
 body3: At Bernhardt Riley, our debt defense attorneys in Palm Harbor will make sure that you are safe from false allegations and make it an even playing field. With the insight of a former collection agency attorney serving as your debt defense lawyer, you are much more likely to achieve a successful outcome.
 thumbnail: /static/img/posts/sailboat.jpg
-thumbnail2: /static/img/posts/slide3.jpg
+thumbnail2: /static/img/posts/orig-stephen-office1.jpg
 tags:
   - Locations
 ---

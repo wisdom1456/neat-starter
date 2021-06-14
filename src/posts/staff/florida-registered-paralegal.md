@@ -2,7 +2,7 @@
 name: Lauren Ashley Marouf
 title: Florida Registered Paralegal
 date: 2021-05-28T03:55:32.927Z
-thumbnail: /static/img/posts/lauren.jpg
+thumbnail: /static/img/posts/orig-lauren.jpg
 tags:
   - Staff
 ---

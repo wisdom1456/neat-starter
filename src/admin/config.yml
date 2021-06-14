@@ -1,10 +1,10 @@
 backend:
-  # Use netlify identity as backend
-  name: git-gateway
-  branch: master
-  ### enable below lines for github integration ###
-  # name: github
-  # repo: surjithctly/neat-starter
+    # Use netlify identity as backend
+    name: git-gateway
+    branch: master
+    ### enable below lines for github integration ###
+    # name: github
+    # repo: surjithctly/neat-starter
 media_folder: "src/static/img/posts"
 public_folder: "/static/img/posts"
 
@@ -12,170 +12,148 @@ public_folder: "/static/img/posts"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - label: "Settings"
-    name: "settings"
-    editor:
-      preview: false
-    files:
-      - label: "Navigation"
-        name: "items"
-        file: "src/_data/navigation.yaml"
-        fields:
-          - label: Nav Items
-            name: items
-            widget: list
-            allow_add: false
-            collapsed: false
+    - label: "Settings"
+      name: "settings"
+      editor:
+          preview: false
+      files:
+          - label: "Meta Settings"
+            name: "settings"
+            file: "src/_data/settings.yaml"
             fields:
-              - { label: Title, name: text, widget: string }
-              - { label: URL, name: url, widget: string }
-      - label: "Quick Links"
-        name: "links"
-        file: "src/_data/quicklinks.yaml"
-        fields:
-          - label: Nav Items
-            name: links
-            widget: list
-            collapsed: false
-            fields:
-              - { label: Title, name: title, widget: string }
-              - { label: URL, name: url, widget: string }
-              - { label: Description, name: desc, widget: string }
-      - label: "Meta Settings"
-        name: "settings"
-        file: "src/_data/settings.yaml"
-        fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Author, name: author, widget: string }
-          - { label: URL, name: url, widget: string }
-  - label: "PracticeAreas"
-    name: "practiceareas"
-    folder: "src/posts/practiceareas"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Featured Image"
-        name: "thumbnail"
-        widget: "image"
-        media_library:
-          config:
+                - { label: Name, name: name, widget: string }
+                - { label: Author, name: author, widget: string }
+                - { label: URL, name: url, widget: string }
+                - { label: Tampa Phone, name: tampaPhone, widget: string }
+                - { label: Destin Phone, name: destinPhone, widget: string }
+                - { label: Email, name: email, widget: string }
+    - label: "PracticeAreas"
+      name: "practiceareas"
+      folder: "src/posts/practiceareas"
+      create: true
+      editor:
+          preview: false
+      fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Author", name: "author", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - label: "Featured Image"
+            name: "thumbnail"
+            widget: "image"
+            media_library:
+                config:
+                    multiple: true
+          - widget: select
+            label: "tags"
+            name: "tags"
             multiple: true
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Criminal Defense", "Debt Defense", "Real Estate", "Personal Injury", "Business Litigation", "Bankruptcy"]
-  - label: "Locations"
-    name: "locations"
-    folder: "src/posts/locations"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Sub Title", name: "subtitle", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Street Address Line 1", name: "streetAddress1", widget: "string" }
-      - { label: "Street Address Line 2", name: "streetAddress2", widget: "string" }
-      - { label: "City, State", name: "cityState", widget: "string" }
-      - { label: "Zip Code", name: "zipCode", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body1", name: "body1", widget: "markdown" }
-      - { label: "Body2", name: "body2", widget: "markdown" }
-      - { label: "Body3", name: "body3", widget: "markdown" }
-      - label: "Featured Image"
-        name: "thumbnail"
-        widget: "image"
-        media_library:
-          config:
+            create: true
+            options: ["Criminal Defense", "Debt Defense", "Real Estate", "Personal Injury", "Business Litigation", "Bankruptcy"]
+    - label: "Locations"
+      name: "locations"
+      folder: "src/posts/locations"
+      create: true
+      editor:
+          preview: false
+      fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Sub Title", name: "subtitle", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Author", name: "author", widget: "string" }
+          - { label: "Street Address Line 1", name: "streetAddress1", widget: "string" }
+          - { label: "Street Address Line 2", name: "streetAddress2", widget: "string" }
+          - { label: "City, State", name: "cityState", widget: "string" }
+          - { label: "Zip Code", name: "zipCode", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body1", name: "body1", widget: "markdown" }
+          - { label: "Body2", name: "body2", widget: "markdown" }
+          - { label: "Body3", name: "body3", widget: "markdown" }
+          - label: "Featured Image"
+            name: "thumbnail"
+            widget: "image"
+            media_library:
+                config:
+                    multiple: true
+          - label: "Action Image"
+            name: "thumbnail2"
+            widget: "image"
+            media_library:
+                config:
+                    multiple: true
+          - widget: select
+            label: "tags"
+            name: "tags"
             multiple: true
-      - label: "Action Image"
-        name: "thumbnail2"
-        widget: "image"
-        media_library:
-          config:
+            create: true
+            options: ["Locations"]
+    - label: "Testimonials"
+      name: "testimonials"
+      folder: "src/posts/testimonials"
+      create: true
+      editor:
+          preview: false
+      fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Author", name: "author", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - widget: select
+            label: "tags"
+            name: "tags"
             multiple: true
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Locations"]
-  - label: "Testimonials"
-    name: "testimonials"
-    folder: "src/posts/testimonials"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Testimonials"]
-  - label: "Attorneys"
-    name: "attorneys"
-    folder: "src/posts/attorneys"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Featured Image"
-        name: "thumbnail"
-        widget: "image"
-        media_library:
-          config:
+            create: true
+            options: ["Testimonials"]
+    - label: "Attorneys"
+      name: "attorneys"
+      folder: "src/posts/attorneys"
+      create: true
+      editor:
+          preview: false
+      fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - label: "Featured Image"
+            name: "thumbnail"
+            widget: "image"
+            media_library:
+                config:
+                    multiple: true
+          - label: "Action Image"
+            name: "thumbnail2"
+            widget: "image"
+            media_library:
+                config:
+                    multiple: true
+          - widget: select
+            label: "tags"
+            name: "tags"
             multiple: true
-      - label: "Action Image"
-        name: "thumbnail2"
-        widget: "image"
-        media_library:
-          config:
+            create: true
+            options: ["Attorneys"]
+    - label: "Staff"
+      name: "staff"
+      folder: "src/posts/staff"
+      create: true
+      editor:
+          preview: false
+      fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - label: "Featured Image"
+            name: "thumbnail"
+            widget: "image"
+            media_library:
+                config:
+                    multiple: true
+          - widget: select
+            label: "tags"
+            name: "tags"
             multiple: true
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Attorneys"]
-  - label: "Staff"
-    name: "staff"
-    folder: "src/posts/staff"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Featured Image"
-        name: "thumbnail"
-        widget: "image"
-        media_library:
-          config:
-            multiple: true
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Staff"]
-
+            create: true
+            options: ["Staff"]
