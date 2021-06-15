@@ -62,5 +62,5 @@ module.exports = {
     variants: {
         animation: ["motion-safe"]
     },
-    plugins: [require("@tailwindcss/typography"), require("@tailwindcss/aspect-ratio")]
+    plugins: [require("@tailwindcss/typography"), require("@tailwindcss/aspect-ratio"), require('@tailwindcss/forms')]
 };
