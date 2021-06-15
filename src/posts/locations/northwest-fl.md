@@ -3,6 +3,10 @@ title: Northwest FL
 subtitle: Okaloosa County
 description: Bernhardt Riley handles civil law and real estate concerns in Northwest Florida.
 author: Bernhardt Riley
+
+titletag: Northwest Florida | Okaloosa County | Bernhardt Riley | Criminal Defense | Real Estate | Debt Relief
+metadesc: At Bernhardt Riley, our debt defense attorneys in Northwest Florida will make sure that you are safe from false allegations and make it an even playing field.
+
 streetAddress1: 701 E. John Sims Pkwy
 streetAddress2: "Suite 303, #112"
 cityState: Niceville, FL

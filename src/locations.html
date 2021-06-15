@@ -1,39 +1,15 @@
 ---
 layout: page
 title: Locations
+titletag: Law Firm Office Locations | Bernhardt Riley | Tampa and Norhtwest Florida
+metadesc: Learn about the different locations we can meet for a consultation - Palm Harbor, Clearwater, Tampa, Holiday, Northwest Florida.
 path: home
 image: '/static/img/posts/orig-location.webp'
 tint: bg-gray-400
 ---
 
-<div class="relative pt-16 pb-32 overflow-hidden">
-  <div class="container max-w-6xl">
-    <div class="flex flex-wrap mx-auto mb-20">
-      <div class="p-4 mb-6 lg:w-1/2 lg:mb-0">
-        <h2 class="mb-2 text-2xl font-medium text-gray-900 sm:text-3xl title-font">Our Locations</h2>
-        <div class="w-20 h-1 bg-indigo-500 rounded"></div>
-      </div>
-      <p class="p-4 text-lg leading-relaxed text-gray-700 lg:w-1/2">
-                Having conducted several dozen jury and non-jury trials, Bernhardt Riley has the knowledge and experience to represent your interest!
-            </p>
-    </div>
-    <div class="flex flex-wrap mx-auto">
-      {% set postslist = collections["Locations"]%}
-      {% if postslist | length %}
-        {% for post in postslist %}
-          <div class="p-4 xl:w-1/4 md:w-1/2">
-            <a href="{{post.url | url}}">
-              <div class="p-6 bg-gray-100 rounded-md hover:bg-br-300">
-                <img class="object-cover object-center w-full h-40 mb-6 rounded" src="{{post.data.thumbnail}}" alt="content"/>
-                <h3 class="text-xs font-medium tracking-widest text-indigo-500 title-font">{{post.data.subtitle}}</h3>
-                <h2 class="mb-4 text-lg font-medium text-gray-900 title-font">{{post.data.title}}</h2>
-              </div>
-            </a>
-          </div>
-          {%endfor%}
-          {%endif%}
-        </div>
-      </div>
-    </div>
+    {% include './_includes/partials/offices.html' %}
 
     {% include './_includes/partials/cta.html' %}
+
+    {% include './_includes/partials/locations.html' %}
