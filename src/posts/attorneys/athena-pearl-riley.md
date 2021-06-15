@@ -9,10 +9,10 @@ tags:
 ---
 
 <div class="text-lg max-w-prose mx-auto">
-  <h1 class="pt-12">
+  <h2 class="pt-12">
     <span class="block text-base text-center text-br-900 font-semibold tracking-wide uppercase">{{title}}</span>
     <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{name}}</span>
-  </h1>
+  </h2>
   <p class="mt-8 text-xl text-gray-500 leading-8">Athena Pearl Riley is a former felony prosecutor, licensed Realtor, and real estate investor. Athena’s extensive trial experience, meticulous attention to case details, and real estate background has made her the go-to attorney for individuals, investors and businesses alike seeking the zealous representation they deserve. Selected to serve as the Chief Justice of her alma mater at the University of New Mexico (UNM), Athena went on to graduate from UNM School of Law, where she was a member of her law school’s nationally ranked mock trial team, winning Regionals and advancing to Nationals. Athena received a number of distinguished honors during law school, including the American Association for Justice Partnership in Advocacy award, the American Board of Trial Advocates mock trial student of the year award, first place honors in the Mediation Competition, advancing to Regionals in the Negotiation Competition, competing in the invitation only National Institute for Trial Advocacy Tournament of Champions, and serving as the President of the New Mexico Trial Lawyers Student Association.</p>
 </div>
 <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
