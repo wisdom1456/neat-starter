@@ -2,6 +2,7 @@ const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
+const pluginPWA = require("eleventy-plugin-pwa");
 
 module.exports = function (eleventyConfig) {
     // Disable automatic use of your .gitignore
@@ -13,6 +14,13 @@ module.exports = function (eleventyConfig) {
     // human readable date
     eleventyConfig.addFilter("readableDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("dd LLL yyyy");
+    });
+
+    eleventyConfig.addPlugin(pluginPWA, {
+        swDest: "./_site/service-worker.js",
+        globDirectory: "./_site",
+        clientsClaim: true,
+        skipWaiting: true
     });
 
     // Syntax Highlighting for Code blocks
@@ -32,9 +40,10 @@ module.exports = function (eleventyConfig) {
     // Copy Image Folder to /_site
     eleventyConfig.addPassthroughCopy("./src/static/img");
     eleventyConfig.addPassthroughCopy("./src/static/js");
+    eleventyConfig.addPassthroughCopy("manifest.json");
 
     // Copy favicon to route of /_site
-    eleventyConfig.addPassthroughCopy("./src/favicon.ico");
+    eleventyConfig.addPassthroughCopy({ "./src/static/img/favicons": "./" });
 
     // Minify HTML
     eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
