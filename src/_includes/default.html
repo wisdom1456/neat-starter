@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- HTML Meta Tags -->
     <title>
       {{titletag}}
     </title>
     {% if description %}
       <meta name="description" content="{{metadesc}}"/>
     {% endif %}
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="{{titletag}}">
+    <meta itemprop="description" content="{{metadesc}}">
+    <meta itemprop="image" content="{{thumbnail}}">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://brneat.netlify.app{{page.url}}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{titletag}}">
+    <meta property="og:description" content="{{metadesc}}">
+    <meta property="og:image" content="{{thumbnail}}">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{titletag}}">
+    <meta name="twitter:description" content="{{metadesc}}">
+    <meta name="twitter:image" content="{{thumbnail}}">
+
     {% block head %}{% endblock %}
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
