@@ -3,7 +3,7 @@ name: Stephen M. Bernhardt
 title: Partner
 date: 2021-05-28T03:32:23.388Z
 
-titletag: Clearwater | Central Pinellas County | Bernhardt Riley
+titletag: Stephen M. Bernhardt | Partner | Bernhardt Riley
 metadesc: Stephen M. Bernhardt has been an attorney since 2010. A decade later, Stephen has accumulated extensive trial experience in both criminal and civil law.
 
 thumbnail: /static/img/posts/orig-stephen.webp
@@ -18,7 +18,7 @@ tags:
     <span class="block prose-sm text-center text-br-900  uppercase">{{title}} at Bernhardt Riley</span>
   </h2>
   <figure>
-    <img class="w-full rounded-md" src={{thumbnail}} alt="" width="1310" height="873">
+    <img class="w-full rounded-md" src={{thumbnail}} alt="{{title}}" width="1310" height="873">
     <figcaption></figcaption>
   </figure>
   <p class="mt-8 text-xl text-gray-500 leading-8">Stephen M. Bernhardt has been an attorney since 2010. A decade later, Stephen has accumulated extensive trial experience in both criminal and civil law. He began his legal career as a prosecutor, first handling misdemeanor offenses such as DUI, Battery, Possession of a Controlled Substance, Violation of Injunction and many others. Stephen quickly escalated to a felony division and became senior attorney in his division. As such, Stephen conducted many trials involving high-level crimes. Stephen won multiple jury trials that resulted in prison sentences of more than 25 years, including one life sentence. Stephen also became the State Attorney’s Office’s liaison for the county’s Drug Court Program. In this role, he learned many techniques to help individuals overcome addictions, as well as what differences exist between the many rehabilitation establishments throughout Florida.</p>
