@@ -2,22 +2,6 @@ const root = document.documentElement;
 const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
 const marqueeContent = document.querySelector("ul.marquee-content");
 
-
-document.querySelector("form").addEventListener("submit", handleSubmit);
-
-const handleSubmit = (e) => {
-  e.preventDefault()
-  let myForm = document.getElementById('consulta');
-  let formData = new FormData(myForm)
-  fetch('/', {
-    method: 'POST',
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString()
-  }).then(() => console.log('Form successfully submitted')).catch((error) =>
-    alert(error))
-}
-
-
 if (marqueeContent) {
     root.style.setProperty("--marquee-elements", marqueeContent.children.length);
 
