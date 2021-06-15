@@ -9,7 +9,7 @@ tags:
 ---
 <div class="text-lg max-w-prose mx-auto">
   <h1 class="pt-12">
-    <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">{{title}}</span>
+    <span class="block text-base text-center text-br-900 font-semibold tracking-wide uppercase">{{title}}</span>
     <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{name}}</span>
   </h1>
   <p class="mt-8 text-xl text-gray-500 leading-8">Stephen M. Bernhardt has been an attorney since 2010. A decade later, Stephen has accumulated extensive trial experience in both criminal and civil law. He began his legal career as a prosecutor, first handling misdemeanor offenses such as DUI, Battery, Possession of a Controlled Substance, Violation of Injunction and many others. Stephen quickly escalated to a felony division and became senior attorney in his division. As such, Stephen conducted many trials involving high-level crimes. Stephen won multiple jury trials that resulted in prison sentences of more than 25 years, including one life sentence. Stephen also became the State Attorney’s Office’s liaison for the county’s Drug Court Program. In this role, he learned many techniques to help individuals overcome addictions, as well as what differences exist between the many rehabilitation establishments throughout Florida.</p>
@@ -20,7 +20,7 @@ tags:
   <p>Stephen remains active in the Tampa Bay area and enjoys giving back to the community whenever possible.  While keeping up the activities of his three children, Stephen also participates in various charities, local high school shadowing programs, and supports BIKERSCAP, a non-profit organization that has been building laptops for underprivileged students for many years. Stephen is also a member of the Clearwater Bar Association, St. Petersburg Bar Association, the Hillsborough Bar Association, and the Palm Harbor Chamber of Commerce. </p>
 
   <figure>
-    <img class="w-full rounded-lg" src={{thumbnail}} alt="" width="1310" height="873">
+    <img class="w-full rounded-md" src={{thumbnail}} alt="" width="1310" height="873">
     <figcaption></figcaption>
   </figure>
   <h2>Practice areas:</h2>
