@@ -2,10 +2,14 @@
 name: Simona Burshtyn
 title: Attorney
 date: 2021-05-28T03:48:53.160Z
+
+titletag: Simona Burshtyn | Attorney | Bernhardt Riley
+metadesc: One of the benefits of hiring a lawyer is that you will have an expert on your side who knows how to navigate legal proceedings.
+
 thumbnail: /static/img/posts/orig-simona.webp
 thumbnail2: /static/img/posts/orig-simona.webp
 tags:
-  - Attorneys
+    - Attorneys
 ---
 
 <div class="text-lg max-w-prose mx-auto">

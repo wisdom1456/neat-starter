@@ -2,11 +2,16 @@
 name: Stephen M. Bernhardt
 title: Partner
 date: 2021-05-28T03:32:23.388Z
+
+titletag: Clearwater | Central Pinellas County | Bernhardt Riley
+metadesc: Stephen M. Bernhardt has been an attorney since 2010. A decade later, Stephen has accumulated extensive trial experience in both criminal and civil law.
+
 thumbnail: /static/img/posts/orig-stephen.webp
 thumbnail2: /static/img/posts/orig-stephen-standing.webp
 tags:
-  - Attorneys
+    - Attorneys
 ---
+
 <div class="text-lg max-w-prose mx-auto">
   <h2 class="pt-12 prose">
     <span class=" prose-lg block text-3xl text-center font-bold text-gray-900 sm:text-4xl">{{name}}</span>

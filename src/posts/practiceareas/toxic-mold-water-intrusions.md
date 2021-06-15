@@ -3,6 +3,11 @@ title: Toxic Mold & Water Intrusions
 description: Let the real estate attorneys at Bernhardt Riley take care of your
   toxic mold issues and water intrusion issues.
 author: Bernhardt Riley
+
+titletag: Toxic Mold & Water Intrusions | Real Estate | Bernhardt Riley
+metadesc: Let the real estate attorneys at Bernhardt Riley take care of your
+  toxic mold issues and water intrusion issues.
+
 date: 2021-05-22T17:55:00.847Z
 thumbnail: /static/img/posts/timothy-meinberg-_ghldpn8myo-unsplash.webp
 tags:

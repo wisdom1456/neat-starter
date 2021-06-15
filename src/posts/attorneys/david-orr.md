@@ -2,6 +2,12 @@
 name: David Orr
 title: Attorney
 date: 2021-05-28T03:37:19.170Z
+
+titletag: David Orr | Attorney | Bernhardt Riley
+metadesc:
+    David Orr began his legal career practicing civil law for one of the largest creditors’ rights firms in the United States, after graduating from Stetson University College of Law as a full Dean’s
+    Merit Scholarship recipient.
+
 thumbnail: /static/img/posts/orig-david.webp
 thumbnail2: /static/img/posts/orig-david.webp
 tags:

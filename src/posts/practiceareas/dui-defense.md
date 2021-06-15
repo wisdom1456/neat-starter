@@ -1,14 +1,19 @@
 ---
 title: DUI Defense
-description: A DUI conviction in Florida comes with serious penalties compared
-  to other states.
-author: Stephen M. Bernhardt
+description: A DUI conviction in Florida comes with serious penalties compared to other states.
+author: Bernhardt Riley
+
+titletag: DUI Defense | Criminal Defense | Bernhardt Riley
+metadesc: A DUI conviction in Florida comes with serious penalties compared to other states.
+
 date: 2021-05-17T19:43:43.524Z
 thumbnail: /static/img/posts/orig-cop_lights.webp
 tags:
-  - Criminal Defense
+    - Criminal Defense
 ---
-A DUI conviction in Florida comes with serious penalties compared to other states. However, a DUI is not always an easy offense for the prosecution to prove. In fact, there are many potential defenses inherent in any DUI case.
+
+A DUI conviction in Florida comes with serious penalties compared to other states. However, a DUI is not always an easy offense for the prosecution to prove. In fact, there are many potential defenses
+inherent in any DUI case.
 
 Having prosecuted countless DUIs for the State Attorney’s Office, Stephen M. Bernhardt has the knowledge and expertise to prepare the best defense for your case.
 
@@ -18,7 +23,7 @@ If you have been arrested for DUI in Pinellas, Hillsborough or Pasco Counties, y
 
 You must demand a Formal Administrative Review Hearing within 10 days of your arrest to challenge your driver’s license suspension following a DUI.
 
-If this is your first DUI arrest, you may be able to immediately apply for a hardship license. 
+If this is your first DUI arrest, you may be able to immediately apply for a hardship license.
 
 Bernhardt Riley will act quickly to help get your license reinstated.
 
