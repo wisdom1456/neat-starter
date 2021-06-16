@@ -1,6 +1,19 @@
+
+
+const emailForm = document.querySelector('.email-form')
+if (emailForm) {
+  emailForm.addEventListener('submit', e => {
+    e.preventDefault();
+    processForm(emailForm);
+  })
+}
+
 const processForm = form => {
+
+  const startTime = performance.now();
+
     const data = new FormData(form)
-    data.append('form-name', 'newsletter');
+    data.append('form-name', 'contactform');
     fetch('/', {
       method: 'POST',
       body: data,
@@ -11,12 +24,8 @@ const processForm = form => {
     .catch(error => {
       form.innerHTML = `<div class="form--error">Error: ${error}</div>`;
     })
-}
 
-const emailForm = document.querySelector('.email-form')
-if (emailForm) {
-  emailForm.addEventListener('submit', e => {
-    e.preventDefault();
-    processForm(emailForm);
-  })
+    const duration = performance.now() - startTime;
+    console.log(`someMethodIThinkMightBeSlow took ${duration}ms`);
+
 }
