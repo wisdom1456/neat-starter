@@ -18,15 +18,3 @@ path: home
 {% include "./_includes/partials/short-banner.html" %}
 {% include "./_includes/partials/locations.html" %}
 {% include "./_includes/partials/testimonials4.html" %}
-
-<script>
-  if ("serviceWorker" in navigator) {
-    navigator
-      .serviceWorker
-      .register("/service-worker.js")
-      .then(function () {
-        console.log("ServiceWorker has been registered!");
-      })
-      .catch(console.error);
-  }
-</script>
