@@ -36,13 +36,9 @@ const emailForm = document.querySelector(".contactform");
 
 if (emailForm) {
     emailForm.addEventListener("submit", (e) => {
-        console.log("inside");
         const startTime = performance.now();
         e.preventDefault();
         processForm(emailForm);
-        console.log("done");
-        const duration = performance.now() - startTime;
-        console.log(`someMethodIThinkMightBeSlow took ${duration}ms`);
     });
 }
 
@@ -50,10 +46,12 @@ const processForm = (form) => {
     const data = new FormData(form);
     console.log(data);
     data.append("form-name", "contactform");
-    fetch("/", {
+    fetch("/contact", {
         method: "POST",
         body: data
     })
         .then((emailForm.innerHTML = "Thank you for your submission! Someone from our firm will be in contact with you soon."))
-        .catch((emailForm.innerHTML = "There was a problem with your submission.  Please refresh the page and try again - sorry!"));
+        .catch(error => {
+            emailForm.innerHTML = "There was a problem with your submission.  Please refresh the page and try again - sorry!" + error
+        });
 };
