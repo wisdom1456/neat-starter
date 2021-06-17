@@ -7,6 +7,41 @@ layout: page2
     {% include 'partials/locations.html' %}
 </div>
 
+<script>
+
+    let map1;
+    function initMap() {
+        map1 = new google
+            .maps
+            .Map(document.getElementById("map1"), {
+                center: {
+                    lat: {{lat}},
+                    lng: {{lon}}
+                },
+                disableDefaultUI: true,
+                zoom: 10
+            });
+
+        const marker1 = new google
+            .maps
+            .Marker({
+                // The below line is equivalent to writing:
+                // position: new google.maps.LatLng(-34.397, 150.644)
+                position: {
+                    lat: {{lat}},
+                    lng: {{lon}}
+                },
+                map: map1
+            });
+    }
+</script>
+
+<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBe9Osrse3gw91wR832T2aEgMdR7DafAl4&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+
 <!-- header with city name -->
 <!-- info on practice -->
 <!-- info on attorney -->

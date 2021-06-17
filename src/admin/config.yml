@@ -63,6 +63,8 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Sub Title", name: "subtitle", widget: "string" }
           - { label: "Description", name: "description", widget: "string" }
+          - { label: "Lattitude", name: "lat", widget: "string" }
+          - { label: "Longitude", name: "lon", widget: "string" }
           - { label: "Title Tag", name: "titletag", widget: "string" }
           - { label: "Meta Desc", name: "metadesc", widget: "string" }
           - { label: "Author", name: "author", widget: "string" }

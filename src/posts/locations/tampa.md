@@ -4,6 +4,9 @@ subtitle: Hillsborough County
 description: Bernhardt Riley is a criminal defense and personal injury law firm in Tampa.
 author: Bernhardt Riley
 
+lat: "27.96047"
+lon: "-82.44563"
+
 titletag: Tampa | Hillsborough County | Bernhardt Riley
 metadesc: At Bernhardt Riley, our debt defense attorneys in Tampa will make sure that you are safe from false allegations and make it an even playing field.
 

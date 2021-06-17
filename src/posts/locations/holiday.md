@@ -4,6 +4,9 @@ subtitle: Pasco County
 description: Bernhardt Riley is a criminal defense and personal injury law firm in Palm Harbor.
 author: Bernhardt Riley
 
+lat: "28.18833"
+lon: "-82.7323"
+
 titletag: Holiday | Pasco County | Bernhardt Riley
 metadesc: At Bernhardt Riley, our debt defense attorneys in Holiday will make sure that you are safe from false allegations and make it an even playing field.
 
