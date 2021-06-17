@@ -39,12 +39,12 @@
 						<div class="relative m-4 text-center block">
 							<button
 								class="prose prose rounded-l-full border-r bg-br-900 text-white focus:outline-none hover:bg-white hover:text-br-900 font-bold w-12 h-10"
-								x-on:click="testimonialActive = testimonialActive === 1 ? 8 : testimonialActive - 1">
+								x-on:click="testimonialActive = testimonialActive === 1 ? {{postslist | length}} : testimonialActive - 1">
 								&#8592;
 							</button>
 							<button
 								class="prose prose rounded-r-full bg-br-900 text-white focus:outline-none hover:bg-white font-bold hover:text-br-900 w-12 h-10"
-								x-on:click="testimonialActive = testimonialActive >= 8 ? 1 : testimonialActive + 1">
+								x-on:click="testimonialActive = testimonialActive >= {{postslist | length}} ? 1 : testimonialActive + 1">
 								&#8594;
 							</button>
 						</div>
