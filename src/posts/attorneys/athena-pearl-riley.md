@@ -24,7 +24,7 @@ tags:
   <h2>Community Involvement:</h2>
   <p>Athena is very active in her community, having served on a number of local boards including United Way, Boys & Girls Club and the Healthy Start Coalition. Athena is the founding member of the Okaloosa Florida Association for Women Lawyers (OFAWL), and of Franklin’s Tree House Foundation, where her and her husband have created the “Confident Kids!” program which partners with Children in Crisis, Inc, a non-profit organization serving foster children from Okaloosa, Walton, Santa Rosa and Escambia counties. She is also a member of the Professional Investor’s Guild – a local real estate investing association, where she received the award for best before and after home renovation. In her free time, Athena enjoys running, reading, cooking and exploring the white sand beaches and nature trails of the place she now calls home.</p>
   <figure>
-    <img class="w-full rounded-md" src={{thumbnail}} alt="{{title}}" width="1310" height="873">
+    <img class="w-full rounded-md" src={{thumbnail}} alt="{{title}}" width="1310" height="873" />
     <figcaption></figcaption>
   </figure>
   <h2>Practice areas:</h2>

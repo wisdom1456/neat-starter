@@ -3,8 +3,54 @@ const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const pluginPWA = require("eleventy-plugin-pwa");
+const Image = require("@11ty/eleventy-img")
+const path = require('path')
+
+async function imageShortcode(src, alt) {
+    let sizes = "(min-width: 1024px) 100vw, 50vw"
+    let srcPrefix = `./src/`
+    src = srcPrefix + src
+    console.log(`Generating image(s) from:  ${src}`)
+    if(alt === undefined) {
+      // Throw an error on missing alt (alt="" works okay)
+      throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`)
+    }
+    let metadata = await Image(src, {
+      widths: [600, 900, 1500],
+      formats: ['webp', 'jpeg'],
+      urlPath: "/images/",
+      outputDir: "./_site/images/",
+      /* =====
+      Now we'll make sure each resulting file's name will
+      make sense to you. **This** is why you need
+      that `path` statement mentioned earlier.
+      ===== */
+      filenameFormat: function (id, src, width, format, options) {
+        const extension = path.extname(src)
+        const name = path.basename(src, extension)
+        return `${name}-${width}w.${format}`
+      }
+    })
+    let lowsrc = metadata.jpeg[0]
+    return `<picture>
+      ${Object.values(metadata).map(imageFormat => {
+        return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`
+      }).join("\n")}
+      <img
+        src="${lowsrc.url}"
+        width="${lowsrc.width}"
+        height="${lowsrc.height}"
+        alt="${alt}"
+        loading="lazy"
+        decoding="async">
+    </picture>`
+  }
+
 
 module.exports = function (eleventyConfig) {
+
+    eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+    eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
     // Disable automatic use of your .gitignore
     eleventyConfig.setUseGitIgnore(false);

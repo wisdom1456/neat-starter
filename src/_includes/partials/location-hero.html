@@ -28,7 +28,9 @@
         </div>
       </div>
       <div class="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
-        <img class="object-cover object-left-top transform translate-x-6 translate-y-6 rounded-md shadow-xl sm:translate-x-16 lg:translate-y-20" src="{{image}}" alt="{{title}}">
+        <div class="object-cover object-left-top transform translate-x-6 translate-y-6 rounded-md shadow-xl sm:translate-x-16 lg:translate-y-20">
+          {% images image, title" %}
+        </div>
       </div>
     </div>
   </div>

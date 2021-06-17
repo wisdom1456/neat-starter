@@ -9,64 +9,67 @@
       <div class="flex flex-wrap mx-auto mb-20">
         <div class="p-4 mb-6 lg:w-1/2 lg:mb-0">
           2 class="mb-2 prose prose-2xl text-br-400 text-2xl font-bold tracking-widest">Legal Information</h1>
-          <div class="w-20 h-1 bg-br-300 rounded"></div>
-        </div>
-        <a href="/practice-areas">
-          <p class="p-4 prose prose-lg text-br-400">
+        <div class="w-20 h-1 bg-br-300 rounded"></div>
+      </div>
+      <a href="/practice-areas">
+        <p class="p-4 prose prose-lg text-br-400">
                 Click here to view our Legal Blog
             </p>
-        </a>
-      </div>
+      </a>
     </div>
+  </div>
 
-    <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-      {% set postslist = collections["Criminal Defense"] %}
-      {% for post in postslist | reverse%}
-        {% if loop.index < 4 %}
-          <div class="flex flex-col rounded-md shadow-lg overflow-hidden">
-            <div class="flex-shrink-0">
-              <img class="h-48 w-full object-cover" src="{{post.data.thumbnail}}" alt="{{post.data.title}}">
+  <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+    {% set postslist = collections["Criminal Defense"] %}
+    {% for post in postslist | reverse%}
+      {% if loop.index < 4 %}
+        <div class="flex flex-col rounded-md shadow-lg overflow-hidden">
+          <div class="flex-shrink-0">
+            <div class="h-48 w-full object-cover">
+              {% image post.data.thumbnail,
+              post.data.title %}
             </div>
-            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-              <div class="flex-1">
-                <p class="text-sm font-medium text-br-600">
-                  <a href="#" class="hover:underline">
-                    {{post.data.author}}
-                  </a>
-                </p>
-                <a href="{{ post.url | url }}" class="block mt-2">
-                  <p class="text-xl font-semibold text-gray-900">
-                    {% if post.data.title %}
-                      {{ post.data.title }}
-                    {% else %}
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <p class="text-sm font-medium text-br-600">
+                <a href="#" class="hover:underline">
+                  {{post.data.author}}
+                </a>
+              </p>
+              <a href="{{ post.url | url }}" class="block mt-2">
+                <p class="text-xl font-semibold text-gray-900">
+                  {% if post.data.title %}
+                    {{ post.data.title }}
+                  {% else %}
                         Untitled
                     {% endif %}
-                    <p></a>
+                  <p></a>
 
-                    <p class="mt-3 text-base text-justify text-gray-500">
-                      {{ post.data.description }}
-                    </p>
-                  </a>
+                  <p class="mt-3 text-base text-justify text-gray-500">
+                    {{ post.data.description }}
+                  </p>
+                </a>
 
-                </div>
-                <div class="mt-6 flex items-center">
-                  <div class="ml-3">
-                    <p class="text-sm font-medium text-gray-900">
-                      <a href="#" class="hover:underline">
-                        {{ post.data.tags[1]}}
-                      </a>
-                    </p>
-                    <div class="flex space-x-1 text-sm text-gray-500">
-                      <time datetime="2020-03-16">
-                        {{post.data.date | readableDate}}
-                      </time>
-                    </div>
+              </div>
+              <div class="mt-6 flex items-center">
+                <div class="ml-3">
+                  <p class="text-sm font-medium text-gray-900">
+                    <a href="#" class="hover:underline">
+                      {{ post.data.tags[1]}}
+                    </a>
+                  </p>
+                  <div class="flex space-x-1 text-sm text-gray-500">
+                    <time datetime="2020-03-16">
+                      {{post.data.date | readableDate}}
+                    </time>
                   </div>
                 </div>
               </div>
             </div>
-          {% endif %}
-        {% endfor %}
-      </div>
+          </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
+</div>

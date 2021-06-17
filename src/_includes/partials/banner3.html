@@ -30,7 +30,8 @@
                 </div>
             </div>
             <div class="aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1 rounded-md ">
-                <img class="p-8 transform object-contain object-center" src="{{thumbnail2}}" alt="{{name}} - {{title}}">
+                <div class="p-8 transform object-contain object-center">
+                    {% image thumbnail2, name + "-" + title %}</div>
             </div>
         </div>
     </div>

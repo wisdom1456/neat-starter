@@ -34,7 +34,9 @@
                             <a href={{post.url | url}}>
                                 <div class="space-y-4">
                                     <div class="aspect-w-3 aspect-h-2">
-                                        <img class="object-cover object-top shadow-lg rounded-md" src="{{post.data.thumbnail}}" alt="{{post.data.title}}">
+                                        <div class="object-cover object-top shadow-lg rounded-md">
+                                        {% image post.data.thumbnail, post.data.title %}
+                                        </div>
                                     </div>
 
                                     <div class="space-y-2">

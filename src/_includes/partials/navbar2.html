@@ -5,7 +5,9 @@
             <div class="flex justify-start lg:w-0 lg:flex-1">
                 <a href="/">
                     <span class="sr-only">Workflow</span>
-                    <img class="w-auto h-8 sm:h-10" src="/static/img/logos/logo-blue.svg" alt="Bernhardt Riley Logo">
+                    <div class="w-auto h-8 sm:h-10" >
+                        {% images "/static/img/logos/logo-blue.svg", "Bernhardt Riley Logo" %}
+                    </div>
                 </a>
             </div>
             <div class="-my-2 -mr-2 md:hidden">
@@ -64,7 +66,10 @@
                                     {% for item in pareas.links %}
                                         <a href="{{item.url}}" class="flex items-start p-3 -m-3 rounded-md hover:bg-gray-50">
                                             <!-- Heroicon name: outline/chart-bar -->
-                                            <img class="flex-shrink-0 w-6 h-6" src="{{item.svg}}" alt="{{item.title}}">
+                                            <div class="flex-shrink-0 w-6 h-6">
+                                                {% image item.svg,
+                                                item.title %}
+                                            </div>
                                             <div class="ml-4">
                                                 <p class="text-base font-medium text-gray-900">
                                                     {{item.title}}
@@ -167,7 +172,9 @@
                             <div class="px-5 pt-5 pb-6">
                                 <div class="flex items-center justify-between">
                                     <div>
-                                        <img class="w-auto h-8" src="/static/img/logos/logo-blue.svg" alt="Bernhardt Riley Logo">
+                                        <div class="w-auto h-8">
+                                            {% images "/static/img/logos/logo-blue.svg" ,"Bernhardt Riley Logo" %}
+                                        </div>
                                     </div>
                                     <div class="-mr-2">
                                         <button
