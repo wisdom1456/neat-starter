@@ -3,36 +3,36 @@ links:
     - title: Criminal Defense
       image: bg-police
       imageUrl: "/static/img/posts/orig-police.webp"
-      url: "/practice-areas/criminal-defense"
+      url: "/practice-areas/criminal-defense/"
       svg: "/static/img/svg/handcuffs.svg"
       desc: Your rights deserve to be protected and your side of the story deserves to be heard. We go the extra mile to achieve justice for all of our clients.
     - title: Debt Defense
       image: bg-debt
       imageUrl: "/static/img/posts/orig-debt.webp"
-      url: "/practice-areas/debt-defense"
+      url: "/practice-areas/debt-defense/"
       svg: "/static/img/svg/debt.svg"
       desc: As the former lead litigator for a large collection law firm, Stephen M. Bernhardt knows exactly how to attack a debt collectors case and protect your rights.
     - title: Real Estate
       image: bg-home
       imageUrl: "/static/img/posts/orig-condo.webp"
-      url: "/practice-areas/real-estate"
+      url: "/practice-areas/real-estate/"
       svg: "/static/img/svg/home.svg"
       desc: Whether you’re a condominium owner or a Homeowner’s Association our skills and attention to detail are devoted to your contested issues and real estate needs.
     - title: Business Litigation
       image: bg-court
       imageUrl: "/static/img/posts/orig-court.webp"
-      url: "/practice-areas/business-litigation"
+      url: "/practice-areas/business-litigation/"
       svg: "/static/img/svg/hammer.svg"
       desc: Protecting yourself and your financial assets is an important part of your business, and we are here to help you every step of the way.
     - title: Bankruptcy
       image: bg-bank
       imageUrl: "/static/img/posts/orig-bank.webp"
-      url: "/practice-areas/bankruptcy"
+      url: "/practice-areas/bankruptcy/"
       svg: "/static/img/svg/bank.svg"
       desc: Our team at Bernhardt Riley can help guide you through this difficult process so that you can get back on track as quickly as possible.
     - title: Personal Injury
       image: bg-ambulance
       imageUrl: "/static/img/posts/orig-ambulance.webp"
-      url: "/practice-areas/personal-injury"
+      url: "/practice-areas/personal-injury/"
       svg: "/static/img/svg/ambulance.svg"
       desc: Contact us to discuss whether you are entitled to compensation for injuries suffered in a car accident or while on the property of a business.
