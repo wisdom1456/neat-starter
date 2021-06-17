@@ -5,6 +5,7 @@ const htmlmin = require("html-minifier");
 const pluginPWA = require("eleventy-plugin-pwa");
 
 module.exports = function (eleventyConfig) {
+
     // Disable automatic use of your .gitignore
     eleventyConfig.setUseGitIgnore(false);
 
