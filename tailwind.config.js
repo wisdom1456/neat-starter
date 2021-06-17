@@ -41,7 +41,8 @@ module.exports = {
                 }
             },
             fontFamily: {
-                sans: ["Montserrat", ...defaultTheme.fontFamily.sans]
+                sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+                serif: ["Roboto Slab", ...defaultTheme.fontFamily.serif]
             }
         },
         backgroundImage: (theme) => ({
@@ -62,5 +63,5 @@ module.exports = {
     variants: {
         animation: ["motion-safe"]
     },
-    plugins: [require("@tailwindcss/typography"), require("@tailwindcss/aspect-ratio"), require('@tailwindcss/forms')]
+    plugins: [require("@tailwindcss/typography"), require("@tailwindcss/aspect-ratio"), require("@tailwindcss/forms")]
 };
