@@ -7,7 +7,7 @@ titletag: Bed Bug Infestation | Real Estate | Bernhardt Riley
 metadesc: Bed bug attacks have resulted in physical and psychological injuries...
 
 date: 2021-05-22T17:56:35.457Z
-thumbnail: /static/img/posts/hiroshi-kimura-pxplexh2m7s-unsplash.webp
+thumbnail: /static/img/posts/hiroshi-kimura-pxplexh2m7s-unsplash.jpg
 tags:
   - Real Estate
 ---

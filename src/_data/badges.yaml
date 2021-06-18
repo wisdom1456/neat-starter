@@ -1,26 +1,26 @@
 ---
 items:
     - name: Blog
-      url: "/static/img/badges/pshop/convert/6_result.webp"
+      url: "/static/img/badges/pshop/6.png"
     - name: Home
-      url: "/static/img/badges/pshop/convert/1_result.webp"
+      url: "/static/img/badges/pshop/1.png"
     - name: About
-      url: "/static/img/badges/pshop/convert/2_result.webp"
+      url: "/static/img/badges/pshop/2.png"
     - name: Practice Areas
-      url: "/static/img/badges/pshop/convert/3_result.webp"
+      url: "/static/img/badges/pshop/3.png"
     - name: Locations
-      url: "/static/img/badges/pshop/convert/4_result.webp"
+      url: "/static/img/badges/pshop/4.png"
     - name: Contact
-      url: "/static/img/badges/pshop/convert/5_result.webp"
+      url: "/static/img/badges/pshop/5.png"
     - name: Blog
-      url: "/static/img/badges/pshop/convert/7_result.webp"
+      url: "/static/img/badges/pshop/7.png"
     - name: Blog
-      url: "/static/img/badges/pshop/convert/10_result.webp"
+      url: "/static/img/badges/pshop/10.png"
     - name: Blog
-      url: "/static/img/badges/pshop/convert/9_result.webp"
+      url: "/static/img/badges/pshop/9.png"
     - name: Blog
-      url: "/static/img/badges/pshop/convert/11_result.webp"
+      url: "/static/img/badges/pshop/11.png"
     - name: Blog
-      url: "/static/img/badges/pshop/convert/12_result.webp"
+      url: "/static/img/badges/pshop/12.png"
     - name: Blog
-      url: "/static/img/badges/pshop/convert/13_result.webp"
+      url: "/static/img/badges/pshop/13.png"

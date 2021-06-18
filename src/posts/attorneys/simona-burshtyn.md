@@ -6,8 +6,8 @@ date: 2021-05-28T03:48:53.160Z
 titletag: Simona Burshtyn | Attorney | Bernhardt Riley
 metadesc: One of the benefits of hiring a lawyer is that you will have an expert on your side who knows how to navigate legal proceedings.
 
-thumbnail: /static/img/posts/orig-simona.webp
-thumbnail2: /static/img/posts/orig-simona.webp
+thumbnail: /static/img/posts/orig-simona.jpg
+thumbnail2: /static/img/posts/orig-simona.jpg
 tags:
     - Attorneys
 ---

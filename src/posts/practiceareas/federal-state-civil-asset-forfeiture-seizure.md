@@ -7,7 +7,7 @@ titletag: Federal & State Civil Asset Forfeiture & Seizure | Criminal Defense | 
 metadesc: Asset Forfeiture” refers to The Florida Contraband Forfeiture Act which allows state and federal law enforcement agents to seize certain assets...
 
 date: 2021-05-22T18:04:25.479Z
-thumbnail: /static/img/posts/jan-antonin-kolar-5pfthlik7wq-unsplash.webp
+thumbnail: /static/img/posts/jan-antonin-kolar-5pfthlik7wq-unsplash.jpg
 tags:
     - Criminal Defense
 ---

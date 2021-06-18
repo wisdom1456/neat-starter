@@ -7,7 +7,7 @@ titletag: Credit Card or Financed Purchase | Debt Defense | Bernhardt Riley
 metadesc: Credit Card or Financed Purchase
 
 date: 2021-05-22T17:18:35.106Z
-thumbnail: /static/img/posts/banking-card-credit-card-1332191.webp
+thumbnail: /static/img/posts/banking-card-credit-card-1332191.jpg
 tags:
     - Debt Defense
 ---

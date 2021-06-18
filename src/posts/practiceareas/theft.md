@@ -7,7 +7,7 @@ titletag: Theft | Criminal Defense | Bernhardt Riley
 metadesc: There are multiple legal defenses that commonly arise in theft-related charges.
 
 date: 2021-05-22T17:30:45.632Z
-thumbnail: /static/img/posts/niu-niu-5hzotv-fslw-unsplash.webp
+thumbnail: /static/img/posts/niu-niu-5hzotv-fslw-unsplash.jpg
 tags:
     - Criminal Defense
 ---

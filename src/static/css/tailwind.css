@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 /*Your Custom CSS Goes here*/
-
-/* Syntax Highlighting*/
-
 body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
     @apply bg-gray-800;

@@ -7,7 +7,7 @@ titletag: DUI Defense | Criminal Defense | Bernhardt Riley
 metadesc: A DUI conviction in Florida comes with serious penalties compared to other states.
 
 date: 2021-05-17T19:43:43.524Z
-thumbnail: /static/img/posts/orig-cop_lights.webp
+thumbnail: /static/img/posts/orig-cop_lights.jpg
 tags:
     - Criminal Defense
 ---

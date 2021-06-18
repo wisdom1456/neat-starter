@@ -30,8 +30,8 @@ body3:
     because of how hard-working and determined our lawyers are to protect those who need it most!. Our team has been working hard on making sure that you are safe from false allegations and make it an
     even playing field so your needs can be met and solved as quickly as possible. Our debt defense attorneys in Holiday will protect you against any false claims, giving you a fair chance of getting
     back what's rightfully yours!
-thumbnail: /static/img/posts/orig-holiday.webp
-thumbnail2: /static/img/posts/orig-stephen-office4.webp
+thumbnail: /static/img/posts/orig-holiday.jpg
+thumbnail2: /static/img/posts/orig-stephen-office4.jpg
 tags:
     - Locations
 ---

@@ -7,7 +7,7 @@ titletag: Assault and Battery | Criminal Defense | Bernhardt Riley
 metadesc: When it comes to an assault or a battery case, there is usually a lot more to the story than what is included in the police report.
 
 date: 2021-05-22T17:32:59.671Z
-thumbnail: /static/img/posts/saul-bucio-p5yn73kruaa-unsplash.webp
+thumbnail: /static/img/posts/saul-bucio-p5yn73kruaa-unsplash.jpg
 tags:
     - Criminal Defense
 ---

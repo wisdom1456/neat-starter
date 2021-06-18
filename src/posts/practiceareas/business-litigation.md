@@ -7,7 +7,7 @@ titletag: Business Litigation | Business Litigation | Bernhardt Riley
 metadesc: We focus on finding proactive legal solutions that make achieving your business goals possible.
 
 date: 2021-05-22T17:58:01.052Z
-thumbnail: /static/img/posts/marten-bjork-6dw3xyqvcye-unsplash.webp
+thumbnail: /static/img/posts/marten-bjork-6dw3xyqvcye-unsplash.jpg
 tags:
     - Business Litigation
 ---

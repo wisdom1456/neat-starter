@@ -6,8 +6,8 @@ date: 2021-05-28T03:32:23.388Z
 titletag: Stephen M. Bernhardt | Partner | Bernhardt Riley
 metadesc: Stephen M. Bernhardt has been an attorney since 2010. A decade later, Stephen has accumulated extensive trial experience in both criminal and civil law.
 
-thumbnail: /static/img/posts/orig-stephen.webp
-thumbnail2: /static/img/posts/orig-stephen-standing.webp
+thumbnail: /static/img/posts/orig-stephen.jpg
+thumbnail2: /static/img/posts/orig-stephen-standing.jpg
 tags:
     - Attorneys
 ---

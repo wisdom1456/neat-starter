@@ -7,7 +7,7 @@ titletag: Car Loan Debt | Debt Defense | Bernhardt Riley
 metadesc: Auto deficiency lawsuits can be very difficult for the company suing you to prove.
 
 date: 2021-05-22T17:23:59.694Z
-thumbnail: /static/img/posts/black-sports-car-detail.webp
+thumbnail: /static/img/posts/black-sports-car-detail.jpg
 tags:
     - Debt Defense
 ---

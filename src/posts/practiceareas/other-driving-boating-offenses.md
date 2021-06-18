@@ -7,7 +7,7 @@ titletag: Other Driving/Boating Offenses | Criminal Defense | Bernhardt Riley
 metadesc: In addition to Driving While License Suspended or Revoked, there are many other driving and boating offenses that are common in the Tampa Bay area.
 
 date: 2021-05-22T17:39:45.208Z
-thumbnail: /static/img/posts/tamara-malaniy-wo1tvu3lq1q-unsplash.webp
+thumbnail: /static/img/posts/tamara-malaniy-wo1tvu3lq1q-unsplash.jpg
 tags:
     - Criminal Defense
 ---

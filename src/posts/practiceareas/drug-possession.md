@@ -7,7 +7,7 @@ titletag: Drug Possession | Criminal Defense | Bernhardt Riley
 metadesc: Possession charges can be defended in many ways.
 
 date: 2021-05-22T17:27:56.332Z
-thumbnail: /static/img/posts/matt-popovich-7mqszse6fau-unsplash.webp
+thumbnail: /static/img/posts/matt-popovich-7mqszse6fau-unsplash.jpg
 tags:
     - Criminal Defense
 ---

@@ -7,7 +7,7 @@ titletag: Crime Scene Consultation | Criminal Defense | Bernhardt Riley
 metadesc: Every case is filled with unique details that cannot always be fully explained through office visits or phone calls.
 
 date: 2021-05-17T19:42:05.008Z
-thumbnail: /static/img/posts/orig-crime-scene.webp
+thumbnail: /static/img/posts/orig-crime-scene.jpg
 tags:
     - Criminal Defense
 ---

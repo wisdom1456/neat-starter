@@ -3,52 +3,53 @@ const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const pluginPWA = require("eleventy-plugin-pwa");
-const Image = require("@11ty/eleventy-img")
-const path = require('path')
+const Image = require("@11ty/eleventy-img");
+const path = require("path");
 
 async function imageShortcode(src, alt) {
-    let sizes = "(min-width: 1024px) 100vw, 50vw"
-    let srcPrefix = `./src`
-    src = srcPrefix + src
-    console.log(`Generating image(s) from:  ${src}`)
-    if(alt === undefined) {
-      // Throw an error on missing alt (alt="" works okay)
-      throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`)
+    let sizes = "(min-width: 1024px) 100vw, 50vw";
+    let srcPrefix = `./src`;
+    src = srcPrefix + src;
+    console.log(`Generating image(s) from:  ${src}`);
+    if (alt === undefined) {
+        // Throw an error on missing alt (alt="" works okay)
+        throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`);
     }
     let metadata = await Image(src, {
-      widths: [600, 900, 1500],
-      formats: ['webp', 'jpeg'],
-      urlPath: "/images/",
-      outputDir: "./_site/images/",
-      /* =====
+        widths: [200, 400, 800, 1600],
+        formats: ["webp", "jpeg", "png"],
+        urlPath: "/images/",
+        outputDir: "./_site/images/",
+        /* =====
       Now we'll make sure each resulting file's name will
       make sense to you. **This** is why you need
       that `path` statement mentioned earlier.
       ===== */
-      filenameFormat: function (id, src, width, format, options) {
-        const extension = path.extname(src)
-        const name = path.basename(src, extension)
-        return `${name}-${width}w.${format}`
-      }
-    })
-    let lowsrc = metadata.jpeg[0]
+        filenameFormat: function (id, src, width, format, options) {
+            const extension = path.extname(src);
+            const name = path.basename(src, extension);
+            return `${name}-${width}w.${format}`;
+        }
+    });
+    let lowsrc = metadata.jpeg[0];
     return `<picture>
-      ${Object.values(metadata).map(imageFormat => {
-        return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`
-      }).join("\n")}
+      ${Object.values(metadata)
+          .map((imageFormat) => {
+              return `  <source type="${imageFormat[0].sourceType}" class="object-cover" srcset="${imageFormat.map((entry) => entry.srcset).join(", ")}" sizes="${sizes}">`;
+          })
+          .join("\n")}
       <img
+      class="object-cover h-full w-full"
         src="${lowsrc.url}"
         width="${lowsrc.width}"
         height="${lowsrc.height}"
         alt="${alt}"
         loading="lazy"
         decoding="async">
-    </picture>`
-  }
-
+    </picture>`;
+}
 
 module.exports = function (eleventyConfig) {
-
     eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
     eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
@@ -63,12 +64,14 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("dd LLL yyyy");
     });
 
+  /**
     eleventyConfig.addPlugin(pluginPWA, {
         swDest: "./_site/service-worker.js",
         globDirectory: "./_site",
         clientsClaim: true,
         skipWaiting: true
     });
+    */
 
     // Syntax Highlighting for Code blocks
     eleventyConfig.addPlugin(syntaxHighlight);
@@ -87,6 +90,7 @@ module.exports = function (eleventyConfig) {
     // Copy Image Folder to /_site
     eleventyConfig.addPassthroughCopy("./src/static/img");
     eleventyConfig.addPassthroughCopy("./src/static/js");
+    eleventyConfig.addPassthroughCopy("./src/static/fonts");
     eleventyConfig.addPassthroughCopy("manifest.json");
 
     // Copy favicon to route of /_site

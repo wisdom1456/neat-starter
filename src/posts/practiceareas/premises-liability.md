@@ -7,7 +7,7 @@ titletag: Premises Liability | Personal Injury | Bernhardt Riley
 metadesc: Personal Injuries sustained due to the negligence of a business or property owner happen to unsuspecting people everyday.
 
 date: 2021-05-22T17:43:42.164Z
-thumbnail: /static/img/posts/factory-men-shelves-1797428.webp
+thumbnail: /static/img/posts/factory-men-shelves-1797428.jpg
 tags:
     - Personal Injury
 ---

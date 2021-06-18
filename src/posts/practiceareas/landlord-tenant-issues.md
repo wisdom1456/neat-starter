@@ -9,7 +9,7 @@ metadesc:
     Florida law requires very specific timelines and procedures that a landlord or property manager must comply with in attempting to evict a tenant and in order to avoid a dismissal of their case.
 
 date: 2021-05-22T17:49:15.943Z
-thumbnail: /static/img/posts/omar-prestwich-kxyejcysvym-unsplash.webp
+thumbnail: /static/img/posts/omar-prestwich-kxyejcysvym-unsplash.jpg
 tags:
     - Real Estate
 ---
