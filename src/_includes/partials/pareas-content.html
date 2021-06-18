@@ -18,17 +18,17 @@
 <div class="relative bg-white">
   <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
     <div class="space-y-12">
-      <div class="lg:absolute lg:inset-0">
-        <div class="lg:absolute lg:inset-y-0 lg:left-0 lg:w-1/2">
-          <div class="h-56 w-full object-cover lg:absolute lg:h-full">
-            {% image thumbnail,
-            title %}
+      <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto">
+        <div>
+          <div class="max-w-prose mx-auto">
+            <div class="w-full rounded-lg shadow-lg border-8 border-br-900">
+              {% image thumbnail,
+              title %}
+            </div>
           </div>
         </div>
-      </div>
-      <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
-        <div class="lg:col-start-2 lg:pl-8">
-          <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
+        <div class="px-8 py-16">
+          <div class="text-base max-w-prose mx-auto">
             <h2 class="leading-6 text-br-600 font-semibold tracking-wide uppercase">Bernhardt Riley</h2>
             <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{title}}</h3>
             <p class="mt-8 text-lg text-gray-500">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
