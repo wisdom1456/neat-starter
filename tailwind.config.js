@@ -37,7 +37,8 @@ module.exports = {
                     600: "#155ba4",
                     700: "#004098",
                     800: "#003072",
-                    900: "#070e32"
+                    900: "#020a36"
+                    //#070e32
                 }
             },
             fontFamily: {
@@ -49,6 +50,7 @@ module.exports = {
             "tampa-back": "linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)), url('/static/img/posts/orig-tampa1.jpg')",
             "hero-back": "linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.4)), url('/static/img/posts/orig-columnsback3.jpg')",
             "waves-back": "linear-gradient(rgba(255,255,255, .4), rgba(255,255,255, .4)), url('/static/img/posts/orig-beachflow.jpg')",
+            "waves-back1": "linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)), url('/static/img/posts/orig-beachflow.jpg')",
             "gradient-back": "linear-gradient(0.25turn, #17baa3, #070e32, #1715ba)",
 
             ambulance: "linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 1)),url('/static/img/posts/orig-ambulance.jpg')",

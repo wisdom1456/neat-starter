@@ -4,10 +4,6 @@ items:
       url: "/static/img/badges/pshop/convert/6.webp"
     - name: Home
       url: "/static/img/badges/pshop/convert/1.webp"
-    - name: About
-      url: "/static/img/badges/pshop/convert/2.webp"
-    - name: Practice Areas
-      url: "/static/img/badges/pshop/convert/3.webp"
     - name: Locations
       url: "/static/img/badges/pshop/convert/4.webp"
     - name: Contact
@@ -24,3 +20,8 @@ items:
       url: "/static/img/badges/pshop/convert/12.webp"
     - name: Blog
       url: "/static/img/badges/pshop/convert/13.webp"
+
+    #- name: Rotary
+    #  url: "/static/img/badges/pshop/convert/2.webp"
+    #- name: Kiwanis
+    #  url: "/static/img/badges/pshop/convert/3.webp"

@@ -10,7 +10,7 @@ lon: "-86.48097"
 titletag: Northwest Florida | Okaloosa County | Bernhardt Riley
 metadesc: At Bernhardt Riley, our debt defense attorneys in Northwest Florida will make sure that you are safe from false allegations and make it an even playing field.
 
-streetAddress1: 701 E. John Sims Pkwy
+streetAddress1: 701 E. John Sims Pkwy.
 streetAddress2: "Suite 303, #112"
 cityState: Niceville, FL
 zipCode: "32578"

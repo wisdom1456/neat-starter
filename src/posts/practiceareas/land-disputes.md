@@ -3,13 +3,13 @@ title: Land Disputes
 description: Boundary Disputes, Encroachments, Easements, Injunctions, Covenants, Partitions
 author: Bernhardt Riley
 
-titletag: Land Disputes | Real Estate | Bernhardt Riley
+titletag: Land Disputes | Real Estate Litigaion | Bernhardt Riley
 metadesc: Boundary Disputes, Encroachments, Easements, Injunctions, Covenants, Partitions
 
 date: 2021-05-22T17:44:30.540Z
 thumbnail: /static/img/posts/juan-cruz-mountford-ofwedg39ldw-unsplash.jpg
 tags:
-    - Real Estate
+    - Real Estate Litigaion
 ---
 
 **Boundary Disputes**

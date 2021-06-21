@@ -11,7 +11,7 @@ lon: "-82.71164"
 titletag: Clearwater | Central Pinellas County | Bernhardt Riley
 metadesc: At Bernhardt Riley, our debt defense attorneys in Clearwater will make sure that you are safe from false allegations and make it an even playing field.
 
-streetAddress1: 13575 58th St N
+streetAddress1: 13575 58th St. N
 streetAddress2: " "
 cityState: Clearwater, FL
 zipCode: "33760"

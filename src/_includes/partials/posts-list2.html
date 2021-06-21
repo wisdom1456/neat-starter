@@ -34,16 +34,6 @@
                                         <p class="mt-3 text-justify prose prose text-gray-500">{{ post.data.description }}</p>
                                     </a>
                                 </div>
-                                <div class="mt-6">
-                                    <p class="prose prose-sm text-gray-900">
-                                        <a href="#" class="hover:underline">
-                                            {{ post.data.tags[1]}}
-                                        </a>
-                                    </p>
-                                    <time class="space-x-1 text-sm flex text-gray-500" datetime="post.date">
-                                        {{ post.date | readableDate }}
-                                    </time>
-                                </div>
                             </div>
                         </div>
                     {% endfor %}

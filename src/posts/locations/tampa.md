@@ -10,7 +10,7 @@ lon: "-82.44563"
 titletag: Tampa | Hillsborough County | Bernhardt Riley
 metadesc: At Bernhardt Riley, our debt defense attorneys in Tampa will make sure that you are safe from false allegations and make it an even playing field.
 
-streetAddress1: 1228 E. 7th Ave
+streetAddress1: 1228 E. 7th Ave.
 streetAddress2: " "
 cityState: Tampa, FL
 zipCode: "33605"

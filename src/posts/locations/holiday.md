@@ -10,7 +10,7 @@ lon: "-82.7323"
 titletag: Holiday | Pasco County | Bernhardt Riley
 metadesc: At Bernhardt Riley, our debt defense attorneys in Holiday will make sure that you are safe from false allegations and make it an even playing field.
 
-streetAddress1: 4935 Mile Stretch Drive
+streetAddress1: 4935 Mile Stretch Dr.
 streetAddress2: " "
 cityState: Holiday, FL
 zipCode: "34690"

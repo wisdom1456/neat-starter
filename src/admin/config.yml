@@ -52,7 +52,7 @@ collections:
             name: "tags"
             multiple: true
             create: true
-            options: ["Criminal Defense", "Debt Defense", "Real Estate", "Personal Injury", "Business Litigation", "Bankruptcy"]
+            options: ["Criminal Defense", "Debt Defense", "Real Estate Litigation", "Personal Injury", "Business Litigation", "Bankruptcy"]
     - label: "Locations"
       name: "locations"
       folder: "src/posts/locations"
