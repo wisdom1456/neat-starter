@@ -19,7 +19,6 @@ async function imageShortcode(src, alt) {
         widths: [400, 800, 1200, 1600],
         formats: ["webp", "jpeg"],
 
-
         urlPath: "/images/",
         outputDir: "./_site/images/",
         /* =====
@@ -66,14 +65,12 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("dd LLL yyyy");
     });
 
-  /**
     eleventyConfig.addPlugin(pluginPWA, {
         swDest: "./_site/service-worker.js",
         globDirectory: "./_site",
         clientsClaim: true,
         skipWaiting: true
     });
-    */
 
     // Syntax Highlighting for Code blocks
     eleventyConfig.addPlugin(syntaxHighlight);
