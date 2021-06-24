@@ -7,7 +7,6 @@ const Image = require("@11ty/eleventy-img");
 const path = require("path");
 
 async function imageShortcode(src, alt) {
-    let sizes = "(min-width: 1024px) 100vw, 50vw";
     let srcPrefix = `./src`;
     src = srcPrefix + src;
     console.log(`Generating image(s) from:  ${src}`);
@@ -16,11 +15,12 @@ async function imageShortcode(src, alt) {
         throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`);
     }
     let metadata = await Image(src, {
-        widths: [400, 800, 1200, 1600],
+        widths: [800, 1600],
         formats: ["webp", "jpeg"],
 
         urlPath: "/images/",
         outputDir: "./_site/images/",
+
         /* =====
       Now we'll make sure each resulting file's name will
       make sense to you. **This** is why you need
@@ -36,7 +36,7 @@ async function imageShortcode(src, alt) {
     return `<picture>
       ${Object.values(metadata)
           .map((imageFormat) => {
-              return `  <source type="${imageFormat[0].sourceType}" class="object-cover" srcset="${imageFormat.map((entry) => entry.srcset).join(", ")}" sizes="${sizes}">`;
+              return `  <source type="${imageFormat[0].sourceType}" class="object-cover" srcset="${imageFormat.map((entry) => entry.srcset).join(", ")}">`;
           })
           .join("\n")}
       <img
