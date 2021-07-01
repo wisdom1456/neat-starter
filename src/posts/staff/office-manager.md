@@ -6,5 +6,4 @@ thumbnail: /static/img/posts/orig-jess.jpg
 tags:
   - Staff
 ---
-Jessica joined the firm in 2019 and handles many of the firm’s day-to-day activities. Jessica’s cheerful and professional personality resonates throughout the firm and she is often the first point of contact for clients in the firm’s Tamp Bay offices and truly treats each client as family.
-
+Jessica has been working with the firm since its initial formation and manages the business administration needs of the law office as our Office Manager. She handles our business with skill and efficiency without sacrificing personability and kindness. Jessica treats each client as family and strives diligently to work with each and every client in order to find a representation arrangement that works for them and their specific individual circumstances.
