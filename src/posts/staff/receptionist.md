@@ -1,6 +1,6 @@
 ---
 name: Jill Mello
-title: Receptionist
+title: Legal Assistant
 date: 2021-05-28T03:55:59.640Z
 thumbnail: /static/img/posts/orig-jill-mello.jpg
 tags:
