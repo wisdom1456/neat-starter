@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 /*Your Custom CSS Goes here*/
-body :not(pre) > code[class*="language-"],
+
+body :not(pre)>code[class*="language-"],
 body pre[class*="language-"] {
     @apply bg-gray-800;
 }
@@ -23,11 +24,12 @@ body pre[class*="language-"] {
     -ms-overflow-style: none;
     scroll-behavior: smooth;
 }
+
 .snap::-webkit-scrollbar {
     display: none;
 }
 
-.snap > div {
+.snap>div {
     scroll-snap-align: center;
 }
 
@@ -38,7 +40,8 @@ body pre[class*="language-"] {
 :root {
     --marquee-width: 80vw;
     --marquee-height: 20vh;
-    /* --marquee-elements: 12; */ /* defined with JavaScript */
+    /* --marquee-elements: 12; */
+    /* defined with JavaScript */
     --marquee-elements-displayed: 4;
     --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
     --marquee-animation-duration: calc(var(--marquee-elements) * 5s);
@@ -51,6 +54,7 @@ body pre[class*="language-"] {
     overflow: visible;
     position: relative;
 }
+
 .marquee:before,
 .marquee:after {
     position: absolute;
@@ -60,18 +64,22 @@ body pre[class*="language-"] {
     content: "";
     z-index: 1;
 }
+
 .marquee:before {
     left: 0;
 }
+
 .marquee:after {
     right: 0;
 }
+
 .marquee-content {
     list-style: none;
     height: 100%;
     display: flex;
     animation: scrolling var(--marquee-animation-duration) linear infinite;
 }
+
 
 /* .marquee-content:hover {
     animation-play-state: paused;
@@ -94,7 +102,8 @@ body pre[class*="language-"] {
     flex-shrink: 0;
     width: var(--marquee-element-width);
     max-height: 100%;
-    font-size: calc(var(--marquee-height) * 3 / 4); /* 5rem; */
+    font-size: calc(var(--marquee-height) * 3 / 4);
+    /* 5rem; */
     white-space: nowrap;
 }
 
@@ -107,7 +116,7 @@ body pre[class*="language-"] {
     html {
         font-size: 12px;
     }
-    :root {
+     :root {
         --marquee-width: 100vw;
         --marquee-height: 16vh;
         --marquee-elements-displayed: 3;
@@ -128,6 +137,7 @@ body pre[class*="language-"] {
     position: relative;
     width: 100%;
 }
+
 .imgClass {
     opacity: 1;
     display: block;
@@ -136,6 +146,7 @@ body pre[class*="language-"] {
     backface-visibility: hidden;
     object-fit: cover;
 }
+
 .hoverText {
     transition: 0.5s ease;
     opacity: 0;
@@ -144,9 +155,11 @@ body pre[class*="language-"] {
     left: 0%;
     text-align: justify;
 }
+
 .card-container:hover img {
     opacity: 0.2;
 }
+
 .card-container:hover .hoverText {
     opacity: 1;
 }
