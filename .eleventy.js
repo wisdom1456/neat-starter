@@ -15,7 +15,7 @@ async function imageShortcode(src, alt) {
         throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`);
     }
     let metadata = await Image(src, {
-        widths: [800, 1600],
+        widths: [600, 1000, 1400],
         formats: ["webp", "jpeg"],
 
         urlPath: "/images/",
@@ -26,7 +26,7 @@ async function imageShortcode(src, alt) {
       make sense to you. **This** is why you need
       that `path` statement mentioned earlier.
       ===== */
-        filenameFormat: function (id, src, width, format, options) {
+        filenameFormat: function(id, src, width, format, options) {
             const extension = path.extname(src);
             const name = path.basename(src, extension);
             return `${name}-${width}w.${format}`;
