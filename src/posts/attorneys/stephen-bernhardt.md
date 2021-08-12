@@ -20,7 +20,7 @@ tags:
 
 <div class="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto mb-6">  
   <h2 class="text-br-900">Personal</h2>
-  <p class="mt-8 text-xl text-gray-500 leading-8">Stephen Bernhardt grew up in a suburb of Chicago, Illinois before attending high
+  <p>Stephen Bernhardt grew up in a suburb of Chicago, Illinois before attending high
   school in the Memphis, Tennessee area. After graduating high school, Bernhardt
   attended Florida State University in Tallahassee, Florida. Bernhardt graduated
   cum laude and went on to attend Florida Coastal School of Law in Jacksonville,
