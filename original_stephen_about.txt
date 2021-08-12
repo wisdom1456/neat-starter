@@ -1,0 +1,12 @@
+<p class="mt-4 prose prose text-justify text-white">
+                Stephen M. Bernhardt is an attorney who has been practicing since 2010. He began his legal career as a prosecutor, handling both misdemeanor and felony offenses such as DUI, Battery, Possession of a Controlled Substance, Violation of Injunction and many others.  <br><br>Mr. Bernhardt has conducted many trials involving high-level crimes, and has extensive trial experience dedicating part of his practice to defending individuals facing lawsuits from debt collectors or credit card companies.
+                <br><br>
+                Mr. Bernhardt has practiced civil law for one of the largest creditor's rights firms in the United States, even becoming the lead litigator for the firms Florida office.  Mr. Bernhardt doesn't just know about the law - he knows how to use it too!
+            </p>
+              <div class="mt-6">
+                <a href="/posts/attorneys/stephen-bernhardt/" class="prose prose-lg inline-flex px-4 py-2 text-white border border-transparent rounded-md shadow-sm bg-br-300 hover:bg-br-400">
+                    Learn more about Stephen M. Bernhardt
+              </a>
+			  
+			  
+			  
