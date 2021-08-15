@@ -20,6 +20,8 @@ items:
       url: "/static/img/badges/pshop/convert/12.webp"
     - name: Blog
       url: "/static/img/badges/pshop/convert/13.webp"
+    - name: Blog
+      url: "/static/img/badges/pshop/convert/14.webp"
 
     #- name: Rotary
     #  url: "/static/img/badges/pshop/convert/2.webp"
