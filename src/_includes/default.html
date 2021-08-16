@@ -45,6 +45,17 @@
     {% endif %}
 
     <link rel="manifest" href="/manifest.json"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9YND0NWVZ0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-9YND0NWVZ0');
+    </script>
   </head>
   <body>
     {% include "./partials/navbar2.html" %}
@@ -59,7 +70,7 @@
       <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {% endif %}
     <!--Start of Tawk.to Script-->
-{#     <script type="text/javascript">
+    {#     <script type="text/javascript">
       var Tawk_API = Tawk_API || {},
         Tawk_LoadStart = new Date();
       (function () {
@@ -75,14 +86,16 @@
       })();
     </script> #}
 
-<script>
+    <script>
 
-setTimeout(function() {
-  var tidioScript = document.createElement("script");
-  tidioScript.src = "//code.tidio.co/jhlw5h6aczfaci8k4fowofbphcltqhyr.js";
-  document.body.appendChild(tidioScript);
-}, 5 * 1000);
-</script>
+      setTimeout(function () {
+        var tidioScript = document.createElement("script");
+        tidioScript.src = "//code.tidio.co/jhlw5h6aczfaci8k4fowofbphcltqhyr.js";
+        document
+          .body
+          .appendChild(tidioScript);
+      }, 5 * 1000);
+    </script>
 
     <!--End of Tawk.to Script-->
   </body>
