@@ -10,10 +10,10 @@ lon: "-86.48097"
 titletag: Northwest Florida | Okaloosa County | Bernhardt Riley
 metadesc: At Bernhardt Riley, our debt defense attorneys in Northwest Florida will make sure that you are safe from false allegations and make it an even playing field.
 
-streetAddress1: 701 E. John Sims Pkwy.
-streetAddress2: "Suite 303, #112"
-cityState: Niceville, FL
-zipCode: "32578"
+streetAddress1: 4458 Legendary Drive
+streetAddress2: "Suite 210, #112"
+cityState: Destin, FL
+zipCode: "32541"
 date: 2021-06-13T03:16:47.582Z
 body1:
   The experienced criminal defense attorneys at Bernhardt Riley are available to consult about your alleged criminal offense. If criminal accusations have been made against you, it is wise to reach out to the expert criminal defense attorneys in Northwest Florida, Bernhardt Riley. Our criminal defense lawyers in Northwest Florida provide first-class criminal defense services you deserve. Moreover if you need counsel from a criminal defense lawyer in Northwest Florida, concerning an area of law not practiced by Bernhardt Riley, our Northwest Florida criminal defense lawyers will gladly refer your case to a reputable attorney with whom we associate personally and professionally.
