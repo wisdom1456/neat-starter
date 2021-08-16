@@ -31,11 +31,11 @@ var locations = [
 
 David Orr - Attorney
 Lauren Ashley Maarouf - Florida Registered Paralegal
-Jill Mello - Receptionist
+Jill Mello - Legal Assistant
 Jessica Bernhardt - Office Manager
 Stephen M. Bernhardt - Partner
 Athena Pearl Riley - Partner
-Simona Burshtyn - Attorney
+Simona Burshteyn - Attorney
 Thiago Lanes -
 
 ------
