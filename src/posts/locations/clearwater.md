@@ -4,6 +4,7 @@ title: Clearwater
 subtitle: Central Pinellas County
 description: Bernhardt Riley is a criminal defense and personal injury law firm in Clearwater.
 author: Bernhardt Riley
+mainOffice: false
 
 lat: "27.89531"
 lon: "-82.71164"

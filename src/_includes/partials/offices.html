@@ -1,9 +1,9 @@
 <div class="bg-white">
-  <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
+  <div class="mx-auto py-8 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-12">
     <div class="space-y-12">
       <div class="flex flex-wrap mx-auto mb-20">
         <div class="p-4 mb-6 lg:w-1/2 lg:mb-0">
-          <h2 class="mb-2 prose prose-2xl text-br-900 text-2xl font-bold tracking-widest uppercase">Our offices</h2>
+          <h2 class="mb-2 prose prose-2xl text-br-900 text-2xl font-bold tracking-widest uppercase">Our locations</h2>
           <div class="w-20 h-1 bg-br-300 rounded"></div>
         </div>
       </div>
@@ -13,6 +13,12 @@
           {% for post in postslist %}
             <div>
               <h3 class="text-lg font-medium text-gray-900">{{post.data.title}}</h3>
+              
+            {% if post.data.mainOffice %}
+            <h4 class="prose prose-md text-gray-500">Main Office</h4>
+            {% else %}
+            <h4 class="prose prose-md text-gray-500">Available for consultation</h4>
+            {% endif %}
               <p class="mt-2 text-base text-gray-500">
                 <span class="block">{{post.data.streetAddress1}}</span>
                 <span class="block">{{post.data.streetAddress2}}</span>

@@ -123,9 +123,17 @@
 
                                                 <a href="{{post.url | url}}" class="flex items-start p-3 -m-3 rounded-md hover:bg-gray-50">
                                                     <div class="ml-4">
-                                                        <p class="text-base font-medium text-gray-900">
-                                                            {{post.data.title}}
+                                                    <p class="text-base font-medium text-gray-900">{{post.data.title}}</p>
+                                                        {% if post.data.mainOffice %}
+                                                            <p class="text-base font-small text-gray-700">
+                                                            Main Office
                                                         </p>
+                                                        {% else %}
+                                                            <p class="text-base font-small text-gray-700">
+                                                            Available for Consultation
+                                                        </p>
+                                                        {% endif %}
+
                                                         <p class="mt-1 text-sm text-gray-500">
                                                             {{post.data.subtitle}}
                                                         </p>

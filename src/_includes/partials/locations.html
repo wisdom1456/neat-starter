@@ -1,16 +1,18 @@
 <div class="bg-white">
   <div class="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
     <div class="space-y-12">
-      <div class="flex flex-wrap mx-auto mb-20">
+      <div class="flex flex-wrap mx-auto mb-8">
         <div class="p-4 mb-6 lg:w-1/2 lg:mb-0">
           <h2 class="mb-2 prose prose-2xl text-br-900 text-2xl font-bold tracking-widest uppercase">Locations</h2>
-          <div class="w-20 h-1 bg-br-300 rounded"></div>
+          <div class="w-20 h-1 bg-br-300 rounded"></div>          
+          <h3 class="mt-2 prose prose-2xl text-br-900 text-xl font-bold tracking-widest uppercase">Main Office</h3>
         </div>
       </div>
             <ul class="justify-center space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
                 {% set postslist = collections["Locations"]%}
                 {% if postslist | length %}
-                    {% for post in postslist %}
+                    {% for post in postslist %}       
+                    {% if post.data.mainOffice == true %}             
                         <li>
                             <a href="{{ post.url | url }}">
                                 <div class="space-y-4 relative">
@@ -29,11 +31,49 @@
                                 </div>
                             </a>
                         </li>
-
+                        {% endif %}
                     {% endfor %}
                 {% endif %}
             </ul>
 
         </div>
+
+<div class="space-y-12 mt-24">
+      <div class="flex flex-wrap mx-auto mb-8">
+        <div class="p-4 mb-6 lg:w-1/2 lg:mb-0">
+          <div class="w-20 h-1 bg-br-300 rounded"></div>          
+          <h3 class="mt-2 prose prose-2xl text-br-900 text-xl font-bold tracking-widest uppercase">Available for consultation at:</h3>
+        </div>
+      </div>
+            <ul class="justify-center space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
+                {% set postslist = collections["Locations"]%}
+                {% if postslist | length %}
+                    {% for post in postslist %}       
+                    {% if post.data.mainOffice == false %}             
+                        <li>
+                            <a href="{{ post.url | url }}">
+                                <div class="space-y-4 relative">
+                                    <div class="aspect-w-3 aspect-h-2 card-container absolute">
+                                        <div class="object-cover overflow-hidden shadow-lg rounded-md border-8 border-br-900 hover:border-br-300" >
+                                        {% image post.data.thumbnail, post.data.title %}
+                                        </div>
+                                        <div class="relative">
+                                            <div class="prose prose-2xl text-center">
+                                                <button type="button" class="transition ease-in duration-700 items-center px-6 py-3 w-full h-full border border-transparent shadow-sm  text-white bg-gray-600 bg-opacity-60 hover:scale-125 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-br-600">
+                                                    {{post.data.title}}
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </ul>
+
+        </div>
+
     </div>
 </div>

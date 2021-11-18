@@ -3,6 +3,7 @@ title: Northwest FL
 subtitle: Okaloosa County
 description: Bernhardt Riley handles civil law and real estate concerns in Northwest Florida.
 author: Bernhardt Riley
+mainOffice: false
 
 lat: "30.51894"
 lon: "-86.48097"

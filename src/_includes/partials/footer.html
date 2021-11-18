@@ -25,6 +25,11 @@
         {% for post in postslist %}
           <div>
             <h3 class="prose prose-xl text-white">{{post.data.title}}</h3>
+            {% if post.data.mainOffice %}
+            <h4 class="prose prose-md text-white">Main Office</h4>
+            {% else %}
+            <h4 class="prose prose-md text-white">Available for consultation</h4>
+            {% endif %}
             <p class="mt-2 prose prose-sm text-gray-300">
               <span class="block">{{post.data.streetAddress1}} <br> {{post.data.streetAddress2}}</span>
               <span class="block">{{post.data.cityState}}

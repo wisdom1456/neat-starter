@@ -21,6 +21,11 @@
     <div class="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
       <div>
         <h2 class="text-base text-br-900 font-semibold tracking-wide uppercase">Bernhardt Riley</h2>
+        {% if mainOffice %}
+            <h4 class="prose prose-md text-br-900">Main Office</h4>
+            {% else %}
+            <h4 class="prose prose-md text-br-900">Available for consultation</h4>
+            {% endif %}
         <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{title}}</h3>
       </div>
     </div>

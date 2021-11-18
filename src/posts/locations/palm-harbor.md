@@ -3,6 +3,7 @@ title: Palm Harbor
 subtitle: North Pinellas County
 description: Bernhardt Riley is a criminal defense and personal injury law firm in Palm Harbor.
 author: Bernhardt Riley
+mainOffice: true
 
 lat: "28.09283"
 lon: "-82.77241"
