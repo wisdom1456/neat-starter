@@ -1,7 +1,7 @@
 ---
 name: David D. Orr
 title: Attorney
-date: 2021-05-28T03:37:19.170Z
+date: 2022-04-23T15:51:41.018Z
 titletag: David D. Orr | Attorney | Bernhardt Riley
 metadesc: David D. Orr began his legal career practicing civil law for one of
   the largest creditors’ rights firms in the United States, after graduating
