@@ -58,3 +58,10 @@ npm run start
 ## Author
 
 Surjith S M ( [@surjithctly](https://surjithctly.in/) )
+---------
+
+
+Run npx @11ty/eleventy --serve to start up a web server. Then open http://localhost:8080/README/ in your web browser of choice to see your Eleventy output.
+
+
+------------------
