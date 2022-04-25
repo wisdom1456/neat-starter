@@ -11,5 +11,7 @@
     prettyURLs = true
     trailingSlash = true
     exclude = [
-    'admin/'
+    './_site/admin/',
+    './_site/posts/testimonials',
+    './_site/posts/staff'
     ]
