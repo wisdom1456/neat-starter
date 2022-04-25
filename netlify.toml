@@ -10,3 +10,6 @@
     priority = 0.5
     prettyURLs = true
     trailingSlash = true
+    exclude = [
+    './admin/'
+    ]
