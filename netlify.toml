@@ -4,9 +4,9 @@
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
-  prettyURLs = true
-  trailingSlash = true
 
   [plugins.inputs]
     changeFreq = "daily"
     priority = 0.5
+    prettyURLs = true
+    trailingSlash = true
