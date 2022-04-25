@@ -11,5 +11,5 @@
     prettyURLs = true
     trailingSlash = true
     exclude = [
-    './admin/'
+    '/admin'
     ]
