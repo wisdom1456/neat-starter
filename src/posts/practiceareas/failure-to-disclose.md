@@ -7,7 +7,7 @@ titletag: Failure To Disclose | Real Estate Litigaion | Bernhardt Riley
 metadesc: Seller’s Duty to disclose under Johnson v. Davis, Broker Liability, Buyers duties to investigate under Gilchrist Timber Co. v. ITT Rayonier, lnc.
 
 date: 2021-05-22T17:47:50.342Z
-thumbnail: /static/img/posts/cytonn-photography-gjao3ztx9gu-unsplash.jpg
+thumbnail: /static/img/posts/post-compression/cytonn-photography-gjao3ztx9gu-unsplash.webp
 tags:
     - Real Estate Litigaion
 ---

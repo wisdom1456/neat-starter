@@ -7,8 +7,8 @@ metadesc: David D. Orr began his legal career practicing civil law for one of
   the largest creditors’ rights firms in the United States, after graduating
   from Stetson University College of Law as a full Dean’s Merit Scholarship
   recipient.
-thumbnail: /static/img/posts/orig-david1.jpg
-thumbnail2: /static/img/posts/orig-david.jpg
+thumbnail: /static/img/posts/post-compression/orig-david1.webp
+thumbnail2: /static/img/posts/post-compression/orig-david.webp
 tags:
   - Attorneys
 ---

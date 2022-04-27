@@ -7,7 +7,7 @@ titletag: Florida Deceptive Unfair Trade Practices Act (FDUTPA) | Business Litig
 metadesc: FDUTPA was designed to encompass a broad spectrum of deceptive and unfair conduct...
 
 date: 2021-05-22T18:01:50.675Z
-thumbnail: /static/img/posts/edward-howell-fzvcbudhdde-unsplash.jpg
+thumbnail: /static/img/posts/post-compression/edward-howell-fzvcbudhdde-unsplash.webp
 tags:
     - Business Litigation
 ---

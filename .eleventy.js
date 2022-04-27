@@ -87,7 +87,7 @@ module.exports = function (eleventyConfig) {
     "./node_modules/alpinejs/dist/cdn.min.js": "./static/js/alpine.js",
     "./node_modules/prismjs/themes/prism-tomorrow.css":
       "./static/css/prism-tomorrow.css",
-      "./src/static/css/critical.css": "./static/css/critical.css"
+      "./src/static/css/critical.min.css": "./static/css/critical.min.css"
     });
 
     // Copy Image Folder to /_site

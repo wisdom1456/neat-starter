@@ -7,7 +7,7 @@ titletag: Estate Planning | Real Estate Litigaion | Bernhardt Riley
 metadesc: Planning and preparation are important elements of ensuring a successful financial future for your family.
 
 date: 2021-05-22T18:00:36.478Z
-thumbnail: /static/img/posts/rowan-heuvel-bjej8by1jyq-unsplash.jpg
+thumbnail: /static/img/posts/post-compression/rowan-heuvel-bjej8by1jyq-unsplash.webp
 tags:
     - Real Estate Litigaion
 ---

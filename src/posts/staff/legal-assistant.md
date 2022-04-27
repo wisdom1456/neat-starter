@@ -2,7 +2,7 @@
 name: Jill Mello
 title: Legal Assistant
 date: 2021-05-28T03:55:59.640Z
-thumbnail: /static/img/posts/orig-jill-mello.jpg
+thumbnail: /static/img/posts/post-compression/orig-jill-mello.webp
 tags:
   - Staff
 ---

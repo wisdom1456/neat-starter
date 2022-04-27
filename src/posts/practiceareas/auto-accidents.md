@@ -7,7 +7,7 @@ titletag: Auto Accidents | Personal Injury | Bernhardt Riley
 metadesc: Unfortunately, most of us will be involved in an automobile accident during our lives.
 
 date: 2021-05-22T17:41:35.305Z
-thumbnail: /static/img/posts/blog-1.jpg
+thumbnail: /static/img/posts/post-compression/blog-1.webp
 tags:
     - Personal Injury
 ---

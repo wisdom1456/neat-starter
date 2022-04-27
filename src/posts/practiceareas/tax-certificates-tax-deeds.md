@@ -6,7 +6,7 @@ author: Bernhardt Riley
 titletag: Tax Certificates & Tax Deeds | Real Estate Litigaion | Bernhardt Riley
 metadesc: Certificates & Deeds, Tax Deeds as Transfers, The Necessity of a Quiet Title Action
 date: 2021-05-22T17:46:39.166Z
-thumbnail: /static/img/posts/scott-graham-5fnmwej4taa-unsplash.jpg
+thumbnail: /static/img/posts/post-compression/scott-graham-5fnmwej4taa-unsplash.webp
 tags:
     - Real Estate Litigaion
 ---

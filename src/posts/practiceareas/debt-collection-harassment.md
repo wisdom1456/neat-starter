@@ -7,7 +7,7 @@ titletag: Debt Collection Harassment | Debt Defense | Bernhardt Riley
 metadesc: Collection companies are governed by strict rules and regulations.
 
 date: 2021-05-22T17:25:11.910Z
-thumbnail: /static/img/posts/debt-harrasement.jpg
+thumbnail: /static/img/posts/post-compression/debt-harrasement.webp
 tags:
     - Debt Defense
 ---

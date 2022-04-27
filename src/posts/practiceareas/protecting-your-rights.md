@@ -7,7 +7,7 @@ titletag: Protecting Your Rights | Criminal Defense | Bernhardt Riley
 metadesc: Your rights deserve to be protected and your side of the story deserves to be heard.
 
 date: 2021-05-17T19:34:37.175Z
-thumbnail: /static/img/posts/orig-activism.jpg
+thumbnail: /static/img/posts/post-compression/orig-activism.webp
 tags:
     - Criminal Defense
 ---

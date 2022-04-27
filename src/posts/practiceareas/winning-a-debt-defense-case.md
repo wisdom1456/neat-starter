@@ -7,7 +7,7 @@ titletag: Winning a Debt Defense Case | Debt Defense | Bernhardt Riley
 metadesc: Winning a Debt Defense Case
 
 date: 2021-05-22T17:16:28.311Z
-thumbnail: /static/img/posts/ways_quickly_pay_off_business_debt.jpg
+thumbnail: /static/img/posts/post-compression/ways_quickly_pay_off_business_debt.webp
 tags:
     - Debt Defense
 ---

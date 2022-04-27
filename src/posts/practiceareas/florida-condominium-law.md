@@ -7,7 +7,7 @@ titletag: Florida Condominium Law | Real Estate Litigaion | Bernhardt Riley
 metadesc: Whether you are an HOA or condominium owner, you may be faced with issues...
 
 date: 2021-05-22T17:51:26.492Z
-thumbnail: /static/img/posts/francois-suarez-ms-v8fczzvu-unsplash.jpg
+thumbnail: /static/img/posts/post-compression/francois-suarez-ms-v8fczzvu-unsplash.webp
 tags:
     - Real Estate Litigaion
 ---
