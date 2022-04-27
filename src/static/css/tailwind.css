@@ -4,6 +4,19 @@
 
 /*Your Custom CSS Goes here*/
 
+.fade-in-slow {
+    animation: animation-fade-in 1.25s;
+}
+
+@keyframes animation-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 body :not(pre)>code[class*="language-"],
 body pre[class*="language-"] {
     @apply bg-gray-800;

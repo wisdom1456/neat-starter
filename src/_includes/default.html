@@ -1,102 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <!-- HTML Meta Tags -->
-    <title>{{titletag}}</title>
-    <meta name="description" content="{{metadesc}}"/>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="{{titletag}}"/>
-    <meta itemprop="description" content="{{metadesc}}"/>
-    <meta itemprop="image" content="{{thumbnail}}"/>
+  <!-- HTML Meta Tags -->
+  <title>{{titletag}}</title>
+  <meta name="description" content="{{metadesc}}" />
 
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://brflorida.com{{page.url}}"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="{{titletag}}"/>
-    <meta property="og:description" content="{{metadesc}}"/>
-    <meta property="og:image" content="{{thumbnail}}"/>
+  <!-- Google / Search Engine Tags -->
+  <meta itemprop="name" content="{{titletag}}" />
+  <meta itemprop="description" content="{{metadesc}}" />
+  <meta itemprop="image" content="{{thumbnail}}" />
 
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content="{{titletag}}"/>
-    <meta name="twitter:description" content="{{metadesc}}"/>
-    <meta name="twitter:image" content="{{thumbnail}}"/>
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://brflorida.com{{page.url}}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{titletag}}" />
+  <meta property="og:description" content="{{metadesc}}" />
+  <meta property="og:image" content="{{thumbnail}}" />
 
-    <meta name="theme-color" content="#17baa3"/>
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{titletag}}" />
+  <meta name="twitter:description" content="{{metadesc}}" />
+  <meta name="twitter:image" content="{{thumbnail}}" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
-    <meta name="msapplication-TileColor" content="#ffffff"/>
+  <meta name="theme-color" content="#17baa3" />
 
-    {% block head %}{% endblock %}
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
 
-    {% if prism == true %}
-      <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css"/>
-    {% endif %}
+  {% block head %}{% endblock %}
+  <!-- <link rel="stylesheet" type="text/css" href="/static/css/style.css"/> -->
 
-    <link rel="manifest" href="/manifest.json"/>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9YND0NWVZ0"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
+  <link rel="preload" href="/static/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="/static/css/style.css">
+  </noscript>
 
-      gtag('config', 'G-9YND0NWVZ0');
-    </script>
-  </head>
-  <body>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+  {% if prism == true %}
+  <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css" />
+  {% endif %}
+
+  <link rel="manifest" href="/manifest.json" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script defer src="/static/js/deferd.min.js"></script>
+  <script defer src="https://www.googletagmanager.com/gtag/js?id=G-9YND0NWVZ0"></script>
+
+</head>
+
+<body>
+  <div class="fade-in-slow">
     {% include "./partials/navbar2.html" %}
     {{ content | safe }}
     {% include "./partials/footer.html" %}
+  </div>
 
-    <script type="text/javascript" src="/static/js/alpine.js"></script>
-    <script type="text/javascript" src="/static/js/app.js"></script>
-    {% if path == "home" %}
-      <!-- Netlify Identity Widget -->
-      <!-- Needed only if you are using Netlify Identity feature -->
-      <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    {% endif %}
-    <!--Start of Tawk.to Script-->
-    {#     <script type="text/javascript">
-      var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-      (function () {
-        var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/60de54007f4b000ac03a9d2a/1f9i7g8jv';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0
-          .parentNode
-          .insertBefore(s1, s0);
-      })();
-    </script> #}
+  <script type="text/javascript" src="/static/js/alpine.js"></script>
+  <script type="text/javascript" src="/static/js/app.min.js"></script>
+  {% if path == "home" %}
+  <!-- Netlify Identity Widget -->
+  <!-- Needed only if you are using Netlify Identity feature -->
+  <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {% endif %}
 
-    <script>
+  <script>
 
-      setTimeout(function () {
-        var tidioScript = document.createElement("script");
-        tidioScript.src = "//code.tidio.co/jhlw5h6aczfaci8k4fowofbphcltqhyr.js";
-        document
-          .body
-          .appendChild(tidioScript);
-      }, 5 * 1000);
-    </script>
+    setTimeout(function () {
+      var tidioScript = document.createElement("script");
+      tidioScript.src = "//code.tidio.co/jhlw5h6aczfaci8k4fowofbphcltqhyr.js";
+      document
+        .body
+        .appendChild(tidioScript);
+    }, 5 * 1000);
+  </script>
 
-    <!--End of Tawk.to Script-->
-  </body>
+  <!--End of Tawk.to Script-->
+</body>
+
 </html>
