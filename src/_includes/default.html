@@ -39,10 +39,13 @@
   {% block head %}{% endblock %}
   <!-- <link rel="stylesheet" type="text/css" href="/static/css/style.css"/> -->
 
-  <link rel="preload" href="/static/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
+<!-- async non-critical CSS -->
+<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="/static/css/style.css">
+
+<!-- no-JS fallback for non-critical CSS -->
+<noscript>
     <link rel="stylesheet" href="/static/css/style.css">
-  </noscript>
+</noscript>
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
