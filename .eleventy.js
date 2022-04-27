@@ -62,7 +62,9 @@ module.exports = function (eleventyConfig) {
 
     // human readable date
     eleventyConfig.addFilter("readableDate", (dateObj) => {
-        return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("dd LLL yyyy");
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+      "dd LLL yyyy"
+    );
     });
 
     eleventyConfig.addPlugin(pluginPWA, {
@@ -77,13 +79,14 @@ module.exports = function (eleventyConfig) {
 
     // To Support .yaml Extension in _data
     // You may remove this if you can use JSON
-    eleventyConfig.addDataExtension("yaml", (contents) => yaml.safeLoad(contents));
+  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
     // Copy Static Files to /_Site
     eleventyConfig.addPassthroughCopy({
         "./src/admin/config.yml": "./admin/config.yml",
-        "./node_modules/alpinejs/dist/alpine.js": "./static/js/alpine.js",
-        "./node_modules/prismjs/themes/prism-tomorrow.css": "./static/css/prism-tomorrow.css"
+    "./node_modules/alpinejs/dist/cdn.min.js": "./static/js/alpine.js",
+    "./node_modules/prismjs/themes/prism-tomorrow.css":
+      "./static/css/prism-tomorrow.css",
     });
 
     // Copy Image Folder to /_site
@@ -103,7 +106,7 @@ module.exports = function (eleventyConfig) {
             let minified = htmlmin.minify(content, {
                 useShortDoctype: true,
                 removeComments: true,
-                collapseWhitespace: true
+                collapseWhitespace: true,
             });
             return minified;
         }
@@ -115,8 +118,8 @@ module.exports = function (eleventyConfig) {
     // So that we can use .html instead of .njk
     return {
         dir: {
-            input: "src"
+      input: "src",
         },
-        htmlTemplateEngine: "njk"
+    htmlTemplateEngine: "njk",
+  };
     };
-};

@@ -1,13 +1,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-    purge: {
-        mode: "all",
-        content: ["./**/*.html"],
-        options: {
-            whitelist: []
-        }
-    },
+    content: ["./**/*.html"],
     theme: {
         animation: {
             fadeIn: "fadeIn 1s ease-in forwards",
