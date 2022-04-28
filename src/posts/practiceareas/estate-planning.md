@@ -3,13 +3,13 @@ title: Estate Planning
 description: Planning and preparation are important elements of ensuring a successful financial future for your family.
 author: Bernhardt Riley
 
-titletag: Estate Planning | Real Estate Litigaion | Bernhardt Riley
+titletag: Estate Planning | Real Estate Litigation | Bernhardt Riley
 metadesc: Planning and preparation are important elements of ensuring a successful financial future for your family.
 
 date: 2021-05-22T18:00:36.478Z
 thumbnail: /static/img/posts/post-compression/rowan-heuvel-bjej8by1jyq-unsplash.webp
 tags:
-    - Real Estate Litigaion
+    - Real Estate Litigation
 ---
 
 Planning and preparation are important elements of ensuring a successful financial future for your family. Creating an estate plan, drafting a will, and setting up a revocable living trust in advanced

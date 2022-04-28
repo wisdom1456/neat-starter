@@ -4,14 +4,14 @@ description:
     Florida law requires very specific timelines and procedures that a landlord or property manager must comply with in attempting to evict a tenant and in order to avoid a dismissal of their case.
 author: Bernhardt Riley
 
-titletag: Landlord/Tenant Issues | Real Estate Litigaion | Bernhardt Riley
+titletag: Landlord/Tenant Issues | Real Estate Litigation | Bernhardt Riley
 metadesc:
     Florida law requires very specific timelines and procedures that a landlord or property manager must comply with in attempting to evict a tenant and in order to avoid a dismissal of their case.
 
 date: 2021-05-22T17:49:15.943Z
 thumbnail: /static/img/posts/post-compression/omar-prestwich-kxyejcysvym-unsplash.webp
 tags:
-    - Real Estate Litigaion
+    - Real Estate Litigation
 ---
 
 Florida law requires very specific timelines and procedures that a landlord or property manager must comply with in attempting to evict a tenant and in order to avoid a dismissal of their case.
