@@ -17,7 +17,7 @@ instances, evidence was improperly obtained, resulting in its exclusion from cou
 
 For a free evaluation of your case, contact Bernhardt Riley.
 
-**Florida Statute [812.014](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899/0812/Sections/0812.014.html) – Theft:**
+**Florida Statute [Florida Statute 812.014](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899/0812/Sections/0812.014.html) – Theft:**
 
 A person commits theft if he or she knowingly obtains or uses, or endeavors to obtain or to use, the property of another with intent to, either temporarily or permanently: (1)
 
@@ -27,7 +27,7 @@ Appropriate the property to his or her own use or to the use of any person not e
 
 The potential sentences can range dramatically depending on the value of the alleged stolen items. While the theft statute and sentencing statutes provide many nuances to the degree of the crime and
 the potential sentences, a very basic guideline is included below. For a complete review of the theft statute,
-click **[here](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899/0812/Sections/0812.014.html)**.
+click **[Florida Statute 812.014](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899/0812/Sections/0812.014.html)**.
 
 -   Alleged stolen items valued at less than $100 (first offense):
 

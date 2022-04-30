@@ -31,7 +31,7 @@ Controlled substances found within the following sections constitute a third deg
 (2)(c)6., (2)(c)7., (2)(c)8., (2)(c)9., (2)(c)10., (3), or (4).
 
 For a full list of the controlled substances and the sections in which they are named, please
-click **[here](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0800-0899/0893/Sections/0893.03.html)**.
+click **[Florida Statute 893.13(6)(a)](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0800-0899/0893/Sections/0893.03.html)**.
 
 **Possession of Marijuana – [Florida Statute 893.13(6)(b)](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0800-0899/0893/Sections/0893.13.html)**
 
