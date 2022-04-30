@@ -3,7 +3,7 @@ title: Resisting Arrest, Fleeing and Attempting to Elude
 description: Resisting an officer – with or without violence – is a common arrest, especially to those not originally the subject of the original investigation.
 author: Bernhardt Riley
 
-titletag: Resisting Arrest, Fleeing and Attempting to Elude | Criminal Defense | Bernhardt Riley
+titletag: Resisting Arrest, Fleeing and Attempting to Elude
 metadesc: Resisting an officer – with or without violence – is a common arrest, especially to those not originally the subject of the original investigation.
 
 date: 2021-05-22T17:35:25.557Z

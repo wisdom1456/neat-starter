@@ -3,7 +3,7 @@ title: Driving While License Suspended/Revoked
 description: "Once your license is suspended, it can be very difficult to resolve. "
 author: Bernhardt Riley
 
-titletag: Driving While License Suspended/Revoked | Criminal Defense | Bernhardt Riley
+titletag: Driving While License Suspended/Revoked | Criminal Defense
 metadesc: Once your license is suspended, it can be very difficult to resolve.
 
 date: 2021-05-22T17:36:35.277Z

@@ -3,7 +3,7 @@ title: Federal & State Civil Asset Forfeiture & Seizure
 description: '"Asset Forfeiture” refers to The Florida Contraband Forfeiture Act which allows state and federal law enforcement agents to seize certain assets...'
 author: Bernhardt Riley
 
-titletag: Federal & State Civil Asset Forfeiture & Seizure | Criminal Defense | Bernhardt Riley
+titletag: Federal & State Civil Asset Forfeiture & Seizure | Criminal Defense
 metadesc: Asset Forfeiture” refers to The Florida Contraband Forfeiture Act which allows state and federal law enforcement agents to seize certain assets...
 
 date: 2021-05-22T18:04:25.479Z
