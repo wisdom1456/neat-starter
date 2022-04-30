@@ -4,6 +4,7 @@ title: Attorney
 date: 2021-05-28T03:48:53.160Z
 
 titletag: Tiffani Brown | Attorney | Bernhardt Riley
+headertag: Tiffani Brown
 metadesc: One of the benefits of hiring a lawyer is that you will have an expert on your side who knows how to navigate legal proceedings.
 
 thumbnail: /static/img/posts/post-compression/orig-tiffani1.webp

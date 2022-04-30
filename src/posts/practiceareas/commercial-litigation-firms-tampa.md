@@ -1,5 +1,5 @@
 ---
-title: Commercial Litigation Law Firms
+title: Choosing a Commercial Litigation Law Firms
 description: Find out what you should look for when considering commercial litigation firms in Tampa.
 
 author: Bernhardt Riley

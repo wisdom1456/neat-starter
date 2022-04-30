@@ -1,5 +1,5 @@
 ---
-title: Resisting Arrest, Fleeing and Attempting to Elude
+title: What to do if charged with Resisting Arrest
 description: Resisting an officer – with or without violence – is a common arrest, especially to those not originally the subject of the original investigation.
 author: Bernhardt Riley
 

@@ -1,5 +1,5 @@
 ---
-title: Florida Deceptive Unfair Trade Practices Act (FDUTPA)
+title: Understanding Florida Deceptive Unfair Trade Practices Act (FDUTPA)
 description: FDUTPA was designed to encompass a broad spectrum of deceptive and unfair conduct...
 author: Bernhardt Riley
 
