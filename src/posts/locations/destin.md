@@ -1,7 +1,9 @@
 ---
 title: Destin 
 subtitle: Okaloosa County
-description: Bernhardt Riley handles civil law and real estate concerns in Destin Florida.
+description: If you need legal assistance with real estate in Destin, FL,
+  contact the attorneys at Bernhardt Riley. We can help you with transactions,
+  disputes, and more.
 author: Bernhardt Riley
 mainOffice: false
 
