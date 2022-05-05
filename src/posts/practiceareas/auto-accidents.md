@@ -23,7 +23,7 @@ you may deserve.
 
 2. **Take notes about the conditions of the road and the weather that day**
 3. **Make notes of your injuries immediately after the accident, and continue charting how your injuries progress over the next several hours and days**
-4. **Remember to seek medical attention within 14 days of the accident. If you fail to do so, it is likely that your insurer will deny your claim. It is common for accident victims to have injuries
+4. **Remember to seek medical attention within 14 days of the accident. If you fail to do so, it is likely that your insurer will deny your claim. It is common for accident victims to have injuries
    that take days or even weeks to develop, so it is recommended that you seek treatment as soon as possible after the accident**
 
 Contact Bernhardt Riley, where your needs come firs

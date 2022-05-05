@@ -23,7 +23,7 @@ Bernhardt Riley will look beyond the police report and assess the entire situati
 
 **Applicable Florida Statutes below:**
 
-The legal difference between assault and battery in Florida is the unlawful *contact* made with the other person. In other words, the threat of violence could constitute an assault, but it would not
+The legal difference between assault and battery in Florida is the unlawful *contact* made with the other person. In other words, the threat of violence could constitute an assault, but it would not
 rise to the level of battery unless unwanted contact occurred.
 
 **Florida Statute 784.03 – Battery; Felony Battery**
@@ -33,12 +33,12 @@ The offense of battery occurs when a person:
 -   Actually and intentionally touches or strikes another person against the will of the other \[(1)(a)]
 -   Intentionally causes bodily harm to another person \[(1)]
 -   Except as provided in subsection (2), a person who commits battery commits a misdemeanor of the first degree, punishable as provided in
-    s. (b) **[082](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.082.html)** or
-    s. **[775.083](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.083.html).**
+    s. (b) **[082](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.082.html)** or
+    s. **[775.083](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.083.html).**
 -   A person who has one prior conviction for battery, aggravated battery, or felony battery and who commits any second or subsequent battery commits a felony of the third degree, punishable as
-    provided in s. (2) **[082](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.082.html)**,
-    s. **[775.083](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.083.html)**, or
-    s. **[775.084](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.084.html)**. For purposes of this subsection, “conviction”
+    provided in s. (2) **[082](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.082.html)**,
+    s. **[775.083](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.083.html)**, or
+    s. **[775.084](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.084.html)**. For purposes of this subsection, “conviction”
     means a determination of guilt that is the result of a plea or a trial, regardless of whether adjudication is withheld or a plea of nolo contendere is entered.
 
 **Florida Statute 784.011 – Assault**
@@ -47,5 +47,5 @@ An (1) “assault” is an intentional, unlawful threat by word or act to do vio
 fear in such other person that such violence is imminent.
 
 Whoever commits an assault shall be guilty of a misdemeanor of the second degree, punishable as provided in statutes
-(2) **[775.082](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.082.html)** or
-s.** [775.083](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.083.html)**.
+(2) **[775.082](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.082.html)** or
+s.** [775.083](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0700-0799/0775/Sections/0775.083.html)**.

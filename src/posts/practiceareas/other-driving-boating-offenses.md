@@ -14,7 +14,7 @@ tags:
 
 In addition to Driving While License Suspended or Revoked, there are many other driving and boating offenses that are common in the Tampa Bay area.
 
-Bernhardt Riley has the knowledge and experience to assist you with any driving *or* boating offense.
+Bernhardt Riley has the knowledge and experience to assist you with any driving *or* boating offense.
 
 Common Driving or Boating Offenses:
 
@@ -29,7 +29,7 @@ Common Driving or Boating Offenses:
 -   Leaving the Scene of an Accident
 
     -   Florida
-        Statutes**[027](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.027.html)** /**[ 316.061](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.061.html)** / **[316.063](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.063.html)**
+        Statutes**[027](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399/0316/Sections/0316.027.html)** /**[ 316.061](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.061.html)** / **[316.063](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.063.html)**
 
 -   Racing
 

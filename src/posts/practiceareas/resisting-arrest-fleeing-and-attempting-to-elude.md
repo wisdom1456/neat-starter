@@ -21,7 +21,7 @@ control the situation.
 
 With that said, many defenses often exist.
 
-Under most circumstances, if the client wishes, Bernhardt Riley will conduct a *free consultation at the scene of the crime*. Not only is this usually a convenient location for the client, but it is
+Under most circumstances, if the client wishes, Bernhardt Riley will conduct a *free consultation at the scene of the crime*. Not only is this usually a convenient location for the client, but it is
 especially helpful in a “Resisting” case, because it aids in fully understanding the surroundings for an early start preparing a defense.
 
 Fleeing and Attempting to Elude a Law Enforcement Officer has several degrees and levels of severity, many of which carry higher punishments than one might expect. This is another example of where Law

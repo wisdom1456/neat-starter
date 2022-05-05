@@ -55,10 +55,10 @@ the rights, responsibilities, and restrictions of all parties involved.
 
 **Partitions**
 
-When joint property owners in Florida are in dispute over the management of the property, or whether or not to actually sell the property, one of the owners may bring a Partition Action against the
-other owner. A Partition matter is a civil lawsuit that serves to force the sale of the property under §§ 64.011-64.091, Fla. Stat. It’s important to note that those able to bring a Partition action
+When joint property owners in Florida are in dispute over the management of the property, or whether or not to actually sell the property, one of the owners may bring a Partition Action against the
+other owner. A Partition matter is a civil lawsuit that serves to force the sale of the property under §§ 64.011-64.091, Fla. Stat. It’s important to note that those able to bring a Partition action
 include “any one or more of several joint tenants, tenants in common, or coparceners, against their cotenants, coparceners, or others interested in the lands to be divided.” § 64.031, Fla. Stat., and
 the lawsuit must be filed in the county where the actual property is located, despite the location of the owners. Ultimately, the court will decide whether to divide up the property and give each
 joint property owner a portion of it or whether the subject property should be sold, and will also decide each party’s entitlement to the share of sale proceeds and taking into consideration and the
-proceeds will be used to satisfy any mortgages, liens, and taxes and distribution will take into account any improvement or contributions made to the property such as mortgage payments or property
-taxes. Additionally, Florida partition actions take into account attorney’s fees which are specifically provided for in § 64.081, Fla. Stat.
+proceeds will be used to satisfy any mortgages, liens, and taxes and distribution will take into account any improvement or contributions made to the property such as mortgage payments or property
+taxes. Additionally, Florida partition actions take into account attorney’s fees which are specifically provided for in § 64.081, Fla. Stat.

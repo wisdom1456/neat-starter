@@ -21,7 +21,7 @@ evidence that those asset were either used, or intended to be used, to commit a 
 -   Real Estate
 
 An asset forfeiture case is a civil action held in civil court, with the state or federal government having a burden of proof and is a separate matter from any criminal case that may also have been
-brought against you.  Under Florida law, you have the Due Process right to challenge an asset seizure and make the Government prove that it is entitled to keep your property.
+brought against you.  Under Florida law, you have the Due Process right to challenge an asset seizure and make the Government prove that it is entitled to keep your property.
 
 Some defenses the trial attorneys at Bernhardt Riley may raise on your behalf are as follows:
 
@@ -42,8 +42,8 @@ assets forfeited relating to specific crimes:
 -   Automobiles, Boats, Homes and Jewelry Purchased with Money Obtained in Drug Trafficking or Fraud Cases.
 
 After law enforcement has seized your property, you have the right to file a written request for an adversarial preliminary hearing. This request needs to be filed with the City or County Attorney
-within 15 calendar days of receiving the notice and must be made in writing by certified mail, return receipt requested. After the Government commences a civil forfeiture action, it is important to
+within 15 calendar days of receiving the notice and must be made in writing by certified mail, return receipt requested. After the Government commences a civil forfeiture action, it is important to
 act quickly and retain an attorney to file a verified claim on your behalf and/or an administrative claim with the seizing agency.
 
 The trial attorneys at Bernhardt Riley can help you properly file a verified claim which is distinct and separate from filing an administrative claim with the seizing agency under 18 U.S.C. §
-983(a)(2). Let the civil asset forfeiture attorneys at Bernhardt Riley defend your civil forfeiture action and help you get your property back.
+983(a)(2). Let the civil asset forfeiture attorneys at Bernhardt Riley defend your civil forfeiture action and help you get your property back.

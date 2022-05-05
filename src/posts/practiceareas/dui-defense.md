@@ -29,11 +29,11 @@ Bernhardt Riley will act quickly to help get your license reinstated.
 
 **What State Must Prove**
 
-To prove the crime of Driving Under the Influence \[DUI], the State must prove the following two elements *beyond a reasonable doubt*:
+To prove the crime of Driving Under the Influence \[DUI], the State must prove the following two elements *beyond a reasonable doubt*:
 
 1. The Defendant drove (or was in actual physical control of) a vehicle.
 2. While driving the vehicle, The Defendant either:
 3. Was under the influence of alcoholic beverages or a chemical/controlled substance to the extent that his/her normal faculties were impaired
 4. Had a blood/breath-alcohol level of .08 or more grams of alcohol per 100 milliliters of blood/210 liters of breath.
 
-Bernhardt Riley will meet for a FREE consultation *at the scene of the DUI arrest*,or at one of our convenient locations around Tampa Bay.
+Bernhardt Riley will meet for a FREE consultation *at the scene of the DUI arrest*,or at one of our convenient locations around Tampa Bay.

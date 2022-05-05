@@ -28,7 +28,7 @@ Violations may occur if collection companies:
 -   **Misrepresent the amount or nature of the debt**
 -   **Call you after you have hired an attorney**
 
-There are many other ways collection companies violate federal or state acts put in place to protect consumers. **[Call us](https://brflorida.com/contact/)** today if you are being
+There are many other ways collection companies violate federal or state acts put in place to protect consumers. **[Call us](https://brflorida.com/contact/)** today if you are being
 harassed by a collection company.
 
 <!--EndFragment-->

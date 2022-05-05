@@ -19,5 +19,5 @@ As a former prosecutor, Stephen M. Bernhardt understands that the arrest report 
 More often, the police report leaves out important details that were not disclosed, or the information reported was deemed unimportant by the officers on-scene. This can lead to arrests even if
 someone did not commit the crime for which they were charged.
 
-Your case will be thoroughly defended as we take pride in evaluating the details.  This includes visiting the scene of the alleged crime ourselves, taking the deposition of all potential witnesses,
+Your case will be thoroughly defended as we take pride in evaluating the details.  This includes visiting the scene of the alleged crime ourselves, taking the deposition of all potential witnesses,
 and by doing anything else reasonably necessary to ensure your rights are protected

@@ -74,9 +74,6 @@ collections:
           - { label: "City, State", name: "cityState", widget: "string" }
           - { label: "Zip Code", name: "zipCode", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body1", name: "body1", widget: "markdown" }
-          - { label: "Body2", name: "body2", widget: "markdown" }
-          - { label: "Body3", name: "body3", widget: "markdown" }
           - label: "Featured Image"
             name: "thumbnail"
             widget: "image"

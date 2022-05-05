@@ -27,13 +27,13 @@ ownership interest of the property to the bidder.
 Ownership of the property transfers to the tax deed holder once the tax deed is issued. Once the tax deed is purchased, the holder gains the right of possession of the property. However, the holder
 must adhere to Florida law to pursue any evictions needed.
 
-In addition, owning the property through a tax deed does not generally provide you with an insurable marketable title to the property itself. In order to gain the right to sell the property with title
-insurance, it is necessary to file an action to Quiet Title.
+In addition, owning the property through a tax deed does not generally provide you with an insurable marketable title to the property itself. In order to gain the right to sell the property with title
+insurance, it is necessary to file an action to Quiet Title.
 
 **The Necessity of a Quiet Title Action**
 
 A quiet title action seeks to permanently bar creditors, lien holders, mortgage holders, and prior owners from exercising their interest in the property. A Florida title insurance company is unlikely
 to issue a policy on a tax deed property without a quiet title action being first completed. If any interested parties in the title search process are found, they will be served with a copy of the
-Complaint to Quiet Title on the property, and will have a specified period of time to either respond to the quiet title action or dispute it.  Should the claim be disputed, the attorneys at Bernhardt
+Complaint to Quiet Title on the property, and will have a specified period of time to either respond to the quiet title action or dispute it.  Should the claim be disputed, the attorneys at Bernhardt
 Riley will be prepared to advocate for your rights throughout the entire legal process that will follow. If the claim is undisputed, we will be able to proceed to the final judgment phase in which a
-court will certify that the title to your property is marketable. Essentially, the action to Quiet Title serves to protect the new owner of the property from any potential claims to the property.
+court will certify that the title to your property is marketable. Essentially, the action to Quiet Title serves to protect the new owner of the property from any potential claims to the property.
