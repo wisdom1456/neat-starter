@@ -29,7 +29,7 @@ var locations = [
     ["Clearwater", 27.89531, -82.71164, 5],
     ["Palm Harbor", 28.09283, -82.77241, 3],
     ["Holiday", 28.18833, -82.73232, 2],
-    ["Northwest", 30.51894, -86.48097, 1]
+    ["Destin", 30.51894, -86.48097, 1]
 ];
 
 const emailForm = document.querySelector(".contactform");

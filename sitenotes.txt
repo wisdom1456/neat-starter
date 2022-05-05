@@ -23,7 +23,7 @@ var locations = [
           'Holiday', 28.18833, -82.73232, 2
         ],
         [
-          'Northwest Florida', 30.51894, -86.48097, 1
+          'Destin', 30.51894, -86.48097, 1
         ]
       ];
 
