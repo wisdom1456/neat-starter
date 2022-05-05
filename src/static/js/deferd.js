@@ -7,4 +7,4 @@ function gtag() {
 
 gtag('js', new Date());
 
-gtag('config', 'G-9YND0NWVZ0');
+gtag('config', 'G-TNHER2P2TM');
