@@ -26,6 +26,5 @@ tags:
     <img class="w-full rounded-md" src={{thumbnail}} alt="{{title}}" width="1310" height="873">
     <figcaption></figcaption>
   </figure>
-  <h2  class="text-br-900">Practice areas</h2>  
   <p>When Lia is not working, she enjoys reading, antiquing, and home renovations. She also enjoys traveling the Tampa and Sarasota areas with her family, searching for seashells and delicious food.</p>
 </div>
