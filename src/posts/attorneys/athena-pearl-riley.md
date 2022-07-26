@@ -1,11 +1,11 @@
 ---
 name: Athena Pearl Riley
-title: Partner
+title: Managing Partner
 date: 2021-05-28T03:35:30.528Z
 thumbnail: /static/img/posts/post-compression/orig-athena.webp
 thumbnail2: /static/img/posts/post-compression/orig-apr-about2.webp
 
-titletag: Athena Pearl Riley | Partner | Bernhardt Riley
+titletag: Athena Pearl Riley | Managing Partner | Bernhardt Riley
 headertag: Athena Pearl Riley
 metadesc: Athena Pearl Riley is a former felony prosecutor, licensed Realtor, and real estate investor.
 

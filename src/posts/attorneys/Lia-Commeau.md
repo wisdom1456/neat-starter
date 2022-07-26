@@ -1,6 +1,6 @@
 ---
 name: Lia Commeau
-title: Attorney
+title: Civil Litigation Attorney
 date: 2021-05-29T03:37:19.170Z
 titletag: Lia Commeau | Civil Litigation Attorney | Bernhardt Riley
 headertag: Lia Commeau
