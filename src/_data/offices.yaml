@@ -25,7 +25,7 @@ links:
       zipCode: 34690
 
     - title: Destin
-      streetAddress1: 495 Grand Blvd.
-      streetAddress2: "#206"
+      streetAddress1: "495 Grand Blvd. #206"
+      streetAddress2: ""
       cityState: Miramar Beach, FL
       zipCode: 32550

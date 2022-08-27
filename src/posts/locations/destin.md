@@ -15,8 +15,8 @@ metadesc: If you need legal assistance with real estate in Destin, FL,
   contact the attorneys at Bernhardt Riley. We can help you with transactions,
   disputes, and more.
 
-streetAddress1: 495 Grand Blvd.
-streetAddress2: "$206"
+streetAddress1: "495 Grand Blvd. #206"
+streetAddress2: ""
 cityState: Miramar Beach, FL
 zipCode: "32550"
 date: 2021-06-13T03:16:47.582Z
