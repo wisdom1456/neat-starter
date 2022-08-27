@@ -7,18 +7,18 @@ description: If you need legal assistance with real estate in Destin, FL,
 author: Bernhardt Riley
 mainOffice: false
 
-lat: "30.51894"
-lon: "-86.48097"
+lat: "30.379625150648284"
+lon: "-86.31476060674673"
 
 titletag: Destin Real Estate Attorney | Bernhardt Riley
 metadesc: If you need legal assistance with real estate in Destin, FL,
   contact the attorneys at Bernhardt Riley. We can help you with transactions,
   disputes, and more.
 
-streetAddress1: 4458 Legendary Drive
-streetAddress2: "Suite 210, #112"
-cityState: Destin, FL
-zipCode: "32541"
+streetAddress1: 495 Grand Blvd.
+streetAddress2: "$206"
+cityState: Miramar Beach, FL
+zipCode: "32550"
 date: 2021-06-13T03:16:47.582Z
 
 thumbnail: /static/img/posts/post-compression/orig-destin.webp
